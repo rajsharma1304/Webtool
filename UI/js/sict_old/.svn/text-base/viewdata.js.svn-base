@@ -1,0 +1,83 @@
+/*<Copyright> Celstream Technologies Pvt. Ltd. </Copyright>
+ <ProjectName>SICT</ProjectName>
+ <FileName> viewdata.js </FileName>
+ <Author> Raghavendra G.N, Akhilesh M.S, Vivek.A </Author>
+ <CreatedOn>15 Jan 2015</CreatedOn>*/
+var viewData = {
+    viewConfirmitDataTable: undefined,
+    init: function() {
+        var me = this;
+        me.populateConfirmitDetails();
+        me.generateReport();
+    },
+    populateConfirmitDetails: function() {
+        var me = this, url = getJsonInfoAction(CONFIRMITCOUNT);
+        $.ajax({
+            type: 'GET',
+            url: url,
+            contentType: 'application/json',
+            dataType: 'json',
+            success: function(res, stat, xhr) {
+                if (res && xhr.readyState === 4) {
+                    $("#completes").text(res.Completes);
+                    $("#businesscompletes").text(res.BusinessCompletes);
+                }
+            },
+            error: function(xhr, stat, err) {
+
+            }
+        });
+    },
+    getColumns: function() {
+        return [
+            {"data": "ID"},
+            {"data": "Code"},
+            {"data": "Class"},
+            {"data": "Status"},
+            {"data": "DateTime"},
+            {"data": "Airport"}
+        ];
+    },
+    generateReport: function() {
+        var me = this;
+        var viewDataURL = getJsonInfoAction(RETRIEVECONFORMITDATA) + '/0/100';
+
+        me.viewConfirmitDataTable = $('#viewConfirmitDataTable').DataTable({
+            "bProcessing": true,
+            "aLengthMenu": [20, 50, 100],
+            "iDisplayLength": 100,
+            "order": [[1, "asc"]],
+            "pagingType": "simple",
+            "initComplete": function() {
+                $("#viewConfirmitDataTable_filter input").off().on('keyup', function(e) {
+                    if (e.keyCode == 13)
+                        me.viewConfirmitDataTable.search(this.value).draw();
+                });
+                gebo_tips.init();
+            },
+            "ajax": function(data, callback, settings) {
+                $.get(viewDataURL)
+                        .done(function(result) {
+                            var nodeName = result.ConfirmitDetails;
+                            if (nodeName.length > 0)
+                                callback({data: nodeName});
+                            else
+                                callback({data: []});
+                        });
+            },
+            "fnRowCallback": function(nRow, aData, iDisplayIndex, iDisplayIndexFull) {
+                var index = iDisplayIndex + 1;
+                $('td:eq(0)', nRow).html(index);
+                return nRow;
+            },
+            "columns": [
+                {"data": "ID", "sDefaultContent": ""},
+                {"data": "CardNumber", "sDefaultContent": ""}, //CODE
+                {"data": "Class", "sDefaultContent": ""},
+                {"data": "Status", "sDefaultContent": ""},
+                {"data": "UploadeDate", "sDefaultContent": "", "visible": false}, //Date/Time
+                {"data": "AirportName", "sDefaultContent": ""}
+            ]
+        });
+    }
+};

@@ -1,0 +1,10 @@
+D:\SICT\Server\SICT\Constants\bin\Release\Constants.dll
+D:\SICT\Server\SICT\Constants\bin\Release\Constants.pdb
+D:\SICT\Server\SICT\Constants\obj\Release\Constants.csprojResolveAssemblyReference.cache
+D:\SICT\Server\SICT\Constants\obj\Release\Constants.dll
+D:\SICT\Server\SICT\Constants\obj\Release\Constants.pdb
+D:\SICT_Web\SICT\Constants\bin\Release\Constants.dll
+D:\SICT_Web\SICT\Constants\bin\Release\Constants.pdb
+D:\SICT_Web\SICT\Constants\obj\Release\Constants.csprojResolveAssemblyReference.cache
+D:\SICT_Web\SICT\Constants\obj\Release\Constants.dll
+D:\SICT_Web\SICT\Constants\obj\Release\Constants.pdb

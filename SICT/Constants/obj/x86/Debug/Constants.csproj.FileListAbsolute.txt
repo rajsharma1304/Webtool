@@ -1,0 +1,5 @@
+D:\airsat v2.0\Server\SICT\Constants\bin\x86\Debug\Constants.dll
+D:\airsat v2.0\Server\SICT\Constants\bin\x86\Debug\Constants.pdb
+D:\airsat v2.0\Server\SICT\Constants\obj\x86\Debug\Constants.dll
+D:\airsat v2.0\Server\SICT\Constants\obj\x86\Debug\Constants.pdb
+D:\airsat v2.0\Server\SICT\Constants\obj\x86\Debug\Constants.csprojResolveAssemblyReference.cache

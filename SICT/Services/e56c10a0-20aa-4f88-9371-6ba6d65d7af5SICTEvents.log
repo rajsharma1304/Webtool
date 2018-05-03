@@ -1,0 +1,561 @@
+Information , 8/29/2016 2:40:52 PM , UserDetailsService,IsSessionIdValid,Start for SessionId - 34c57011-120f-4777-ae49-ddc0bd6044bd
+Information , 8/29/2016 2:40:52 PM , UserDetailsBusiness,IsSessionIdValid, Start for Session id-34c57011-120f-4777-ae49-ddc0bd6044bd
+Information , 8/29/2016 2:40:52 PM , UserDetailsBusiness,IsSessionIdValid,End for SessonId -34c57011-120f-4777-ae49-ddc0bd6044bd
+Warning , 8/29/2016 2:40:52 PM , UserDetailsService,IsSessionIdValid,Invalid session 
+Information , 8/29/2016 2:40:52 PM , UserDetailsService,IsSessionIdValid,End for SessionId- 34c57011-120f-4777-ae49-ddc0bd6044bd
+Information , 8/29/2016 2:41:14 PM , UserDetailsService,Login,Start
+Information , 8/29/2016 2:41:14 PM , UserDetailsBusiness,CompareHashAndAuthenticate ,Start 
+Information , 8/29/2016 2:41:26 PM , UserDetailsBusiness,CreateMD5Hash ,Start 
+Information , 8/29/2016 2:41:26 PM , UserDetailsBusiness,CreateMD5Hash ,End
+Information , 8/29/2016 2:41:26 PM , UserDetailsBusiness,CreateMD5Hash ,Start 
+Information , 8/29/2016 2:41:26 PM , UserDetailsBusiness,CreateMD5Hash ,End
+Information , 8/29/2016 2:41:26 PM , UserDetailsBusiness,CreateMD5Hash ,Start 
+Information , 8/29/2016 2:41:26 PM , UserDetailsBusiness,CreateMD5Hash ,End
+Information , 8/29/2016 2:41:26 PM , UserDetailsBusiness,CreateMD5Hash ,Start 
+Information , 8/29/2016 2:41:26 PM , UserDetailsBusiness,CreateMD5Hash ,End
+Information , 8/29/2016 2:41:26 PM , UserDetailsBusiness,CreateMD5Hash ,Start 
+Information , 8/29/2016 2:41:26 PM , UserDetailsBusiness,CreateMD5Hash ,End
+Information , 8/29/2016 2:41:26 PM , UserDetailsBusiness,CreateMD5Hash ,Start 
+Information , 8/29/2016 2:41:26 PM , UserDetailsBusiness,CreateMD5Hash ,End
+Information , 8/29/2016 2:41:26 PM , UserDetailsBusiness,Authenticate ,Start 
+Information , 8/29/2016 2:41:26 PM , UserDetailsBusiness,Authenticate ,Entered Authentication: - UserName-ct
+Verbose , 8/29/2016 2:41:26 PM , UserDetailsBusiness,Authenticate ,Checking if the user as already logged in - 
+Information , 8/29/2016 2:41:26 PM , UserDetailsBusiness,GenerateSessionId,Start For UserID -7
+Information , 8/29/2016 2:41:26 PM , UserDetailsBusiness,GenerateSessionId,Generating SessionId for UserId: 7
+Verbose , 8/29/2016 2:41:26 PM , UserDetailsBusiness,GenerateSessionId,Inserting Session Id into the Session Table for UserId- 7
+Information , 8/29/2016 2:41:26 PM , UserDetailsBusiness,GenerateSessionId,End For UserId 7
+Verbose , 8/29/2016 2:41:26 PM , UserDetailsBusiness,Authenticate ,Assinging values for the LoginInformation Class
+Information , 8/29/2016 2:41:26 PM , UserDetailsBusiness,Authenticate ,End 
+Information , 8/29/2016 2:41:26 PM , UserDetailsBusiness,CompareHashAndAuthenticate ,End
+Information , 8/29/2016 2:41:26 PM , UserDetailsService,Login,End
+Information , 8/29/2016 2:41:27 PM , UserDetailsService,IsSessionIdValid,Start for SessionId - 56c11930-a6e9-44f5-bbd3-006bf7d047cc
+Information , 8/29/2016 2:41:27 PM , UserDetailsBusiness,IsSessionIdValid, Start for Session id-56c11930-a6e9-44f5-bbd3-006bf7d047cc
+Information , 8/29/2016 2:41:27 PM , UserDetailsBusiness,IsSessionIdValid,End for SessonId -56c11930-a6e9-44f5-bbd3-006bf7d047cc
+Information , 8/29/2016 2:41:27 PM , UserDetailsService,IsSessionIdValid,End for SessionId- 56c11930-a6e9-44f5-bbd3-006bf7d047cc
+Information , 8/29/2016 2:42:06 PM , UserDetailsService,IsSessionIdValid,Start for SessionId - 56c11930-a6e9-44f5-bbd3-006bf7d047cc
+Information , 8/29/2016 2:42:06 PM , UserDetailsBusiness,IsSessionIdValid, Start for Session id-56c11930-a6e9-44f5-bbd3-006bf7d047cc
+Information , 8/29/2016 2:42:06 PM , UserDetailsBusiness,IsSessionIdValid,End for SessonId -56c11930-a6e9-44f5-bbd3-006bf7d047cc
+Information , 8/29/2016 2:42:06 PM , UserDetailsService,IsSessionIdValid,End for SessionId- 56c11930-a6e9-44f5-bbd3-006bf7d047cc
+Information , 8/29/2016 2:42:19 PM , UserDetailsService,Login,Start
+Information , 8/29/2016 2:42:19 PM , UserDetailsBusiness,CompareHashAndAuthenticate ,Start 
+Information , 8/29/2016 2:42:19 PM , UserDetailsBusiness,CreateMD5Hash ,Start 
+Information , 8/29/2016 2:42:19 PM , UserDetailsBusiness,CreateMD5Hash ,End
+Information , 8/29/2016 2:42:19 PM , UserDetailsBusiness,CreateMD5Hash ,Start 
+Information , 8/29/2016 2:42:19 PM , UserDetailsBusiness,CreateMD5Hash ,End
+Information , 8/29/2016 2:42:19 PM , UserDetailsBusiness,CreateMD5Hash ,Start 
+Information , 8/29/2016 2:42:19 PM , UserDetailsBusiness,CreateMD5Hash ,End
+Information , 8/29/2016 2:42:19 PM , UserDetailsBusiness,CreateMD5Hash ,Start 
+Information , 8/29/2016 2:42:19 PM , UserDetailsBusiness,CreateMD5Hash ,End
+Information , 8/29/2016 2:42:19 PM , UserDetailsBusiness,CreateMD5Hash ,Start 
+Information , 8/29/2016 2:42:19 PM , UserDetailsBusiness,CreateMD5Hash ,End
+Information , 8/29/2016 2:42:19 PM , UserDetailsBusiness,CreateMD5Hash ,Start 
+Information , 8/29/2016 2:42:19 PM , UserDetailsBusiness,CreateMD5Hash ,End
+Information , 8/29/2016 2:42:19 PM , UserDetailsBusiness,Authenticate ,Start 
+Information , 8/29/2016 2:42:19 PM , UserDetailsBusiness,Authenticate ,Entered Authentication: - UserName-ct
+Verbose , 8/29/2016 2:42:19 PM , UserDetailsBusiness,Authenticate ,Checking if the user as already logged in - 
+Verbose , 8/29/2016 2:42:19 PM , UserDetailsBusiness,Authenticate ,Assinging values for the LoginInformation Class
+Information , 8/29/2016 2:42:19 PM , UserDetailsBusiness,Authenticate ,End 
+Information , 8/29/2016 2:42:19 PM , UserDetailsBusiness,CompareHashAndAuthenticate ,End
+Information , 8/29/2016 2:42:19 PM , UserDetailsService,Login,End
+Information , 8/29/2016 2:42:20 PM , UserDetailsService,IsSessionIdValid,Start for SessionId - 56c11930-a6e9-44f5-bbd3-006bf7d047cc
+Information , 8/29/2016 2:42:20 PM , UserDetailsBusiness,IsSessionIdValid, Start for Session id-56c11930-a6e9-44f5-bbd3-006bf7d047cc
+Information , 8/29/2016 2:42:20 PM , UserDetailsBusiness,IsSessionIdValid,End for SessonId -56c11930-a6e9-44f5-bbd3-006bf7d047cc
+Information , 8/29/2016 2:42:20 PM , UserDetailsService,IsSessionIdValid,End for SessionId- 56c11930-a6e9-44f5-bbd3-006bf7d047cc
+Information , 8/29/2016 2:42:26 PM , UserDetailsService,IsSessionIdValid,Start for SessionId - 56c11930-a6e9-44f5-bbd3-006bf7d047cc
+Information , 8/29/2016 2:42:26 PM , UserDetailsBusiness,IsSessionIdValid, Start for Session id-56c11930-a6e9-44f5-bbd3-006bf7d047cc
+Information , 8/29/2016 2:42:26 PM , UserDetailsBusiness,IsSessionIdValid,End for SessonId -56c11930-a6e9-44f5-bbd3-006bf7d047cc
+Information , 8/29/2016 2:42:26 PM , UserDetailsService,IsSessionIdValid,End for SessionId- 56c11930-a6e9-44f5-bbd3-006bf7d047cc
+Information , 8/29/2016 2:43:37 PM , UploadServices,UploadFile,Start of UploadSPSSFile
+Information , 8/29/2016 2:43:37 PM , UserDetailsBusiness,IsSessionIdValid, Start for Session id-56c11930-a6e9-44f5-bbd3-006bf7d047cc
+Information , 8/29/2016 2:43:37 PM , UserDetailsBusiness,IsSessionIdValid,End for SessonId -56c11930-a6e9-44f5-bbd3-006bf7d047cc
+Information , 8/29/2016 2:43:37 PM , UploadBusiness,UploadFile,Start 
+Information , 8/29/2016 2:43:37 PM , UploadBusiness,ParseFile ,Start
+Verbose , 8/29/2016 2:43:37 PM , MultipartParser,Parse ,Inside Multiparser Class Parse method, Reading stream .
+Information , 8/29/2016 2:43:37 PM , MultipartParser,Parse ,Inside Multiparser Class Parse method, Converting to byte array
+Verbose , 8/29/2016 2:43:37 PM , MultipartParser,Parse ,GetString method complete Multiparser Class
+Verbose , 8/29/2016 2:43:37 PM , MultipartParser,Parse ,contentTypeMatch Multiparser Class
+Verbose , 8/29/2016 2:43:37 PM , MultipartParser,Parse ,contentTypeMatch Multiparser Class
+Information , 8/29/2016 2:43:37 PM , MultipartParser,Parse ,filenameMatch Multiparser Class
+Information , 8/29/2016 2:43:37 PM , MultipartParser,Parse ,FileName Multiparser ClassINTL_Consolidated.csv
+Information , 8/29/2016 2:43:37 PM , MultipartParser,Parse ,StartIndex Multiparser Class171
+Information , 8/29/2016 2:43:37 PM , MultipartParser,IndexOf ,Start of IndexOf
+Information , 8/29/2016 2:43:37 PM , MultipartParser,Parse ,EndIndex Multiparser Class2680666
+Information , 8/29/2016 2:43:37 PM , MultipartParser,Parse ,Buffer.BlockCopy Multiparser Class
+Verbose , 8/29/2016 2:43:37 PM , UploadBusiness,ParseFile ,Successfully parsed file - Filename is - INTL_Consolidated.csv
+Information , 8/29/2016 2:43:37 PM , UploadBusiness,ParseFile ,End
+Information , 8/29/2016 2:43:37 PM , UploadBusiness,ValidateFile,Start
+Verbose , 8/29/2016 2:43:37 PM , UploadBusiness,ValidateFile,Valid CSV File
+Information , 8/29/2016 2:43:37 PM , UploadBusiness,ValidateFile,End
+Information , 8/29/2016 2:43:37 PM , UploadBusiness,UploadFile,UploadFileEnd
+Information , 8/29/2016 2:43:37 PM , UploadServices,UploadFile,End for UploadSPSSFile
+Warning , 8/29/2016 2:43:37 PM , UploadBusiness,BulkInsert,Bulk Copy Initiated for current index50000
+Warning , 8/29/2016 2:43:37 PM , DataAccessLayer,BulkCopy,Bulk Copy to DB Start
+Warning , 8/29/2016 2:43:39 PM , DataAccessLayer,BulkCopy,Bulk Copy to DB End
+Warning , 8/29/2016 2:43:39 PM , UploadBusiness,BulkInsert,Bulk Copy Initiated for current index22002
+Warning , 8/29/2016 2:43:39 PM , DataAccessLayer,BulkCopy,Bulk Copy to DB Start
+Warning , 8/29/2016 2:43:40 PM , DataAccessLayer,BulkCopy,Bulk Copy to DB End
+Warning , 8/29/2016 2:43:40 PM , DataAccessLayer,OnSqlRowsCopied,UpdateConfirmitStatus Start
+Information , 8/29/2016 2:43:46 PM , UserDetailsService,IsSessionIdValid,Start for SessionId - 56c11930-a6e9-44f5-bbd3-006bf7d047cc
+Information , 8/29/2016 2:43:46 PM , UserDetailsBusiness,IsSessionIdValid, Start for Session id-56c11930-a6e9-44f5-bbd3-006bf7d047cc
+Information , 8/29/2016 2:43:46 PM , UserDetailsBusiness,IsSessionIdValid,End for SessonId -56c11930-a6e9-44f5-bbd3-006bf7d047cc
+Information , 8/29/2016 2:43:46 PM , UserDetailsService,IsSessionIdValid,End for SessionId- 56c11930-a6e9-44f5-bbd3-006bf7d047cc
+Warning , 8/29/2016 2:43:52 PM , DataAccessLayer,OnSqlRowsCopied,UpdateConfirmitStatus End
+Information , 8/29/2016 2:43:52 PM , CacheFileBusiness,CreateCacheFileforTargetVsCompletesCharts,Start
+Information , 8/29/2016 2:43:52 PM , CacheFileBusiness,GetQuarterAndYear,Start
+Information , 8/29/2016 2:43:52 PM , CacheFileBusiness,GetQuarterAndYear,End 
+Information , 8/29/2016 2:43:52 PM , CacheFileBusiness,GetQuarterAndYear,Start
+Information , 8/29/2016 2:43:52 PM , CacheFileBusiness,GetQuarterAndYear,End 
+Verbose , 8/29/2016 2:43:52 PM , CacheFileBusiness,CreateCacheFileforTargetVsCompletesCharts,Retrieving all Targets and Completes for the Airport login -1
+Information , 8/29/2016 2:43:52 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,Start for LoginId -1
+Verbose , 8/29/2016 2:43:52 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,TargetVsCompletes Charts cache file for AirportLoginId- 1
+Verbose , 8/29/2016 2:43:52 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:43:52 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:43:52 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,End for LoginId -1
+Information , 8/29/2016 2:43:52 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,Start for LoginId -1
+Verbose , 8/29/2016 2:43:52 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,MissingTargetsVsBusinessClass Charts cache file for AirportLoginId- 1
+Verbose , 8/29/2016 2:43:52 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:43:52 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:43:52 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,End for LoginId -1
+Verbose , 8/29/2016 2:43:52 PM , CacheFileBusiness,CreateCacheFileforTargetVsCompletesCharts,Retrieving all Targets and Completes for the Airport login -2
+Information , 8/29/2016 2:43:52 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,Start for LoginId -2
+Verbose , 8/29/2016 2:43:52 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,TargetVsCompletes Charts cache file for AirportLoginId- 2
+Verbose , 8/29/2016 2:43:52 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:43:53 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:43:53 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,End for LoginId -2
+Information , 8/29/2016 2:43:53 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,Start for LoginId -2
+Verbose , 8/29/2016 2:43:53 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,MissingTargetsVsBusinessClass Charts cache file for AirportLoginId- 2
+Verbose , 8/29/2016 2:43:53 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:43:53 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:43:53 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,End for LoginId -2
+Verbose , 8/29/2016 2:43:53 PM , CacheFileBusiness,CreateCacheFileforTargetVsCompletesCharts,Retrieving all Targets and Completes for the Airport login -3
+Information , 8/29/2016 2:43:53 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,Start for LoginId -3
+Verbose , 8/29/2016 2:43:53 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,TargetVsCompletes Charts cache file for AirportLoginId- 3
+Verbose , 8/29/2016 2:43:53 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:43:53 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:43:53 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,End for LoginId -3
+Information , 8/29/2016 2:43:53 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,Start for LoginId -3
+Verbose , 8/29/2016 2:43:53 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,MissingTargetsVsBusinessClass Charts cache file for AirportLoginId- 3
+Verbose , 8/29/2016 2:43:53 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:43:53 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:43:53 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,End for LoginId -3
+Verbose , 8/29/2016 2:43:53 PM , CacheFileBusiness,CreateCacheFileforTargetVsCompletesCharts,Retrieving all Targets and Completes for the Airport login -4
+Information , 8/29/2016 2:43:53 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,Start for LoginId -4
+Verbose , 8/29/2016 2:43:53 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,TargetVsCompletes Charts cache file for AirportLoginId- 4
+Verbose , 8/29/2016 2:43:53 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:43:53 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:43:53 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,End for LoginId -4
+Information , 8/29/2016 2:43:53 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,Start for LoginId -4
+Verbose , 8/29/2016 2:43:53 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,MissingTargetsVsBusinessClass Charts cache file for AirportLoginId- 4
+Verbose , 8/29/2016 2:43:53 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:43:53 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:43:53 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,End for LoginId -4
+Verbose , 8/29/2016 2:43:53 PM , CacheFileBusiness,CreateCacheFileforTargetVsCompletesCharts,Retrieving all Targets and Completes for the Airport login -6
+Information , 8/29/2016 2:43:54 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,Start for LoginId -6
+Verbose , 8/29/2016 2:43:54 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,TargetVsCompletes Charts cache file for AirportLoginId- 6
+Verbose , 8/29/2016 2:43:54 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:43:54 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:43:54 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,End for LoginId -6
+Information , 8/29/2016 2:43:54 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,Start for LoginId -6
+Verbose , 8/29/2016 2:43:54 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,MissingTargetsVsBusinessClass Charts cache file for AirportLoginId- 6
+Verbose , 8/29/2016 2:43:54 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:43:54 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:43:54 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,End for LoginId -6
+Verbose , 8/29/2016 2:43:54 PM , CacheFileBusiness,CreateCacheFileforTargetVsCompletesCharts,Retrieving all Targets and Completes for the Airport login -7
+Information , 8/29/2016 2:43:54 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,Start for LoginId -7
+Verbose , 8/29/2016 2:43:54 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,TargetVsCompletes Charts cache file for AirportLoginId- 7
+Verbose , 8/29/2016 2:43:54 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:43:54 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:43:54 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,End for LoginId -7
+Information , 8/29/2016 2:43:54 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,Start for LoginId -7
+Verbose , 8/29/2016 2:43:54 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,MissingTargetsVsBusinessClass Charts cache file for AirportLoginId- 7
+Verbose , 8/29/2016 2:43:54 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:43:54 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:43:54 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,End for LoginId -7
+Verbose , 8/29/2016 2:43:54 PM , CacheFileBusiness,CreateCacheFileforTargetVsCompletesCharts,Retrieving all Targets and Completes for the Airport login -8
+Information , 8/29/2016 2:43:54 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,Start for LoginId -8
+Verbose , 8/29/2016 2:43:54 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,TargetVsCompletes Charts cache file for AirportLoginId- 8
+Verbose , 8/29/2016 2:43:54 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:43:54 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:43:54 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,End for LoginId -8
+Information , 8/29/2016 2:43:54 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,Start for LoginId -8
+Verbose , 8/29/2016 2:43:54 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,MissingTargetsVsBusinessClass Charts cache file for AirportLoginId- 8
+Verbose , 8/29/2016 2:43:54 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:43:54 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:43:54 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,End for LoginId -8
+Verbose , 8/29/2016 2:43:54 PM , CacheFileBusiness,CreateCacheFileforTargetVsCompletesCharts,Retrieving all Targets and Completes for the Airport login -9
+Information , 8/29/2016 2:43:54 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,Start for LoginId -9
+Verbose , 8/29/2016 2:43:54 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,TargetVsCompletes Charts cache file for AirportLoginId- 9
+Verbose , 8/29/2016 2:43:54 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:43:54 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:43:54 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,End for LoginId -9
+Information , 8/29/2016 2:43:54 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,Start for LoginId -9
+Verbose , 8/29/2016 2:43:54 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,MissingTargetsVsBusinessClass Charts cache file for AirportLoginId- 9
+Verbose , 8/29/2016 2:43:54 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:43:54 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:43:54 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,End for LoginId -9
+Verbose , 8/29/2016 2:43:54 PM , CacheFileBusiness,CreateCacheFileforTargetVsCompletesCharts,Retrieving all Targets and Completes for the Airport login -10
+Information , 8/29/2016 2:43:55 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,Start for LoginId -10
+Verbose , 8/29/2016 2:43:55 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,TargetVsCompletes Charts cache file for AirportLoginId- 10
+Verbose , 8/29/2016 2:43:55 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:43:55 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:43:55 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,End for LoginId -10
+Information , 8/29/2016 2:43:55 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,Start for LoginId -10
+Verbose , 8/29/2016 2:43:55 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,MissingTargetsVsBusinessClass Charts cache file for AirportLoginId- 10
+Verbose , 8/29/2016 2:43:55 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:43:55 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:43:55 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,End for LoginId -10
+Verbose , 8/29/2016 2:43:55 PM , CacheFileBusiness,CreateCacheFileforTargetVsCompletesCharts,Retrieving all Targets and Completes for the Airport login -11
+Information , 8/29/2016 2:43:55 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,Start for LoginId -11
+Verbose , 8/29/2016 2:43:55 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,TargetVsCompletes Charts cache file for AirportLoginId- 11
+Verbose , 8/29/2016 2:43:55 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:43:55 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:43:55 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,End for LoginId -11
+Information , 8/29/2016 2:43:55 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,Start for LoginId -11
+Verbose , 8/29/2016 2:43:55 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,MissingTargetsVsBusinessClass Charts cache file for AirportLoginId- 11
+Verbose , 8/29/2016 2:43:55 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:43:55 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:43:55 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,End for LoginId -11
+Verbose , 8/29/2016 2:43:55 PM , CacheFileBusiness,CreateCacheFileforTargetVsCompletesCharts,Retrieving all Targets and Completes for the Airport login -12
+Information , 8/29/2016 2:43:56 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,Start for LoginId -12
+Verbose , 8/29/2016 2:43:56 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,TargetVsCompletes Charts cache file for AirportLoginId- 12
+Verbose , 8/29/2016 2:43:56 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:43:56 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:43:56 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,End for LoginId -12
+Information , 8/29/2016 2:43:56 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,Start for LoginId -12
+Verbose , 8/29/2016 2:43:56 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,MissingTargetsVsBusinessClass Charts cache file for AirportLoginId- 12
+Verbose , 8/29/2016 2:43:56 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:43:56 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:43:56 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,End for LoginId -12
+Verbose , 8/29/2016 2:43:56 PM , CacheFileBusiness,CreateCacheFileforTargetVsCompletesCharts,Retrieving all Targets and Completes for the Airport login -13
+Information , 8/29/2016 2:43:56 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,Start for LoginId -13
+Verbose , 8/29/2016 2:43:56 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,TargetVsCompletes Charts cache file for AirportLoginId- 13
+Verbose , 8/29/2016 2:43:56 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:43:56 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:43:56 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,End for LoginId -13
+Information , 8/29/2016 2:43:56 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,Start for LoginId -13
+Verbose , 8/29/2016 2:43:56 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,MissingTargetsVsBusinessClass Charts cache file for AirportLoginId- 13
+Verbose , 8/29/2016 2:43:56 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:43:56 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:43:56 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,End for LoginId -13
+Verbose , 8/29/2016 2:43:56 PM , CacheFileBusiness,CreateCacheFileforTargetVsCompletesCharts,Retrieving all Targets and Completes for the Airport login -14
+Information , 8/29/2016 2:43:56 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,Start for LoginId -14
+Verbose , 8/29/2016 2:43:56 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,TargetVsCompletes Charts cache file for AirportLoginId- 14
+Verbose , 8/29/2016 2:43:56 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:43:56 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:43:56 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,End for LoginId -14
+Information , 8/29/2016 2:43:56 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,Start for LoginId -14
+Verbose , 8/29/2016 2:43:56 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,MissingTargetsVsBusinessClass Charts cache file for AirportLoginId- 14
+Verbose , 8/29/2016 2:43:56 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:43:56 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:43:56 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,End for LoginId -14
+Verbose , 8/29/2016 2:43:56 PM , CacheFileBusiness,CreateCacheFileforTargetVsCompletesCharts,Retrieving all Targets and Completes for the Airport login -15
+Information , 8/29/2016 2:43:57 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,Start for LoginId -15
+Verbose , 8/29/2016 2:43:57 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,TargetVsCompletes Charts cache file for AirportLoginId- 15
+Verbose , 8/29/2016 2:43:57 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:43:57 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:43:57 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,End for LoginId -15
+Information , 8/29/2016 2:43:57 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,Start for LoginId -15
+Verbose , 8/29/2016 2:43:57 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,MissingTargetsVsBusinessClass Charts cache file for AirportLoginId- 15
+Verbose , 8/29/2016 2:43:57 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:43:57 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:43:57 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,End for LoginId -15
+Verbose , 8/29/2016 2:43:57 PM , CacheFileBusiness,CreateCacheFileforTargetVsCompletesCharts,Retrieving all Targets and Completes for the Airport login -16
+Information , 8/29/2016 2:43:57 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,Start for LoginId -16
+Verbose , 8/29/2016 2:43:57 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,TargetVsCompletes Charts cache file for AirportLoginId- 16
+Verbose , 8/29/2016 2:43:57 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:43:57 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:43:57 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,End for LoginId -16
+Information , 8/29/2016 2:43:57 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,Start for LoginId -16
+Verbose , 8/29/2016 2:43:57 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,MissingTargetsVsBusinessClass Charts cache file for AirportLoginId- 16
+Verbose , 8/29/2016 2:43:57 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:43:57 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:43:57 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,End for LoginId -16
+Verbose , 8/29/2016 2:43:57 PM , CacheFileBusiness,CreateCacheFileforTargetVsCompletesCharts,Retrieving all Targets and Completes for the Airport login -17
+Information , 8/29/2016 2:43:57 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,Start for LoginId -17
+Verbose , 8/29/2016 2:43:57 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,TargetVsCompletes Charts cache file for AirportLoginId- 17
+Verbose , 8/29/2016 2:43:57 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:43:57 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:43:57 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,End for LoginId -17
+Information , 8/29/2016 2:43:57 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,Start for LoginId -17
+Verbose , 8/29/2016 2:43:57 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,MissingTargetsVsBusinessClass Charts cache file for AirportLoginId- 17
+Verbose , 8/29/2016 2:43:57 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:43:57 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:43:57 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,End for LoginId -17
+Verbose , 8/29/2016 2:43:57 PM , CacheFileBusiness,CreateCacheFileforTargetVsCompletesCharts,Retrieving all Targets and Completes for the Airport login -18
+Information , 8/29/2016 2:43:58 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,Start for LoginId -18
+Verbose , 8/29/2016 2:43:58 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,TargetVsCompletes Charts cache file for AirportLoginId- 18
+Verbose , 8/29/2016 2:43:58 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:43:58 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:43:58 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,End for LoginId -18
+Information , 8/29/2016 2:43:58 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,Start for LoginId -18
+Verbose , 8/29/2016 2:43:58 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,MissingTargetsVsBusinessClass Charts cache file for AirportLoginId- 18
+Verbose , 8/29/2016 2:43:58 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:43:58 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:43:58 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,End for LoginId -18
+Verbose , 8/29/2016 2:43:58 PM , CacheFileBusiness,CreateCacheFileforTargetVsCompletesCharts,Retrieving all Targets and Completes for the Airport login -19
+Information , 8/29/2016 2:43:58 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,Start for LoginId -19
+Verbose , 8/29/2016 2:43:58 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,TargetVsCompletes Charts cache file for AirportLoginId- 19
+Verbose , 8/29/2016 2:43:58 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:43:58 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:43:58 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,End for LoginId -19
+Information , 8/29/2016 2:43:58 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,Start for LoginId -19
+Verbose , 8/29/2016 2:43:58 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,MissingTargetsVsBusinessClass Charts cache file for AirportLoginId- 19
+Verbose , 8/29/2016 2:43:58 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:43:58 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:43:58 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,End for LoginId -19
+Verbose , 8/29/2016 2:43:58 PM , CacheFileBusiness,CreateCacheFileforTargetVsCompletesCharts,Retrieving all Targets and Completes for the Airport login -20
+Information , 8/29/2016 2:43:58 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,Start for LoginId -20
+Verbose , 8/29/2016 2:43:58 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,TargetVsCompletes Charts cache file for AirportLoginId- 20
+Verbose , 8/29/2016 2:43:58 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:43:58 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:43:58 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,End for LoginId -20
+Information , 8/29/2016 2:43:58 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,Start for LoginId -20
+Verbose , 8/29/2016 2:43:58 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,MissingTargetsVsBusinessClass Charts cache file for AirportLoginId- 20
+Verbose , 8/29/2016 2:43:58 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:43:58 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:43:58 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,End for LoginId -20
+Verbose , 8/29/2016 2:43:58 PM , CacheFileBusiness,CreateCacheFileforTargetVsCompletesCharts,Retrieving all Targets and Completes for the Airport login -21
+Information , 8/29/2016 2:43:59 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,Start for LoginId -21
+Verbose , 8/29/2016 2:43:59 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,TargetVsCompletes Charts cache file for AirportLoginId- 21
+Verbose , 8/29/2016 2:43:59 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:43:59 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:43:59 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,End for LoginId -21
+Information , 8/29/2016 2:43:59 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,Start for LoginId -21
+Verbose , 8/29/2016 2:43:59 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,MissingTargetsVsBusinessClass Charts cache file for AirportLoginId- 21
+Verbose , 8/29/2016 2:43:59 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:43:59 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:43:59 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,End for LoginId -21
+Verbose , 8/29/2016 2:43:59 PM , CacheFileBusiness,CreateCacheFileforTargetVsCompletesCharts,Retrieving all Targets and Completes for the Airport login -22
+Information , 8/29/2016 2:43:59 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,Start for LoginId -22
+Verbose , 8/29/2016 2:43:59 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,TargetVsCompletes Charts cache file for AirportLoginId- 22
+Verbose , 8/29/2016 2:43:59 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:43:59 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:43:59 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,End for LoginId -22
+Information , 8/29/2016 2:43:59 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,Start for LoginId -22
+Verbose , 8/29/2016 2:43:59 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,MissingTargetsVsBusinessClass Charts cache file for AirportLoginId- 22
+Verbose , 8/29/2016 2:43:59 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:43:59 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:43:59 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,End for LoginId -22
+Verbose , 8/29/2016 2:43:59 PM , CacheFileBusiness,CreateCacheFileforTargetVsCompletesCharts,Retrieving all Targets and Completes for the Airport login -23
+Information , 8/29/2016 2:44:00 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,Start for LoginId -23
+Verbose , 8/29/2016 2:44:00 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,TargetVsCompletes Charts cache file for AirportLoginId- 23
+Verbose , 8/29/2016 2:44:00 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:44:00 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:44:00 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,End for LoginId -23
+Information , 8/29/2016 2:44:00 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,Start for LoginId -23
+Verbose , 8/29/2016 2:44:00 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,MissingTargetsVsBusinessClass Charts cache file for AirportLoginId- 23
+Verbose , 8/29/2016 2:44:00 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:44:00 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:44:00 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,End for LoginId -23
+Verbose , 8/29/2016 2:44:00 PM , CacheFileBusiness,CreateCacheFileforTargetVsCompletesCharts,Retrieving all Targets and Completes for the Airport login -24
+Information , 8/29/2016 2:44:00 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,Start for LoginId -24
+Verbose , 8/29/2016 2:44:00 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,TargetVsCompletes Charts cache file for AirportLoginId- 24
+Verbose , 8/29/2016 2:44:00 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:44:00 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:44:00 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,End for LoginId -24
+Information , 8/29/2016 2:44:00 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,Start for LoginId -24
+Verbose , 8/29/2016 2:44:00 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,MissingTargetsVsBusinessClass Charts cache file for AirportLoginId- 24
+Verbose , 8/29/2016 2:44:00 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:44:00 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:44:00 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,End for LoginId -24
+Verbose , 8/29/2016 2:44:00 PM , CacheFileBusiness,CreateCacheFileforTargetVsCompletesCharts,Retrieving all Targets and Completes for the Airport login -25
+Information , 8/29/2016 2:44:00 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,Start for LoginId -25
+Verbose , 8/29/2016 2:44:00 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,TargetVsCompletes Charts cache file for AirportLoginId- 25
+Verbose , 8/29/2016 2:44:00 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:44:00 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:44:00 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,End for LoginId -25
+Information , 8/29/2016 2:44:00 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,Start for LoginId -25
+Verbose , 8/29/2016 2:44:00 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,MissingTargetsVsBusinessClass Charts cache file for AirportLoginId- 25
+Verbose , 8/29/2016 2:44:00 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:44:00 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:44:00 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,End for LoginId -25
+Verbose , 8/29/2016 2:44:00 PM , CacheFileBusiness,CreateCacheFileforTargetVsCompletesCharts,Retrieving all Targets and Completes for the Airport login -26
+Information , 8/29/2016 2:44:00 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,Start for LoginId -26
+Verbose , 8/29/2016 2:44:00 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,TargetVsCompletes Charts cache file for AirportLoginId- 26
+Verbose , 8/29/2016 2:44:00 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:44:00 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:44:00 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,End for LoginId -26
+Information , 8/29/2016 2:44:00 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,Start for LoginId -26
+Verbose , 8/29/2016 2:44:00 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,MissingTargetsVsBusinessClass Charts cache file for AirportLoginId- 26
+Verbose , 8/29/2016 2:44:00 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:44:00 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:44:00 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,End for LoginId -26
+Verbose , 8/29/2016 2:44:00 PM , CacheFileBusiness,CreateCacheFileforTargetVsCompletesCharts,Retrieving all Targets and Completes for the Airport login -27
+Information , 8/29/2016 2:44:01 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,Start for LoginId -27
+Verbose , 8/29/2016 2:44:01 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,TargetVsCompletes Charts cache file for AirportLoginId- 27
+Verbose , 8/29/2016 2:44:01 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:44:01 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:44:01 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,End for LoginId -27
+Information , 8/29/2016 2:44:01 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,Start for LoginId -27
+Verbose , 8/29/2016 2:44:01 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,MissingTargetsVsBusinessClass Charts cache file for AirportLoginId- 27
+Verbose , 8/29/2016 2:44:01 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:44:01 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:44:01 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,End for LoginId -27
+Verbose , 8/29/2016 2:44:01 PM , CacheFileBusiness,CreateCacheFileforTargetVsCompletesCharts,Retrieving all Targets and Completes for the Airport login -28
+Information , 8/29/2016 2:44:01 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,Start for LoginId -28
+Verbose , 8/29/2016 2:44:01 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,TargetVsCompletes Charts cache file for AirportLoginId- 28
+Verbose , 8/29/2016 2:44:01 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:44:01 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:44:01 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,End for LoginId -28
+Information , 8/29/2016 2:44:01 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,Start for LoginId -28
+Verbose , 8/29/2016 2:44:01 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,MissingTargetsVsBusinessClass Charts cache file for AirportLoginId- 28
+Verbose , 8/29/2016 2:44:01 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:44:01 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:44:01 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,End for LoginId -28
+Verbose , 8/29/2016 2:44:01 PM , CacheFileBusiness,CreateCacheFileforTargetVsCompletesCharts,Retrieving all Targets and Completes for the Airport login -29
+Information , 8/29/2016 2:44:01 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,Start for LoginId -29
+Verbose , 8/29/2016 2:44:01 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,TargetVsCompletes Charts cache file for AirportLoginId- 29
+Verbose , 8/29/2016 2:44:01 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:44:01 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:44:01 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,End for LoginId -29
+Information , 8/29/2016 2:44:01 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,Start for LoginId -29
+Verbose , 8/29/2016 2:44:01 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,MissingTargetsVsBusinessClass Charts cache file for AirportLoginId- 29
+Verbose , 8/29/2016 2:44:01 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:44:01 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:44:01 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,End for LoginId -29
+Verbose , 8/29/2016 2:44:01 PM , CacheFileBusiness,CreateCacheFileforTargetVsCompletesCharts,Retrieving all Targets and Completes for the Airport login -30
+Information , 8/29/2016 2:44:02 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,Start for LoginId -30
+Verbose , 8/29/2016 2:44:02 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,TargetVsCompletes Charts cache file for AirportLoginId- 30
+Verbose , 8/29/2016 2:44:02 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:44:02 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:44:02 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,End for LoginId -30
+Information , 8/29/2016 2:44:02 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,Start for LoginId -30
+Verbose , 8/29/2016 2:44:02 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,MissingTargetsVsBusinessClass Charts cache file for AirportLoginId- 30
+Verbose , 8/29/2016 2:44:02 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:44:02 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:44:02 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,End for LoginId -30
+Verbose , 8/29/2016 2:44:02 PM , CacheFileBusiness,CreateCacheFileforTargetVsCompletesCharts,Retrieving all Targets and Completes for the Airport login -31
+Information , 8/29/2016 2:44:02 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,Start for LoginId -31
+Verbose , 8/29/2016 2:44:02 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,TargetVsCompletes Charts cache file for AirportLoginId- 31
+Verbose , 8/29/2016 2:44:02 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:44:02 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:44:02 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,End for LoginId -31
+Information , 8/29/2016 2:44:02 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,Start for LoginId -31
+Verbose , 8/29/2016 2:44:02 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,MissingTargetsVsBusinessClass Charts cache file for AirportLoginId- 31
+Verbose , 8/29/2016 2:44:02 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:44:02 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:44:02 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,End for LoginId -31
+Verbose , 8/29/2016 2:44:02 PM , CacheFileBusiness,CreateCacheFileforTargetVsCompletesCharts,Retrieving all Targets and Completes for the Airport login -32
+Information , 8/29/2016 2:44:02 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,Start for LoginId -32
+Verbose , 8/29/2016 2:44:02 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,TargetVsCompletes Charts cache file for AirportLoginId- 32
+Verbose , 8/29/2016 2:44:02 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:44:03 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:44:03 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,End for LoginId -32
+Information , 8/29/2016 2:44:03 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,Start for LoginId -32
+Verbose , 8/29/2016 2:44:03 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,MissingTargetsVsBusinessClass Charts cache file for AirportLoginId- 32
+Verbose , 8/29/2016 2:44:03 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:44:03 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:44:03 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,End for LoginId -32
+Verbose , 8/29/2016 2:44:03 PM , CacheFileBusiness,CreateCacheFileforTargetVsCompletesCharts,Retrieving all Targets and Completes for the Airport login -33
+Information , 8/29/2016 2:44:03 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,Start for LoginId -33
+Verbose , 8/29/2016 2:44:03 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,TargetVsCompletes Charts cache file for AirportLoginId- 33
+Verbose , 8/29/2016 2:44:03 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:44:03 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:44:03 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,End for LoginId -33
+Information , 8/29/2016 2:44:03 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,Start for LoginId -33
+Verbose , 8/29/2016 2:44:03 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,MissingTargetsVsBusinessClass Charts cache file for AirportLoginId- 33
+Verbose , 8/29/2016 2:44:03 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:44:03 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:44:03 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,End for LoginId -33
+Verbose , 8/29/2016 2:44:03 PM , CacheFileBusiness,CreateCacheFileforTargetVsCompletesCharts,Retrieving all Targets and Completes for the Airport login -34
+Information , 8/29/2016 2:44:03 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,Start for LoginId -34
+Verbose , 8/29/2016 2:44:03 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,TargetVsCompletes Charts cache file for AirportLoginId- 34
+Verbose , 8/29/2016 2:44:03 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:44:03 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:44:03 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,End for LoginId -34
+Information , 8/29/2016 2:44:03 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,Start for LoginId -34
+Verbose , 8/29/2016 2:44:03 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,MissingTargetsVsBusinessClass Charts cache file for AirportLoginId- 34
+Verbose , 8/29/2016 2:44:03 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:44:03 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:44:03 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,End for LoginId -34
+Verbose , 8/29/2016 2:44:03 PM , CacheFileBusiness,CreateCacheFileforTargetVsCompletesCharts,Retrieving all Targets and Completes for the Airport login -35
+Information , 8/29/2016 2:44:04 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,Start for LoginId -35
+Verbose , 8/29/2016 2:44:04 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,TargetVsCompletes Charts cache file for AirportLoginId- 35
+Verbose , 8/29/2016 2:44:04 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:44:04 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:44:04 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,End for LoginId -35
+Information , 8/29/2016 2:44:04 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,Start for LoginId -35
+Verbose , 8/29/2016 2:44:04 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,MissingTargetsVsBusinessClass Charts cache file for AirportLoginId- 35
+Verbose , 8/29/2016 2:44:04 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:44:04 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:44:04 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,End for LoginId -35
+Verbose , 8/29/2016 2:44:04 PM , CacheFileBusiness,CreateCacheFileforTargetVsCompletesCharts,Retrieving all Targets and Completes for the Airport login -36
+Information , 8/29/2016 2:44:04 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,Start for LoginId -36
+Verbose , 8/29/2016 2:44:04 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,TargetVsCompletes Charts cache file for AirportLoginId- 36
+Verbose , 8/29/2016 2:44:04 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:44:04 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:44:04 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,End for LoginId -36
+Information , 8/29/2016 2:44:04 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,Start for LoginId -36
+Verbose , 8/29/2016 2:44:04 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,MissingTargetsVsBusinessClass Charts cache file for AirportLoginId- 36
+Verbose , 8/29/2016 2:44:04 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:44:04 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:44:04 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,End for LoginId -36
+Verbose , 8/29/2016 2:44:04 PM , CacheFileBusiness,CreateCacheFileforTargetVsCompletesCharts,Retrieving all Targets and Completes for the Airport login -37
+Information , 8/29/2016 2:44:05 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,Start for LoginId -37
+Verbose , 8/29/2016 2:44:05 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,TargetVsCompletes Charts cache file for AirportLoginId- 37
+Verbose , 8/29/2016 2:44:05 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:44:05 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:44:05 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,End for LoginId -37
+Information , 8/29/2016 2:44:05 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,Start for LoginId -37
+Verbose , 8/29/2016 2:44:05 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,MissingTargetsVsBusinessClass Charts cache file for AirportLoginId- 37
+Verbose , 8/29/2016 2:44:05 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:44:05 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:44:05 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,End for LoginId -37
+Verbose , 8/29/2016 2:44:05 PM , CacheFileBusiness,CreateCacheFileforTargetVsCompletesCharts,Retrieving all Targets and Completes for the Airport login -38
+Information , 8/29/2016 2:44:05 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,Start for LoginId -38
+Verbose , 8/29/2016 2:44:05 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,TargetVsCompletes Charts cache file for AirportLoginId- 38
+Verbose , 8/29/2016 2:44:05 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:44:05 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:44:05 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,End for LoginId -38
+Information , 8/29/2016 2:44:05 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,Start for LoginId -38
+Verbose , 8/29/2016 2:44:05 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,MissingTargetsVsBusinessClass Charts cache file for AirportLoginId- 38
+Verbose , 8/29/2016 2:44:05 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:44:05 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:44:05 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,End for LoginId -38
+Verbose , 8/29/2016 2:44:05 PM , CacheFileBusiness,CreateCacheFileforTargetVsCompletesCharts,Retrieving all Targets and Completes for the Airport login -39
+Information , 8/29/2016 2:44:05 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,Start for LoginId -39
+Verbose , 8/29/2016 2:44:05 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,TargetVsCompletes Charts cache file for AirportLoginId- 39
+Verbose , 8/29/2016 2:44:05 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:44:05 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:44:05 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,End for LoginId -39
+Information , 8/29/2016 2:44:05 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,Start for LoginId -39
+Verbose , 8/29/2016 2:44:05 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,MissingTargetsVsBusinessClass Charts cache file for AirportLoginId- 39
+Verbose , 8/29/2016 2:44:05 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:44:05 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:44:05 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,End for LoginId -39
+Verbose , 8/29/2016 2:44:05 PM , CacheFileBusiness,CreateCacheFileforTargetVsCompletesCharts,Retrieving all Targets and Completes for the Airport login -40
+Information , 8/29/2016 2:44:06 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,Start for LoginId -40
+Verbose , 8/29/2016 2:44:06 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,TargetVsCompletes Charts cache file for AirportLoginId- 40
+Verbose , 8/29/2016 2:44:06 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:44:06 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:44:06 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,End for LoginId -40
+Information , 8/29/2016 2:44:06 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,Start for LoginId -40
+Verbose , 8/29/2016 2:44:06 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,MissingTargetsVsBusinessClass Charts cache file for AirportLoginId- 40
+Verbose , 8/29/2016 2:44:06 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:44:06 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:44:06 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,End for LoginId -40
+Verbose , 8/29/2016 2:44:06 PM , CacheFileBusiness,CreateCacheFileforTargetVsCompletesCharts,Retrieving all Targets and Completes for the Airport login -41
+Information , 8/29/2016 2:44:06 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,Start for LoginId -41
+Verbose , 8/29/2016 2:44:06 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,TargetVsCompletes Charts cache file for AirportLoginId- 41
+Verbose , 8/29/2016 2:44:06 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:44:06 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:44:06 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,End for LoginId -41
+Information , 8/29/2016 2:44:06 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,Start for LoginId -41
+Verbose , 8/29/2016 2:44:06 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,MissingTargetsVsBusinessClass Charts cache file for AirportLoginId- 41
+Verbose , 8/29/2016 2:44:06 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:44:06 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:44:06 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,End for LoginId -41
+Verbose , 8/29/2016 2:44:06 PM , CacheFileBusiness,CreateCacheFileforTargetVsCompletesCharts,Retrieving all Targets and Completes for the Airport login -42
+Information , 8/29/2016 2:44:06 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,Start for LoginId -42
+Verbose , 8/29/2016 2:44:06 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,TargetVsCompletes Charts cache file for AirportLoginId- 42
+Verbose , 8/29/2016 2:44:06 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:44:06 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:44:06 PM , CacheFileBusiness,WriteTargetVsCompletesChartsCacheFile,End for LoginId -42
+Information , 8/29/2016 2:44:06 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,Start for LoginId -42
+Verbose , 8/29/2016 2:44:06 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,MissingTargetsVsBusinessClass Charts cache file for AirportLoginId- 42
+Verbose , 8/29/2016 2:44:06 PM , CacheFileBusiness,WriteToFile,Start
+Verbose , 8/29/2016 2:44:06 PM , CacheFileBusiness,WriteToFile,END
+Information , 8/29/2016 2:44:06 PM , CacheFileBusiness,WriteMissingTargetsVsBusinessClassChartCacheFile,End for LoginId -42
+Verbose , 8/29/2016 2:44:06 PM , CacheFileBusiness,CreateCacheFileforTargetVsCompletesCharts,Retrieving all Targets and Completes for the Airport login -43
+Critical , 8/29/2016 2:44:07 PM , DataAccessLayer,GetTargetandCompleteforAirportLogin,Thread was being aborted.,at SNIReadSyncOverAsync(SNI_ConnWrapper* ; SNI_Packet** ; Int32 );   at SNINativeMethodWrapper.SNIReadSyncOverAsync(SafeHandle pConn; IntPtr& packet; Int32 timeout);   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync();   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket();   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer();   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value);   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior; SqlCommand cmdHandler; SqlDataReader dataStream; BulkCopySimpleResultSet bulkCopyHandler; TdsParserStateObject stateObj; Boolean& dataReady);   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData();   at System.Data.SqlClient.SqlDataReader.get_MetaData();   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds; RunBehavior runBehavior; String resetOptionsString);   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior; RunBehavior runBehavior; Boolean returnStream; Boolean async; Int32 timeout; Task& task; Boolean asyncWrite; SqlDataReader ds; Boolean describeParameterEncryptionRequest);   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior; RunBehavior runBehavior; Boolean returnStream; String method; TaskCompletionSource`1 completion; Int32 timeout; Task& task; Boolean asyncWrite);   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior; RunBehavior runBehavior; Boolean returnStream; String method);   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior; String method);   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior);   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior);   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset; DataTable[] datatables; Int32 startRecord; Int32 maxRecords; String srcTable; IDbCommand command; CommandBehavior behavior);   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet; Int32 startRecord; Int32 maxRecords; String srcTable; IDbCommand command; CommandBehavior behavior);   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet);   at Microsoft.Practices.EnterpriseLibrary.Data.Database.DoLoadDataSet(IDbCommand command; DataSet dataSet; String[] tableNames);   at Microsoft.Practices.EnterpriseLibrary.Data.Database.LoadDataSet(DbCommand command; DataSet dataSet; String[] tableNames);   at Microsoft.Practices.EnterpriseLibrary.Data.Database.LoadDataSet(DbCommand command; DataSet dataSet; String tableName);   at Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteDataSet(DbCommand command);   at SICT.DataAccessLayer.DataAccessLayer.GetTargetandCompleteforAirportLogin(Int32 AirportLoginId; Int32 Quarter; Int32 Year) in D:\airsat v2.0\Server\SICT\DataAccessLayer\DataAccessLayer.cs:line 1680
+Critical , 8/29/2016 2:44:07 PM , CacheFileBusiness,CreateCacheFileforTargetVsCompletesCharts,Thread was being aborted.,at SICT.DataAccessLayer.DataAccessLayer.GetTargetandCompleteforAirportLogin(Int32 AirportLoginId; Int32 Quarter; Int32 Year) in D:\airsat v2.0\Server\SICT\DataAccessLayer\DataAccessLayer.cs:line 1685;   at SICT.BusinessLayer.V1.CacheFileBusiness.CreateCacheFileforTargetVsCompletesCharts(String Instance) in D:\airsat v2.0\Server\SICT\BusinessLayerV1\CacheFileBusiness.cs:line 896

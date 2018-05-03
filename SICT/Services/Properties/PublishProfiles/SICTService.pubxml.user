@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\Publish\PublishSICT</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Aspose.Cells.dll">
+      <publishTime>12/03/2015 18:52:29</publishTime>
+    </File>
+    <File Include="bin/BusinessLayerV1.dll">
+      <publishTime>08/22/2017 17:07:50</publishTime>
+    </File>
+    <File Include="bin/BusinessUtils.dll">
+      <publishTime>08/22/2017 19:30:21</publishTime>
+    </File>
+    <File Include="bin/CommonBusiness.dll">
+      <publishTime>08/22/2017 17:07:51</publishTime>
+    </File>
+    <File Include="bin/Constants.dll">
+      <publishTime>08/22/2017 19:40:02</publishTime>
+    </File>
+    <File Include="bin/Contracts.dll">
+      <publishTime>08/22/2017 19:40:02</publishTime>
+    </File>
+    <File Include="bin/DataAccessLayer.dll">
+      <publishTime>08/22/2017 20:07:39</publishTime>
+    </File>
+    <File Include="bin/Logger.dll">
+      <publishTime>08/22/2017 19:40:02</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Common.dll">
+      <publishTime>12/03/2015 18:51:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Data.dll">
+      <publishTime>12/03/2015 18:51:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Logging.dll">
+      <publishTime>12/03/2015 18:51:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.ServiceLocation.dll">
+      <publishTime>12/03/2015 18:51:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.dll">
+      <publishTime>12/03/2015 18:51:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.Interception.dll">
+      <publishTime>12/03/2015 18:51:32</publishTime>
+    </File>
+    <File Include="bin/Services.dll">
+      <publishTime>08/22/2017 20:20:55</publishTime>
+    </File>
+    <File Include="DepartureFormServices.svc">
+      <publishTime>02/27/2017 12:49:27</publishTime>
+    </File>
+    <File Include="DownloadServices.svc">
+      <publishTime>12/03/2015 18:51:07</publishTime>
+    </File>
+    <File Include="enterprise_lib.config">
+      <publishTime>12/03/2015 18:56:38</publishTime>
+    </File>
+    <File Include="ManagementServices.svc">
+      <publishTime>12/03/2015 18:50:57</publishTime>
+    </File>
+    <File Include="ReportingServices.svc">
+      <publishTime>12/03/2015 18:51:07</publishTime>
+    </File>
+    <File Include="UploadServices.svc">
+      <publishTime>12/03/2015 18:51:06</publishTime>
+    </File>
+    <File Include="UserDetailsServices.svc">
+      <publishTime>12/03/2015 18:50:57</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/22/2017 19:40:04</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

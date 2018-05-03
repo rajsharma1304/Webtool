@@ -1,0 +1,30 @@
+D:\SICT\Server\SICT\NUnit.Test\obj\Debug\NUnit.Test.csprojResolveAssemblyReference.cache
+D:\SICT\Server\SICT\Services\bin\NUnit.Test.dll
+D:\SICT\Server\SICT\Services\bin\NUnit.Test.pdb
+D:\SICT\Server\SICT\NUnit.Test\obj\Debug\NUnit.Test.dll
+D:\SICT\Server\SICT\NUnit.Test\obj\Debug\NUnit.Test.pdb
+D:\workpace\Projects\mindset\airsat\solution\airsat v2.0\Server\SICT\Services\bin\NUnit.Test.dll
+D:\workpace\Projects\mindset\airsat\solution\airsat v2.0\Server\SICT\Services\bin\NUnit.Test.pdb
+D:\workpace\Projects\mindset\airsat\solution\airsat v2.0\Server\SICT\NUnit.Test\obj\Debug\NUnit.Test.csprojResolveAssemblyReference.cache
+D:\workpace\Projects\mindset\airsat\solution\airsat v2.0\Server\SICT\NUnit.Test\obj\Debug\NUnit.Test.dll
+D:\workpace\Projects\mindset\airsat\solution\airsat v2.0\Server\SICT\NUnit.Test\obj\Debug\NUnit.Test.pdb
+D:\airsat v2.0\Server\SICT\NUnit.Test\obj\Debug\NUnit.Test.csprojResolveAssemblyReference.cache
+D:\airsat v2.0\Server\SICT\NUnit.Test\obj\Debug\NUnit.Test.dll
+D:\airsat v2.0\Server\SICT\NUnit.Test\obj\Debug\NUnit.Test.pdb
+D:\airsat v2.0\Server\SICT\Services\bin\NUnit.Test.dll
+D:\airsat v2.0\Server\SICT\Services\bin\NUnit.Test.pdb
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\bin\NUnit.Test.dll
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\bin\NUnit.Test.pdb
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\NUnit.Test\obj\Debug\NUnit.Test.csprojResolveAssemblyReference.cache
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\NUnit.Test\obj\Debug\NUnit.Test.dll
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\NUnit.Test\obj\Debug\NUnit.Test.pdb
+D:\Source Codes\MindsetNew\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\bin\NUnit.Test.dll
+D:\Source Codes\MindsetNew\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\bin\NUnit.Test.pdb
+D:\Source Codes\MindsetNew\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\NUnit.Test\obj\Debug\NUnit.Test.csprojResolveAssemblyReference.cache
+D:\Source Codes\MindsetNew\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\NUnit.Test\obj\Debug\NUnit.Test.dll
+D:\Source Codes\MindsetNew\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\NUnit.Test\obj\Debug\NUnit.Test.pdb
+D:\SICT_Web\SICT\Services\bin\NUnit.Test.dll
+D:\SICT_Web\SICT\Services\bin\NUnit.Test.pdb
+D:\SICT_Web\SICT\NUnit.Test\obj\Debug\NUnit.Test.csprojResolveAssemblyReference.cache
+D:\SICT_Web\SICT\NUnit.Test\obj\Debug\NUnit.Test.dll
+D:\SICT_Web\SICT\NUnit.Test\obj\Debug\NUnit.Test.pdb

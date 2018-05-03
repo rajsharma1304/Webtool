@@ -1,0 +1,81 @@
+/*<Copyright> Cross-Tab </Copyright>
+ <ProjectName>SICT</ProjectName>
+ <FileName> utils.js </FileName>
+ <CreatedOn>15 Jan 2015</CreatedOn>*/
+
+$("#upload").submit(function(e)
+{
+    $("#multi-msg").html("<img src='loading.gif'/>");
+
+    var formObj = $(this), formURL = getJsonInfoAction(UPLOADCSV);
+    var ext = $('#fileImportData').val().split('.').pop().toLowerCase();
+    if ($.inArray(ext, ['csv']) == -1) {
+        pageHelper.notify("Please Upload only CSV.", pageHelper.stickyPosition.top.RIGHT, pageHelper.stickyTypes.INFO);
+        return false;
+    }
+    if (window.FormData !== undefined)  // for HTML5 browsers
+//	if(false)
+    {
+        var formData = new FormData();
+        jQuery.each($('#fileImportData')[0].files, function(i, file) {
+            formData.append('uploadFile-' + i, file);
+        });
+        $.ajax({
+            url: formURL,
+            type: 'POST',
+            data: formData,
+            mimeType: "multipart/form-data",
+            cache: false,
+            contentType: false,
+            processData: false,
+            success: function(data, textStatus, jqXHR)
+            {
+                if (textStatus === "success" && data) {
+                    var d = JSON.parse(data);
+                    if (d && d.UploadFileResult && d.UploadFileResult.ReturnCode === 5)
+                        pageHelper.notify("Invalid CSV file.", pageHelper.stickyPosition.top.RIGHT, pageHelper.stickyTypes.SUCCESS);
+                    else if (d && d.UploadFileResult && d.UploadFileResult.ReturnCode === 1)
+                        pageHelper.notify("Uploaded Successfully.", pageHelper.stickyPosition.top.RIGHT, pageHelper.stickyTypes.SUCCESS);
+                }
+                else
+                    pageHelper.notify("Something went wrong. Please try again.", pageHelper.stickyPosition.top.RIGHT, pageHelper.stickyTypes.ERROR);
+            },
+            error: function(jqXHR, textStatus, errorThrown)
+            {
+                pageHelper.notify("Something went wrong. Please try again.", pageHelper.stickyPosition.top.RIGHT, pageHelper.stickyTypes.ERROR);
+            }
+        });
+        e.preventDefault();
+        //e.unbind();
+    }
+    else  //for olden browsers
+    {
+        //generate a random id
+        var iframeId = 'unique' + (new Date().getTime());
+
+        //create an empty iframe
+        var iframe = $('<iframe src="javascript:false;" name="' + iframeId + '" />');
+
+        //hide it
+        iframe.hide();
+
+        //set form target to iframe
+        formObj.attr('target', iframeId);
+
+        //Add iframe to body
+        iframe.appendTo('body');
+        iframe.load(function(e)
+        {
+            var doc = getDoc(iframe[0]);
+            var docRoot = doc.body ? doc.body : doc.documentElement;
+            var data = docRoot.innerHTML;
+            $("#multi-msg").html('<pre><code>' + data + '</code></pre>');
+        });
+
+    }
+
+});
+
+$("#uploadcsv").click(function(e) {
+    $("#upload").submit();
+});

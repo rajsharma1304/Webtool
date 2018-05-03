@@ -1,0 +1,80 @@
+communion = {
+  "ipAddress":"10.255.110.239",
+  "Version":"V1",
+  //"hostInstance":"AIR",1. US(International) USI 2. US(Domestic) USD 3. Europe EUR 4. Aircraft AIR
+    "hostInstance":"USI",//1. US(International) 2. US(Domestic) USD 3. Europe EUR 4. Aircraft AIR
+  "Service":"SICTServer",
+  "login":{
+        "encSvc":"UserDetailsServices.svc",
+        "encMethod":"UserManagement/Login"
+   },
+   "SessionValidateDetails":{
+        "svc":"UserDetailsServices.svc",
+        "ValidateDetails":"UserManagement/ValidateSession"
+   },
+    "DepartureForm":{
+        "svc": "DepartureFormServices.svc",
+        "submitForm":"Form/Add",
+        "updateForm":"Form/Update"
+    },
+    "ViewFormDataTables":{
+        "svc":"DepartureFormServices.svc",
+        "departureDetails":"Departure/GetDepartureFormDetails",
+        "deleteAirline":"Form/Delete",
+        "global":{
+            "svc":"DownloadServices.svc",
+            "export":"Form/Download",
+            "status" : "CheckDownloadStatus"
+        }
+   },   
+    "Reports":{
+        "svc": "ReportingServices.svc",
+        "airline":"GetAirlineReport",
+		"allairline":"GetAllAirlineReport",
+        "flight":"GetFlightReport",
+        "dod":"GetDODReport",
+        "interviewer":"GetInterviewerReport",
+        "airport":"GetAirportReport",
+        "aircraft":"GetAircraftReport",
+        "aircraftquota":"GetAircraftQuotaReport"
+    },
+    "DynamicTargets":{
+        "svc":"ManagementServices.svc",
+        "retrieveTargets":"GetTargetsByRange",
+        "updateTargets":"Target/Update",
+        "delete":"Target/Delete",
+        "add":"Target/Add"
+    },
+    "FlightCombo":{
+        "svc" : "ManagementServices.svc",
+        "getFlightCombo" : "GetFlightCombinationsByRange",
+        "addFlightCombo" : "FlightCombination/Add",
+        "deleteFlightCombo" : "FlightCombination/Delete",
+        "updateFlightCombo" : "FlightCombination/Update"
+    },
+    "InterviewersManagement":{
+        "svc":"ManagementServices.svc",
+        "retrieveInterviewers" : "GetInterviewersByRange",
+        "addInterviewer" : "Interviewer/Add",
+        "updateInterviewer" : "Interviewer/Update"
+    },
+    "SearchPage":{
+        "svc" : "DepartureFormServices.svc",
+        "retrieveSearch" : "Departure/GetFormsbySerialNo"
+    },
+    "CSV":{
+        "svc":"UploadServices.svc",
+        "upload":"Upload"        
+    },
+    "confirmit":{
+        "svc":"ManagementServices.svc",
+        "confirmitCount":"GetConfirmitCounts",
+        "view":"GetConfirmitCardDetails"
+    },
+    "ManageAirports":{
+        "svc": "UserDetailsServices.svc",
+        "getAirports": "User/GetAllUsers",
+        "updateAirport": "User/Update",
+        "addAirport" : "User/Add"
+    }
+};

@@ -1,0 +1,297 @@
+/*<Copyright> Celstream Technologies Pvt. Ltd. </Copyright>
+<ProjectName>SICT</ProjectName>
+<FileName> targets.js </FileName>
+<Author> Raghavendra G.N, Akhilesh M.S</Author>
+<CreatedOn>15 Jan 2015</CreatedOn>*/
+var targetMessages = {
+    updating: 'Updating changes, please wait...',
+    deletingProgress : 'Deleting target, please wait...',
+    deleteSuccess: 'Target deleted successfully!',
+    confirmDelete: 'Are you sure you want to delete?',
+    emptyUpdates: 'There are no targets to update'
+};
+var dynamicTargets = {
+    targetsTable: '',
+    formType: '',
+    airlineVsProps: [],
+    targetFormType: '',
+    isInitialised: false,
+    targetResponse: '',
+    targetModified: [],
+    targetCount: 0,
+    uri: '',
+    updateTarget: {"SessionId": sessionStorage.sessionId, "Version": communion.Version, "Instance":getInstance(),"TargetUpdateDetails": []},
+    initTarget: function() {
+        var me = this;
+        $('#Generate').on('click', function() {
+            $('#formHdr').toggle('200');
+            $(this).parents().find('#parentDiv').find('i').removeClass('fa-arrow-circle-up').addClass('fa-arrow-circle-down');
+            $('#parentDiv').removeClass('formSep');
+            me.retrieveTargets();
+        });
+        me.initializeTargerForms();
+        me.initializeTargetOrigin();
+        me.initializeTargetRoutes();
+        me.initializeTargetDirections();
+        me.initializeTargerAirlines();
+        me.initializeFlightType();
+        me.initializeAircrafttType();
+    },
+    initializeTargerForms: function() {
+        var formString = airportUtil.formTypeListOptions();
+        var data = communion, host = data.hostInstance
+        if(host !== 'USI')
+            $('#targetFormTypeDD').empty().append(formString).val('D').attr("selected", "selected");
+        else
+            $('#targetFormTypeDD').empty().append(formString);
+    },
+    initializeTargetOrigin: function() {
+        var originString = airportUtil.airportListOptions();
+        $('#targetOriginDD').empty().append(originString);
+        $("#targetOriginDD").selectedIndex = 1;
+    },
+    initializeTargetRoutes: function() {
+        var routeString = airportUtil.routeListOptions();
+        $('#targetRouteDD').append(routeString);
+    },
+    initializeTargetDirections: function() {
+        var directionString = airportUtil.directionListOptions();
+        $('#targetDirectionDD').append(directionString);
+    },
+    initializeTargerAirlines: function() {
+        var selectedId = $("#targetOriginDD").val();
+        cacheMgr.selectedAirport(selectedId);
+
+        var airlinesString = airportUtil.airlineOriginDestOptions();
+        $("#targetAirlineDD").empty().append(airlinesString);
+
+    },
+    initializeFlightType : function() {
+        var flightString = airportUtil.flightTypeListOptions();
+        $('#targetFlightDD').append(flightString);
+    },
+    initializeAircrafttType : function() {
+        var aircraftString = airportUtil.aircraftTypeListOptions();
+        $('#targetAircraftDD').append(aircraftString);
+    },
+    changeOrigin: function() {
+        var selectedId = $("#targetOriginDD").val();
+        cacheMgr.selectedAirport(selectedId);
+
+        var airlinesString = airportUtil.airlineOriginDestOptions();
+        $("#targetAirlineDD").empty().append(airlinesString);
+    },
+    retrieveTargets: function() {
+        var me = this, data = communion, host = data.hostInstance;
+        me.uri = getJsonInfoAction(RETRIEVETARGETS);
+            me.targetsTable = $('#targetsTable').DataTable({
+                "bProcessing": true,
+                "bServerSide": true,
+                "aLengthMenu": [20, 50, 100],
+                "iDisplayLength": 50,
+                "order": [[1, "asc"]],
+                "pagingType": "simple",
+                "bDestroy": true,
+                "initComplete": function() {
+                    $("#targetsTable_filter input").off().on('keyup', function(e) {
+                        if (e.keyCode == 13)
+                            me.targetsTable.search(this.value).draw();
+                    });
+                    gebo_tips.init();
+                },
+                "sAjaxSource": me.uri,
+                "fnServerData": function(sSource, aoData, fnCallback) {
+                    cnter = aoData[0].value;
+                        searchValue = aoData[55].value === '' ? '-1' : aoData[55].value, 
+                        sortValue = aoData[57].value  === '' ? '-1' : aoData[57].value, 
+                        IsASC = aoData[58].value === "asc" ? true : false;
+                    switch (sortValue) {
+                        case 1:
+                            sortValue = "AirlineName";
+                            break;
+                        case 2:
+                            sortValue = "Origin";
+                            break;
+                        case 3:
+                            sortValue = "Type";
+                            break;
+                        case 4:
+                            sortValue = "Target";
+                            break;
+                        case 5:
+                            sortValue = "Route";
+                            break;
+                        case 6:
+                            sortValue = "Direction";
+                            break;
+                        case 7:
+                            sortValue = 'FlightType';
+                            break;
+                        case 8:
+                            sortValue = 'AircraftType';
+                            break;
+                        default :
+                            sortValue = '-1';
+                            break;
+                    }
+                    //[#72964] Europe – Target Report, multiple issues for CT user.
+                    var formType =  host === 'USI' ? me.returnValue($('#targetFormTypeDD').val()) : '-1';
+                    var route = host === 'USI' ? me.returnValue($('#targetRouteDD').val()) : '-1';
+                    var direction = host === 'USI' ? me.returnValue($('#targetDirectionDD').val()) : '-1';
+                    var flightType = host === 'EUR' ? me.returnValue($('#targetFlightDD').val()) : '-1';
+                    var aircraftType = host === 'AIR' ? me.returnValue($('#targetAircraftDD').val()) : '-1';
+                    var uri = me.uri + '/' + 
+                            aoData[3].value + '/' + 
+                            aoData[4].value + '/' +
+                            formType + '/' +
+                            me.returnValue($('#targetOriginDD').val()) + '/' +
+                            me.returnValue($('#targetAirlineDD').val()) + '/' +
+                            route + '/' +
+                            direction + '/' + 
+                            flightType + '/' +
+                            aircraftType + '/' +
+                            searchValue  + '/' + 
+                            sortValue + '/' + 
+                            IsASC;
+                    $.ajax({
+                        "type": "GET",
+                        "contentType": "application/json",
+                        "url": uri,
+                        "success": function(msg) {
+                            dynamicTargets.targetResponse = msg;
+                            fnCallback(
+                                    {
+                                        "sEcho": cnter,
+                                        "iTotalRecords": msg.RecordsCnt,
+                                        "iTotalDisplayRecords": msg.RecordsCnt,
+                                        "aaData": msg.TargetDetails === null ?
+                                                [] : msg.TargetDetails
+                                    });
+                        }
+                    })
+                            .fail(function(result) {
+                                console.log(result);
+                            });
+                },
+                "columns": [
+                    {"data": "DistributionTargetId", sWidth: '6%'},
+                    {"data": "AirlineName", sWidth: '15%'},
+                    {"data": "Origin", sWidth: '15%'},
+                    {"data": "Type", sWidth: '15%', "visible": host === 'USI' ? true: false},
+                    {"data": "Target", sWidth: '15%', "sClass": "cCursorPointer"},
+                    {"data": "Route", sWidth: '10%', "visible": host === 'USI' ? true: false},
+                    {"data": "Direction", sWidth: '14%', "visible": host === 'USI' ? true: false},
+                    {"data": "FlightType", sWidth: '20%', "visible": host === 'EUR' ? true: false},
+                    {"data": "AircraftType", sWidth: '20%', "visible": host === 'AIR' ? true: false},
+                    {"data": "DistributionTargetId", sWidth: '10%'}
+                ],
+                aoColumnDefs: [
+                    {
+                        "aTargets": [0],
+                        'bSortable': false,
+                    },
+                    {
+                        "aTargets": [3],
+                        "mRender": function(data, type, full) {
+                            if (data === 'D')
+                                return 'Departure';
+                            else
+                                return 'Arrival';
+                        }
+                    },
+                    {
+                        "aTargets": [4],
+                        "mRender": function(data, type, full) {
+                            return '<label id="dataLabel" class="cCursorPointer" onclick="dynamicTargets.editTargetsTable(this)">' + data + '</label><input id="dataInput" type="text" value=' + data + ' style="display:none;width:50px;" />';
+                        }
+                    },
+                    {
+                        "aTargets": [9],
+                        'bSortable': false,
+                        "mRender": function(data, type, full) {
+                            $('body').data(data.toString(), full);
+                            return '<a href="#"  onclick="dynamicTargets.deleteTarget(this)" title="Delete"  class="sepDelEdit ttip_t" ><i class="fa fa-trash fa-lg btnColor"></i></a>';
+                        }
+                    }
+                ]
+            });        
+    },
+    editTargetsTable: function(ele) {
+        var tr = $(ele).closest('tr');
+        var row = dynamicTargets.targetsTable.row(tr);
+        var labelValue = $(ele).text();
+        $(ele).hide();
+        airportUtil.inputKeyDownHandler($(ele.nextSibling));
+        $(ele.nextSibling).show().focus().blur(function() {
+            $(ele).text($(this).val()).show();
+            $(this).hide();
+            if (labelValue !== $(this).val()) {
+                dynamicTargets.updateTarget.TargetUpdateDetails.push({
+                    "DistributionTargetId": row.data().DistributionTargetId,
+                    "Target": $(this).val()
+                });
+                window.onbeforeunload = function() {
+                    return "You have some unsubmitted data,";
+                }
+            }
+        });
+
+        $('#submitChanges').removeAttr('disabled');
+    },
+    returnValue: function(value) {
+        var val;
+        if (value === 'select')
+            val = '-1';
+        else
+            val = value;
+        return val;
+    },
+    deleteTarget: function(ele, id) {
+        smoke.confirm(targetMessages.confirmDelete, function(e) {
+            if (e) {
+                var tr = $(ele).closest('tr');
+                var row = dynamicTargets.targetsTable.row(tr);
+                var rowIndex = row.index();
+                var targetID = row.data().DistributionTargetId
+                var uri = getJsonInfoAction(DELETETARGETS);
+                var postData = {
+                    "Version": communion.Version,
+                    "SessionId": sessionStorage.sessionId,
+                    "Instance":getInstance(),
+                    "DistributionTargetId": targetID
+                };
+                pageHelper.clearStickies();
+                pageHelper.addSmokeSignal(targetMessages.deletingProgress);
+                ajaxPost(uri, postData, '', dynamicTargets.deleteTargets, rowIndex, '', 'DELETE');
+
+            }
+        });
+    },
+    deleteTargets: function(data, success, rowIndex) {
+        if (success)
+            pageHelper.removeSmokeSignal();
+            pageHelper.notify(targetMessages.deleteSuccess, pageHelper.stickyPosition.top.RIGHT, pageHelper.stickyTypes.SUCCESS);
+            dynamicTargets.targetsTable.row(rowIndex).remove().draw(false);
+    },
+    saveChanges: function() {
+        if (dynamicTargets.updateTarget.TargetUpdateDetails.length > 0) {
+            var uri = getJsonInfoAction(UPDATETARGETS);
+            smoke.signal(targetMessages.updating, 2 * 60 * 1000);
+            ajaxPost(uri, dynamicTargets.updateTarget, '', dynamicTargets.acknowledgeSave, '', '', 'POST');
+        } else {
+            pageUtils.notify(targetMessages.emptyUpdates, 'top-right', 'Targets');
+        }
+    },
+    acknowledgeSave: function(data, success) {
+        if (success) {
+            var smokeelement = $('.smoke-base.smoke-visible');
+            if (smokeelement) {
+                smokeelement[0].id;
+                var regex = /[+-]?\d+\.\d+/g;
+                smoke.destroy('signal', Math.abs(smokeelement[0].id.match(regex)[0]));
+            }
+            window.onbeforeunload = null;
+            dynamicTargets.targetsTable.draw(false);
+        }
+    }
+};

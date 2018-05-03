@@ -1,0 +1,47 @@
+var airportIcons = '<div class="span12">'+
+                    '<ul class="dshb_icoNav tac">'+
+                        '<li><a id="newFomDeparture" href="departurenewform.html" style="background-image: url(img/gCons/edit.png)">Departure Entry</a></li>'+
+                        '<li><a id="newFomArrival" href="arrivalnewform.html" style="background-image: url(img/gCons/edit.png)">Arrival Entry</a></li>'+
+                        '<li><a href="interviewerreport.html" style="background-image: url(img/gCons/multi-agents.png)">Interviewer Report</a></li>'+
+                        '<li><a href="dod.html" style="background-image: url(img/gCons/addressbook.png)">DOD Report</a></li>'+
+                        '<li><a href="airlinereport.html" style="background-image: url(img/gCons/plane.png)">Airline Report</a></li>'+
+                        '<li><a href="flightreport.html" style="background-image: url(img/gCons/connections.png)">Flight Report</a></li>'+
+                        '<li><a href="aircraftreport.html" style="background-image: url(img/gCons/plane.png)">Aircraft Report</a></li>'+
+                        '<li><a href="aircraftquotareport.html" style="background-image: url(img/gCons/bar-chart.png)">Aircraft Qt. Report</a></li>'+
+                    '</ul>'+
+                '</div>';
+var airportadminIcons = '<div class="span12">'+
+                    '<ul class="dshb_icoNav tac">'+
+                        '<li><a href="interviewerreport.html" style="background-image: url(img/gCons/multi-agents.png)">Interviewer Report</a></li>'+
+                        '<li><a href="airportreport.html" style="background-image: url(img/gCons/briefcase.png)">Airport Report</a></li>'+
+                        '<li><a href="dod.html" style="background-image: url(img/gCons/addressbook.png)">DOD Report</a></li>'+
+                        '<li><a href="airlinereport.html" style="background-image: url(img/gCons/plane.png)">Airline Report</a></li>'+
+                        '<li><a href="flightreport.html" style="background-image: url(img/gCons/connections.png)">Flight Report</a></li>'+
+                        '<li><a href="aircraftreport.html" style="background-image: url(img/gCons/plane.png)">Aircraft Report</a></li>'+
+                        '<li><a href="aircraftquotareport.html" style="background-image: url(img/gCons/bar-chart.png)">Aircraft Qt. Report</a></li>'+
+                    '</ul>'+
+                '</div>';
+var adminIcons = '<div class="span12">'+
+                    '<ul class="dshb_icoNav tac">'+
+                        '<li><a href="globalforms.html" style="background-image: url(img/gCons/world.png)">Global Data</a></li>'+                        
+                        '<li><a href="viewdata.html" style="background-image: url(img/gCons/lab.png)">Confirmit Data</a>'+
+                        '<li><a href="interviewerreport.html" style="background-image: url(img/gCons/multi-agents.png)">Interviewer Report</a></li>'+
+                        '<li><a href="airportreport.html" style="background-image: url(img/gCons/briefcase.png)">Airport Report</a></li>'+
+                        '<li><a href="dod.html" style="background-image: url(img/gCons/addressbook.png)">DOD Report</a></li>'+
+                        '<li><a href="airlinereport.html" style="background-image: url(img/gCons/plane.png)">Airline Report</a></li>'+
+                        '<li><a href="flightreport.html" style="background-image: url(img/gCons/connections.png)">Flight Report</a></li>'+
+                        '<li><a href="aircraftreport.html" style="background-image: url(img/gCons/plane.png)">Aircraft Report</a></li>'+
+                        '<li><a href="aircraftquotareport.html" style="background-image: url(img/gCons/bar-chart.png)">Aircraft Qt. Report</a></li>'+
+                    '</ul>'+
+                '</div>';
+var mindsetIcons = '<div class="span12">'+
+                    '<ul class="dshb_icoNav tac">'+
+                        '<li><a href="interviewerreport.html" style="background-image: url(img/gCons/multi-agents.png)">Interviewer Report</a></li>'+
+                        '<li><a href="airportreport.html" style="background-image: url(img/gCons/briefcase.png)">Airport Report</a></li>'+
+                        '<li><a href="dod.html" style="background-image: url(img/gCons/addressbook.png)">DOD Report</a></li>'+
+                        '<li><a href="airlinereport.html" style="background-image: url(img/gCons/plane.png)">Airline Report</a></li>'+
+                        '<li><a href="flightreport.html" style="background-image: url(img/gCons/connections.png)">Flight Report</a></li>'+
+                        '<li><a href="aircraftreport.html" style="background-image: url(img/gCons/plane.png)">Aircraft Report</a></li>'+
+                        '<li><a href="aircraftquotareport.html" style="background-image: url(img/gCons/bar-chart.png)">Aircraft Qt. Report</a></li>'+
+                    '</ul>'+
+                '</div>';

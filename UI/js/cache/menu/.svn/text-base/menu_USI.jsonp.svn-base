@@ -1,0 +1,130 @@
+var airportNavBar = '<ul class="nav" id="mobile-nav">'+
+                    '<li>'+
+                        '<a href="dashboard.html" ><i class="icon-home icon-white"></i> Home </a>'+
+                    '</li>'+
+                    '<li class="dropdown">'+
+                        '<a id="newFormsMenu" data-toggle="dropdown" class="dropdown-toggle" href="javascript:void(0);"><i class="icon-list-alt icon-white"></i> New Forms <b class="caret"></b></a>'+
+                        '<ul class="dropdown-menu">'+
+                            '<li><a id="newDepartureForm" href="departurenewform.html">Departure</a></li>'+
+                            '<li><a id="newArrivalForm" href="arrivalnewform.html">Arrival</a></li>'+
+                        '</ul>'+
+                    '</li>'+
+                    '<li class="dropdown">'+
+                        '<a id="viewFormsMenu" data-toggle="dropdown" class="dropdown-toggle" href="javascript:void(0);"><i class="icon-book icon-white"></i> View Forms <b class="caret"></b></a>'+
+                        '<ul class="dropdown-menu">'+
+                            '<li><a id="viewDepartureForm" href="departureviewform.html">Departure</a></li>'+
+                            '<li><a id="viewArrivalForm" href="arrivalviewform.html">Arrival</a></li>'+
+                        '</ul>'+
+                    '</li>'+
+                    '<li class="dropdown">'+
+                        '<a data-toggle="dropdown" class="dropdown-toggle" href="javascript:void(0);"><i class="icon-th icon-white"></i> Reports <b class="caret"></b></a>'+
+                        '<ul class="dropdown-menu">'+
+                            '<li><a href="interviewerreport.html">Interviewer</a></li>'+
+                            '<li><a href="dod.html">DOD</a></li>'+
+                            '<li><a href="airlinereport.html">Airline</a></li>'+
+                            '<li><a href="flightreport.html">Flight</a></li>'+
+                        '</ul>'+
+                    '</li>'+
+                '</ul>';
+
+var airportAdminNavBar = '<ul class="nav" id="mobile-nav">'+
+                    '<li>'+
+                        '<a href="dashboard.html" ><i class="icon-home icon-white"></i> Home </a>'+
+                    '</li>'+
+                    '<li class="dropdown">'+
+                        '<a id="newFormsMenu" data-toggle="dropdown" class="dropdown-toggle" href="javascript:void(0);"><i class="icon-list-alt icon-white"></i> New Forms <b class="caret"></b></a>'+
+                        '<ul class="dropdown-menu">'+
+                            '<li><a id="newDepartureForm" href="departurenewform.html">Departure</a></li>'+
+                            '<li><a id="newArrivalForm" href="arrivalnewform.html">Arrival</a></li>'+
+                        '</ul>'+
+                    '</li>'+
+                    '<li class="dropdown">'+
+                        '<a id="viewFormsMenu" data-toggle="dropdown" class="dropdown-toggle" href="javascript:void(0);"><i class="icon-book icon-white"></i> View Forms <b class="caret"></b></a>'+
+                        '<ul class="dropdown-menu">'+
+                            '<li><a id="viewDepartureForm" href="departureviewform.html">Departure</a></li>'+
+                            '<li><a id="viewArrivalForm" href="arrivalviewform.html">Arrival</a></li>'+
+                        '</ul>'+
+                    '</li>'+
+                    '<li class="dropdown">'+
+                        '<a data-toggle="dropdown" class="dropdown-toggle" href="javascript:void(0);"><i class="icon-th icon-white"></i> Reports <b class="caret"></b></a>'+
+                        '<ul class="dropdown-menu">'+
+                            '<li><a href="interviewerreport.html">Interviewer</a></li>'+
+                            '<li><a href="airportreport.html">Airport</a></li>'+
+                            '<li><a href="dod.html">DOD</a></li>'+
+                            '<li><a href="airlinereport.html">Airline</a></li>'+
+                            '<li><a href="flightreport.html">Flight</a></li>'+
+                        '</ul>'+
+                    '</li>'+
+                    '<li class="dropdown">' +
+                        '<a href="searchpage.html"><i class="fa fa-search"></i>&nbsp;Search</a>' +
+                    '</li>' +
+                '</ul>';
+
+var adminNavBar = '<ul class="nav" id="mobile-nav">'+
+                    '<li>'+
+                        '<a href="dashboard.html" ><i class="icon-home icon-white"></i> Home </a>'+
+                    '</li>'+                    
+                    '<li class="dropdown">'+
+                        '<a data-toggle="dropdown" class="dropdown-toggle" href="javascript:void(0);"><i class="icon-book icon-white"></i> View Forms <b class="caret"></b></a>'+
+                        '<ul class="dropdown-menu">'+
+                            '<li><a href="globalforms.html">Global</a></li>'+
+                        '</ul>'+
+                    '</li>'+
+                    '<li class="dropdown">'+
+                        '<a data-toggle="dropdown" class="dropdown-toggle" href="javascript:void(0);"><i class="icon-briefcase icon-white"></i> Confirmit Data <b class="caret"></b></a>'+
+                        '<ul class="dropdown-menu">'+
+                            '<li><a href="uploaddata.html">Upload Data</a></li>'+
+                            '<li><a href="viewdata.html">View Data</a></li>'+
+                        '</ul>'+
+                    '</li>'+
+                    '<li class="dropdown">'+
+                        '<a data-toggle="dropdown" class="dropdown-toggle" href="javascript:void(0);"><i class="icon-th icon-white"></i> Reports <b class="caret"></b></a>'+
+                        '<ul class="dropdown-menu">'+
+                            '<li><a href="interviewerreport.html">Interviewer</a></li>'+
+                            '<li><a href="dod.html">DOD</a></li>'+
+                            '<li><a href="airlinereport.html">Airline</a></li>'+
+                            '<li><a href="flightreport.html">Flight</a></li>'+
+                            '<li><a href="airportreport.html">Airport</a></li>'+
+                        '</ul>'+
+                    '</li>'+                    
+                    '<li class="dropdown">'+
+                        '<a data-toggle="dropdown" class="dropdown-toggle" href="javascript:void(0);"><i class="icon-screenshot icon-white"></i> Manage <b class="caret"></b></a>'+
+                        '<ul class="dropdown-menu">'+
+                            '<li><a href="interviewers.html">Interviewers</a></li>'+
+                            '<li><a href="flightcombinations.html">Flight Combinations</a></li>'+
+                            '<li><a href="target.html">Targets</a></li>'+
+                            '<li><a href="manageairports.html">Airports</a></li>'+
+                        '</ul>'+
+                    '</li>'+
+                    '<li class="dropdown">' +
+                        '<a href="searchpage.html"><i class="fa fa-search"></i>&nbsp;Search</a>' +
+                    '</li>' +
+                '</ul>';
+
+var mindsetNavBar = '<ul class="nav" id="mobile-nav">'+
+                    '<li>'+
+                        '<a href="dashboard.html" ><i class="icon-home icon-white"></i> Home </a>'+
+                    '</li>'+                    
+                    '<li class="dropdown">'+
+                        '<a data-toggle="dropdown" class="dropdown-toggle" href="javascript:void(0);"><i class="icon-th icon-white"></i> Reports <b class="caret"></b></a>'+
+                        '<ul class="dropdown-menu">'+
+                            '<li><a href="interviewerreport.html">Interviewer</a></li>'+
+                            '<li><a href="dod.html">DOD</a></li>'+
+                            '<li><a href="airlinereport.html">Airline</a></li>'+
+                            '<li><a href="flightreport.html">Flight</a></li>'+
+                            '<li><a href="airportreport.html">Airport</a></li>'+
+                        '</ul>'+
+                    '</li>'+                    
+                    '<li class="dropdown">'+
+                        '<a data-toggle="dropdown" class="dropdown-toggle" href="javascript:void(0);"><i class="icon-screenshot icon-white"></i> Manage <b class="caret"></b></a>'+
+                        '<ul class="dropdown-menu">'+
+                            '<li><a href="interviewers.html">Interviewers</a></li>'+
+                            '<li><a href="flightcombinations.html">Flight Combinations</a></li>'+
+                            '<li><a href="target.html">Targets</a></li>'+
+                            '<li><a href="manageairports.html">Airports</a></li>'+
+                        '</ul>'+
+                    '</li>'+
+                    '<li class="dropdown">' +
+                        '<a href="searchpage.html"><i class="fa fa-search"></i>&nbsp;Search</a>' +
+                    '</li>' +
+                '</ul>';

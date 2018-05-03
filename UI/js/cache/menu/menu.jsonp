@@ -1,0 +1,79 @@
+var airportNavBar = '<ul class="nav" id="mobile-nav">'+
+                    '<li>'+
+                        '<a href="dashboard.html" ><i class="icon-home icon-white"></i> Home </a>'+
+                    '</li>'+
+                    '<li class="dropdown">'+
+                        '<a id="newFormsMenu" data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="icon-list-alt icon-white"></i> New Forms <b class="caret"></b></a>'+
+                        '<ul class="dropdown-menu">'+
+                            '<li><a id="newDepartureForm" href="departurenewform.html">Departure</a></li>'+
+                            '<li><a id="newArrivalForm" href="arrivalnewform.html">Arrival</a></li>'+
+                        '</ul>'+
+                    '</li>'+
+                    '<li class="dropdown">'+
+                        '<a id="viewFormsMenu" data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="icon-book icon-white"></i> View Forms <b class="caret"></b></a>'+
+                        '<ul class="dropdown-menu">'+
+                            '<li><a id="viewDepartureForm" href="departureviewform.html">Departure</a></li>'+
+                            '<li><a id="viewArrivalForm" href="arrivalviewform.html">Arrival</a></li>'+
+                        '</ul>'+
+                    '</li>'+
+                    '<li class="dropdown">'+
+                        '<a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="icon-th icon-white"></i> Reports <b class="caret"></b></a>'+
+                        '<ul class="dropdown-menu">'+
+                            '<li><a href="interviewerreport.html">Interviewer</a></li>'+
+                            '<li><a href="dod.html">DOD</a></li>'+
+                            '<li><a href="airlinereport.html">Airline</a></li>'+
+                            '<li><a href="flightreport.html">Flight</a></li>'+
+                        '</ul>'+
+                    '</li>'+
+                '</ul>';
+
+
+
+var adminNavBar = '<ul class="nav" id="mobile-nav">'+
+                    '<li>'+
+                        '<a href="dashboard.html" ><i class="icon-home icon-white"></i> Home </a>'+
+                    '</li>'+
+                    '<li class="dropdown">'+
+                        '<a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="icon-list-alt icon-white"></i> New Forms <b class="caret"></b></a>'+
+                        '<ul class="dropdown-menu">'+
+                            '<li><a href="departurenewform.html">Departure</a></li>'+
+                            '<li><a href="arrivalnewform.html">Arrival</a></li>'+
+                        '</ul>'+
+                    '</li>'+
+                    '<li class="dropdown">'+
+                        '<a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="icon-book icon-white"></i> View Forms <b class="caret"></b></a>'+
+                        '<ul class="dropdown-menu">'+
+                            '<li><a href="departureviewform.html">Departure</a></li>'+
+                            '<li><a href="arrivalviewform.html">Arrival</a></li>'+
+                        '</ul>'+
+                    '</li>'+
+                    '<li class="dropdown">'+
+                        '<a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="icon-briefcase icon-white"></i> Confirmit Data <b class="caret"></b></a>'+
+                        '<ul class="dropdown-menu">'+
+                            '<li><a href="error_404.html">Upload Data</a></li>'+
+                            '<li><a href="error_404.html">View Data</a></li>'+
+                            '<li><a href="error_404.html">Download Data</a></li>'+
+                        '</ul>'+
+                    '</li>'+
+                    '<li class="dropdown">'+
+                        '<a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="icon-th icon-white"></i> Reports <b class="caret"></b></a>'+
+                        '<ul class="dropdown-menu">'+
+                            '<li><a href="interviewerreport.html">Interviewer</a></li>'+
+                            '<li><a href="dod.html">DOD</a></li>'+
+                            '<li><a href="airlinereport.html">Airline</a></li>'+
+                            '<li><a href="flightreport.html">Flight</a></li>'+
+                            '<li><a href="target.html">Aircraft</a></li>'+
+                            '<li><a href="interviewers.html">Aircraft Quota</a></li>'+
+                        '</ul>'+
+                    '</li>'+
+                    '<li>'+
+                        '<a href="dashboard-i.html" ><i class="icon-search icon-white"></i> Search </a>'+
+                    '</li>'+
+                    '<li class="dropdown">'+
+                        '<a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="icon-screenshot icon-white"></i> Dynamic Target Change <b class="caret"></b></a>'+
+                        '<ul class="dropdown-menu">'+
+                            '<li><a href="target.html">Admin</a></li>'+
+                            '<li><a href="flightcombinations.html">Airport</a></li>'+
+                        '</ul>'+
+                    '</li>'+
+                '</ul>';

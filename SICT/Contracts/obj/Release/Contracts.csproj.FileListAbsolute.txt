@@ -1,0 +1,10 @@
+D:\SICT\Server\SICT\Contracts\bin\Release\Contracts.dll
+D:\SICT\Server\SICT\Contracts\bin\Release\Contracts.pdb
+D:\SICT\Server\SICT\Contracts\obj\Release\Contracts.csprojResolveAssemblyReference.cache
+D:\SICT\Server\SICT\Contracts\obj\Release\Contracts.dll
+D:\SICT\Server\SICT\Contracts\obj\Release\Contracts.pdb
+D:\SICT_Web\SICT\Contracts\bin\Release\Contracts.dll
+D:\SICT_Web\SICT\Contracts\bin\Release\Contracts.pdb
+D:\SICT_Web\SICT\Contracts\obj\Release\Contracts.csprojResolveAssemblyReference.cache
+D:\SICT_Web\SICT\Contracts\obj\Release\Contracts.dll
+D:\SICT_Web\SICT\Contracts\obj\Release\Contracts.pdb

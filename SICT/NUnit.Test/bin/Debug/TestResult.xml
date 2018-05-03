@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="E:\SICTS\SICT\NUnit.Test\bin\Debug\NUnit.Test.dll" total="5" errors="2" failures="2" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-01-13" time="17:53:22">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.5485" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Program Files\NUnit 2.6.4\bin" machine-name="DAVIDB-WIN7" user="David" user-domain="CELSTREAM-IN" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="E:\SICTS\SICT\NUnit.Test\bin\Debug\NUnit.Test.dll" executed="True" result="Failure" success="False" time="1.229" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="NUnit" executed="True" result="Failure" success="False" time="1.222" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Test" executed="True" result="Failure" success="False" time="1.222" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="NUnitTestClass+SampleTestClass" executed="True" result="Failure" success="False" time="1.221" asserts="0">
+                <results>
+                  <test-suite type="ParameterizedTest" name="AddTest" executed="True" result="Failure" success="False" time="0.083" asserts="0">
+                    <results>
+                      <test-case name="NUnit.Test.NUnitTestClass+SampleTestClass.AddTest()" executed="True" result="Failure" success="False" time="0.080" asserts="1">
+                        <failure>
+                          <message><![CDATA[  Expected: 40
+  But was:  30
+]]></message>
+                          <stack-trace><![CDATA[at NUnit.Test.NUnitTestClass.SampleTestClass.AddTest() in e:\SICTS\SICT\NUnit.Test\TestClass.cs:line 53
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                  <test-suite type="ParameterizedTest" name="DepartureFormEntry" executed="True" result="Failure" success="False" time="1.042" asserts="0">
+                    <results>
+                      <test-case name="NUnit.Test.NUnitTestClass+SampleTestClass.DepartureFormEntry()" executed="True" result="Error" success="False" time="1.041" asserts="0">
+                        <failure>
+                          <message><![CDATA[Microsoft.Practices.ServiceLocation.ActivationException : Activation error occured while trying to get instance of type LogWriter, key ""
+  ----> Microsoft.Practices.Unity.ResolutionFailedException : Resolution of the dependency failed, type = "Microsoft.Practices.EnterpriseLibrary.Logging.LogWriter", name = "(none)".
+Exception occurred while: while resolving.
+Exception is: InvalidOperationException - The type LogWriter cannot be constructed. You must configure the container to supply this value.
+-----------------------------------------------
+At the time of the exception, the container was:
+
+  Resolving Microsoft.Practices.EnterpriseLibrary.Logging.LogWriter,(none)
+
+  ----> System.InvalidOperationException : The type LogWriter cannot be constructed. You must configure the container to supply this value.]]></message>
+                          <stack-trace><![CDATA[at Microsoft.Practices.ServiceLocation.ServiceLocatorImplBase.GetInstance(Type serviceType, String key) in c:\Home\Chris\Projects\CommonServiceLocator\main\Microsoft.Practices.ServiceLocation\ServiceLocatorImplBase.cs:line 53
+at Microsoft.Practices.ServiceLocation.ServiceLocatorImplBase.GetInstance[TService]() in c:\Home\Chris\Projects\CommonServiceLocator\main\Microsoft.Practices.ServiceLocation\ServiceLocatorImplBase.cs:line 90
+at Microsoft.Practices.EnterpriseLibrary.Logging.Logger.get_Writer()
+at Microsoft.Practices.EnterpriseLibrary.Logging.Logger.Write(LogEntry log)
+at SICT.SICTLogger.WriteInfo(String ClassName, String MethodName, String Message) in e:\SICTS\SICT\Logger\SICTLogger.cs:line 30
+at SICT.BusinessLayer.V1.DepartureFormBusiness.SetFormDetails(FormDetails FormDetails, String SessionId) in e:\SICTS\SICT\BusinessLayerV1\DepartureFormBusiness.cs:line 119
+at NUnit.Test.NUnitTestClass.SampleTestClass.DepartureFormEntry() in e:\SICTS\SICT\NUnit.Test\TestClass.cs:line 85
+--ResolutionFailedException
+at Microsoft.Practices.Unity.UnityContainer.DoBuildUp(Type t, Object existing, String name, IEnumerable`1 resolverOverrides) in e:\Builds\Unity\UnityTemp\Compile\Unity\Unity\Src\UnityContainer.cs:line 515
+at Microsoft.Practices.Unity.UnityContainer.Resolve(Type t, String name, ResolverOverride[] resolverOverrides) in e:\Builds\Unity\UnityTemp\Compile\Unity\Unity\Src\UnityContainer.cs:line 173
+at Microsoft.Practices.Unity.UnityServiceLocator.DoGetInstance(Type serviceType, String key) in e:\Builds\Unity\UnityTemp\Compile\Unity\Unity\Src\UnityServiceLocator.cs:line 64
+at Microsoft.Practices.ServiceLocation.ServiceLocatorImplBase.GetInstance(Type serviceType, String key) in c:\Home\Chris\Projects\CommonServiceLocator\main\Microsoft.Practices.ServiceLocation\ServiceLocatorImplBase.cs:line 49
+--InvalidOperationException
+at Microsoft.Practices.ObjectBuilder2.DynamicMethodConstructorStrategy.GuardTypeIsNonPrimitive(IBuilderContext context, SelectedConstructor selectedConstructor) in e:\Builds\Unity\UnityTemp\Compile\Unity\Unity\Src\ObjectBuilder\Strategies\BuildPlan\DynamicMethod\Creation\DynamicMethodConstructorStrategy.cs:line 289
+at Microsoft.Practices.ObjectBuilder2.DynamicMethodConstructorStrategy.PreBuildUp(IBuilderContext context) in e:\Builds\Unity\UnityTemp\Compile\Unity\Unity\Src\ObjectBuilder\Strategies\BuildPlan\DynamicMethod\Creation\DynamicMethodConstructorStrategy.cs:line 71
+at Microsoft.Practices.ObjectBuilder2.StrategyChain.ExecuteBuildUp(IBuilderContext context) in e:\Builds\Unity\UnityTemp\Compile\Unity\Unity\Src\ObjectBuilder\Strategies\StrategyChain.cs:line 110
+at Microsoft.Practices.ObjectBuilder2.DynamicMethodBuildPlanCreatorPolicy.CreatePlan(IBuilderContext context, NamedTypeBuildKey buildKey) in e:\Builds\Unity\UnityTemp\Compile\Unity\Unity\Src\ObjectBuilder\Strategies\BuildPlan\DynamicMethod\DynamicMethodBuildPlanCreatorPolicy.cs:line 48
+at Microsoft.Practices.ObjectBuilder2.BuildPlanStrategy.PreBuildUp(IBuilderContext context) in e:\Builds\Unity\UnityTemp\Compile\Unity\Unity\Src\ObjectBuilder\Strategies\BuildPlan\BuildPlanStrategy.cs:line 37
+at Microsoft.Practices.ObjectBuilder2.StrategyChain.ExecuteBuildUp(IBuilderContext context) in e:\Builds\Unity\UnityTemp\Compile\Unity\Unity\Src\ObjectBuilder\Strategies\StrategyChain.cs:line 110
+at Microsoft.Practices.Unity.UnityContainer.DoBuildUp(Type t, Object existing, String name, IEnumerable`1 resolverOverrides) in e:\Builds\Unity\UnityTemp\Compile\Unity\Unity\Src\UnityContainer.cs:line 511
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                  <test-suite type="ParameterizedTest" name="Login" executed="True" result="Failure" success="False" time="0.057" asserts="0">
+                    <results>
+                      <test-case name="NUnit.Test.NUnitTestClass+SampleTestClass.Login()" executed="True" result="Error" success="False" time="0.056" asserts="0">
+                        <failure>
+                          <message><![CDATA[Microsoft.Practices.ServiceLocation.ActivationException : Activation error occured while trying to get instance of type LogWriter, key ""
+  ----> Microsoft.Practices.Unity.ResolutionFailedException : Resolution of the dependency failed, type = "Microsoft.Practices.EnterpriseLibrary.Logging.LogWriter", name = "(none)".
+Exception occurred while: while resolving.
+Exception is: InvalidOperationException - The type LogWriter cannot be constructed. You must configure the container to supply this value.
+-----------------------------------------------
+At the time of the exception, the container was:
+
+  Resolving Microsoft.Practices.EnterpriseLibrary.Logging.LogWriter,(none)
+
+  ----> System.InvalidOperationException : The type LogWriter cannot be constructed. You must configure the container to supply this value.]]></message>
+                          <stack-trace><![CDATA[at Microsoft.Practices.ServiceLocation.ServiceLocatorImplBase.GetInstance(Type serviceType, String key) in c:\Home\Chris\Projects\CommonServiceLocator\main\Microsoft.Practices.ServiceLocation\ServiceLocatorImplBase.cs:line 53
+at Microsoft.Practices.ServiceLocation.ServiceLocatorImplBase.GetInstance[TService]() in c:\Home\Chris\Projects\CommonServiceLocator\main\Microsoft.Practices.ServiceLocation\ServiceLocatorImplBase.cs:line 90
+at Microsoft.Practices.EnterpriseLibrary.Logging.Logger.get_Writer()
+at Microsoft.Practices.EnterpriseLibrary.Logging.Logger.Write(LogEntry log)
+at SICT.SICTLogger.WriteException(String ClassName, String MethodName, Exception Ex) in e:\SICTS\SICT\Logger\SICTLogger.cs:line 69
+at SICT.BusinessLayer.V1.UserDetailsBusiness.CompareHashAndAuthenticate(String HashString) in e:\SICTS\SICT\BusinessLayerV1\UserDetailsBusiness.cs:line 100
+at NUnit.Test.NUnitTestClass.SampleTestClass.Login() in e:\SICTS\SICT\NUnit.Test\TestClass.cs:line 76
+--ResolutionFailedException
+at Microsoft.Practices.Unity.UnityContainer.DoBuildUp(Type t, Object existing, String name, IEnumerable`1 resolverOverrides) in e:\Builds\Unity\UnityTemp\Compile\Unity\Unity\Src\UnityContainer.cs:line 515
+at Microsoft.Practices.Unity.UnityContainer.Resolve(Type t, String name, ResolverOverride[] resolverOverrides) in e:\Builds\Unity\UnityTemp\Compile\Unity\Unity\Src\UnityContainer.cs:line 173
+at Microsoft.Practices.Unity.UnityServiceLocator.DoGetInstance(Type serviceType, String key) in e:\Builds\Unity\UnityTemp\Compile\Unity\Unity\Src\UnityServiceLocator.cs:line 64
+at Microsoft.Practices.ServiceLocation.ServiceLocatorImplBase.GetInstance(Type serviceType, String key) in c:\Home\Chris\Projects\CommonServiceLocator\main\Microsoft.Practices.ServiceLocation\ServiceLocatorImplBase.cs:line 49
+--InvalidOperationException
+at Microsoft.Practices.ObjectBuilder2.DynamicMethodConstructorStrategy.GuardTypeIsNonPrimitive(IBuilderContext context, SelectedConstructor selectedConstructor) in e:\Builds\Unity\UnityTemp\Compile\Unity\Unity\Src\ObjectBuilder\Strategies\BuildPlan\DynamicMethod\Creation\DynamicMethodConstructorStrategy.cs:line 289
+at Microsoft.Practices.ObjectBuilder2.DynamicMethodConstructorStrategy.PreBuildUp(IBuilderContext context) in e:\Builds\Unity\UnityTemp\Compile\Unity\Unity\Src\ObjectBuilder\Strategies\BuildPlan\DynamicMethod\Creation\DynamicMethodConstructorStrategy.cs:line 71
+at Microsoft.Practices.ObjectBuilder2.StrategyChain.ExecuteBuildUp(IBuilderContext context) in e:\Builds\Unity\UnityTemp\Compile\Unity\Unity\Src\ObjectBuilder\Strategies\StrategyChain.cs:line 110
+at Microsoft.Practices.ObjectBuilder2.DynamicMethodBuildPlanCreatorPolicy.CreatePlan(IBuilderContext context, NamedTypeBuildKey buildKey) in e:\Builds\Unity\UnityTemp\Compile\Unity\Unity\Src\ObjectBuilder\Strategies\BuildPlan\DynamicMethod\DynamicMethodBuildPlanCreatorPolicy.cs:line 48
+at Microsoft.Practices.ObjectBuilder2.BuildPlanStrategy.PreBuildUp(IBuilderContext context) in e:\Builds\Unity\UnityTemp\Compile\Unity\Unity\Src\ObjectBuilder\Strategies\BuildPlan\BuildPlanStrategy.cs:line 37
+at Microsoft.Practices.ObjectBuilder2.StrategyChain.ExecuteBuildUp(IBuilderContext context) in e:\Builds\Unity\UnityTemp\Compile\Unity\Unity\Src\ObjectBuilder\Strategies\StrategyChain.cs:line 110
+at Microsoft.Practices.Unity.UnityContainer.DoBuildUp(Type t, Object existing, String name, IEnumerable`1 resolverOverrides) in e:\Builds\Unity\UnityTemp\Compile\Unity\Unity\Src\UnityContainer.cs:line 511
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                  <test-suite type="ParameterizedTest" name="Multiply" executed="True" result="Failure" success="False" time="0.002" asserts="0">
+                    <results>
+                      <test-case name="NUnit.Test.NUnitTestClass+SampleTestClass.Multiply()" executed="True" result="Failure" success="False" time="0.002" asserts="1">
+                        <failure>
+                          <message><![CDATA[  Expected: 10
+  But was:  100
+]]></message>
+                          <stack-trace><![CDATA[at NUnit.Test.NUnitTestClass.SampleTestClass.Multiply() in e:\SICTS\SICT\NUnit.Test\TestClass.cs:line 69
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                  <test-suite type="ParameterizedTest" name="SubtractTest" executed="True" result="Success" success="True" time="0.001" asserts="0">
+                    <results>
+                      <test-case name="NUnit.Test.NUnitTestClass+SampleTestClass.SubtractTest()" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

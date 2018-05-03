@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/sict/!svn/ver/486/branches/UI/lib/datepicker
+END
+bootstrap-datepicker.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sict/!svn/ver/7/branches/UI/lib/datepicker/bootstrap-datepicker.js
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/sict/!svn/ver/7/branches/UI/lib/datepicker/LICENSE
+END
+bootstrap-timepicker.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/sict/!svn/ver/7/branches/UI/lib/datepicker/bootstrap-timepicker.js
+END
+datepicker.css
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/sict/!svn/ver/486/branches/UI/lib/datepicker/datepicker.css
+END
+bootstrap-datepicker.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/sict/!svn/ver/7/branches/UI/lib/datepicker/bootstrap-datepicker.min.js
+END
+bootstrap-timepicker.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/sict/!svn/ver/7/branches/UI/lib/datepicker/bootstrap-timepicker.min.js
+END

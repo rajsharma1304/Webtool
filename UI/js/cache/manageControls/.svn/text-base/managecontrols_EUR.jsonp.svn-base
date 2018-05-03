@@ -1,0 +1,93 @@
+var flightCombo = 
+    '<div class="row-fluid">'+
+            '<div class="span12">'+
+                '<div class="span3">'+
+                    '<label>Form Type</label>'+
+                    '<select class="span12" id="flightComboFomr" disabled ></select>'+
+                '</div>'+
+                '<div class="span3">'+
+                    '<label>Airlines</label>'+
+                    '<select class="span12" id="flightComboAirlines"></select>'+
+                '</div>'+
+                '<div class="span3">'+
+                    '<label> Origin</label>'+
+                    '<select class="span12" id="flightComboOrigin"></select>'+
+                '</div>'+
+                '<div class="span3">'+
+                    '<label>Destination </label>'+
+                    '<select class="span12" id="flightComboDestination"></select>'+
+                '</div>'+
+            '</div>'+
+        '</div>'+
+        '<div class="row-fluid">'+
+            '<div class="span12">'+
+                '<div class="span3">'+
+                    '<label> Flight Type </label>'+
+                    '<select class="span12" id="flightComboFlightType"></select>'+
+                '</div>'+
+            '</div>'+
+        '</div>'+
+        '<div class="row-fluid">'+
+            '<div class="span12">'+
+                '<button id="Generate" onclick="manageFlightCombo.generateFlightCombinations()" class=" btn btn-pink ttip_t span2" title="Generaate Report" > Generate Report </button>'+
+                '<a data-toggle="modal" data-backdrop="static" href="#addFlightCombination" id="addFlightCombo" class="btn btn-pink ttip_t span2" title="Add Flight Combination" onclick="manageFlightCombo.initFlightCombinations(true)"  > Add Flight Combination </a>'+
+            '</div>'+
+        '</div>'
+
+
+var addFlightCombo = 
+        '<div class="row-fluid">'+
+             '<div class="span12">'+
+                 '<div class="span3">'+
+                     '<label>Form Type</label>'+
+                     '<select class="span12" id="addFlightComboForm" disabled ></select>'+
+                 '</div>'+
+                 '<div class="span3">'+
+                     '<label>Airlines</label>'+
+                     '<select class="span12" id="addFlightComboAirlines"></select>'+
+                 '</div>'+
+                 '<div class="span3">'+
+                     '<label> Origin</label>'+
+                     '<select class="span12" id="addFlightComboOrigin"></select>'+
+                 '</div>'+
+                 '<div class="span3">'+
+                     '<label>Destination </label>'+
+                     '<select class="span12" id="addFlightComboDestination"></select>'+
+                 '</div>'+
+             '</div>'+
+         '</div>'+
+         '<div class="row-fluid">'+
+             '<div class="span12">'+
+                 '<div class="span3">'+
+                     '<label> Flight Type </label>'+
+                     '<select class="span12" id="addFlightComboFlightType"></select>'+
+                 '</div>'+
+             '</div>'+
+         '</div>'
+
+var targetHeader = 
+    '<div class="row-fluid">'+
+        '<div class="span12">'+
+            '<div class="span3">'+
+                '<label>Form Type </label>'+
+                '<select class="span12" id="targetFormTypeDD" disabled ></select>'+
+            '</div>'+
+            '<div class="span3">'+
+                '<label> Origin </label>'+
+                '<select class="span12" id="targetOriginDD" onchange="dynamicTargets.changeOrigin()" ></select>'+
+            '</div>'+
+            '<div class="span3">'+
+                '<label>Airlines</label>'+
+                '<select class="span12" id="targetAirlineDD"></select>'+
+            '</div>'+
+            '<div class="span3">'+
+                '<label>Fligh Type</label>'+
+                '<select class="span12" id="targetFlightDD"></select>'+
+            '</div>'+
+            '</div>'+
+    '</div>'+
+    '<div class="row-fluid">'+
+        '<div class="span4">'+
+            '<button id="Generate" class=" btn btn-pink ttip_t" title="Generate Reports" > Generate Report </button>'+
+        '</div>'+
+    '</div>'

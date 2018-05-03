@@ -1,0 +1,25 @@
+D:\SERVICE Binaries\SICTServices.exe.config
+D:\SERVICE Binaries\SICTServices.exe
+D:\SERVICE Binaries\SICTServices.pdb
+D:\SICT\Server\SICT\SICTServices\obj\Debug\SICTServices.csprojResolveAssemblyReference.cache
+D:\SICT\Server\SICT\SICTServices\obj\Debug\SICTService.ProjectInstaller.resources
+D:\SICT\Server\SICT\SICTServices\obj\Debug\SICTServices.csproj.GenerateResource.Cache
+D:\SICT\Server\SICT\SICTServices\obj\Debug\SICTServices.exe
+D:\SICT\Server\SICT\SICTServices\obj\Debug\SICTServices.pdb
+D:\workpace\Projects\mindset\airsat\solution\SERVICE Binaries\SICTServices.exe.config
+D:\workpace\Projects\mindset\airsat\solution\SERVICE Binaries\SICTServices.exe
+D:\workpace\Projects\mindset\airsat\solution\SERVICE Binaries\SICTServices.pdb
+D:\workpace\Projects\mindset\airsat\solution\airsat v2.0\Server\SICT\SICTServices\obj\Debug\SICTServices.csprojResolveAssemblyReference.cache
+D:\workpace\Projects\mindset\airsat\solution\airsat v2.0\Server\SICT\SICTServices\obj\Debug\SICTService.ProjectInstaller.resources
+D:\workpace\Projects\mindset\airsat\solution\airsat v2.0\Server\SICT\SICTServices\obj\Debug\SICTServices.csproj.GenerateResource.Cache
+D:\workpace\Projects\mindset\airsat\solution\airsat v2.0\Server\SICT\SICTServices\obj\Debug\SICTServices.exe
+D:\workpace\Projects\mindset\airsat\solution\airsat v2.0\Server\SICT\SICTServices\obj\Debug\SICTServices.pdb
+D:\airsat v2.0\Server\SICT\SICTServices\obj\Debug\SICTServices.csprojResolveAssemblyReference.cache
+D:\airsat v2.0\Server\SICT\SICTServices\obj\Debug\SICTServices.exe
+D:\airsat v2.0\Server\SICT\SICTServices\obj\Debug\SICTServices.pdb
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\SICTServices\obj\Debug\SICTServices.csprojResolveAssemblyReference.cache
+D:\SICT_Web\SICT\SICTServices\obj\Debug\SICTServices.csprojResolveAssemblyReference.cache
+D:\SICT_Web\SICT\SICTServices\obj\Debug\SICTService.ProjectInstaller.resources
+D:\SICT_Web\SICT\SICTServices\obj\Debug\SICTServices.csproj.GenerateResource.Cache
+D:\SICT_Web\SICT\SICTServices\obj\Debug\SICTServices.exe
+D:\SICT_Web\SICT\SICTServices\obj\Debug\SICTServices.pdb

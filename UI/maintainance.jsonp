@@ -1,0 +1,7 @@
+maintenance = {
+  "show":"false",
+  "date":"03-Apr-2015",
+  startTime:'01:00 PM',
+  endTime:'05:00 PM' ,
+  isMigration: "true"
+};

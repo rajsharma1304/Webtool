@@ -1,0 +1,30 @@
+D:\SICT\Server\SICT\Services\bin\CommonBusiness.dll
+D:\SICT\Server\SICT\Services\bin\CommonBusiness.pdb
+D:\SICT\Server\SICT\CommonBusiness\obj\Debug\CommonBusiness.csprojResolveAssemblyReference.cache
+D:\SICT\Server\SICT\CommonBusiness\obj\Debug\CommonBusiness.dll
+D:\SICT\Server\SICT\CommonBusiness\obj\Debug\CommonBusiness.pdb
+D:\workpace\Projects\mindset\airsat\solution\airsat v2.0\Server\SICT\Services\bin\CommonBusiness.dll
+D:\workpace\Projects\mindset\airsat\solution\airsat v2.0\Server\SICT\Services\bin\CommonBusiness.pdb
+D:\workpace\Projects\mindset\airsat\solution\airsat v2.0\Server\SICT\CommonBusiness\obj\Debug\CommonBusiness.csprojResolveAssemblyReference.cache
+D:\workpace\Projects\mindset\airsat\solution\airsat v2.0\Server\SICT\CommonBusiness\obj\Debug\CommonBusiness.dll
+D:\workpace\Projects\mindset\airsat\solution\airsat v2.0\Server\SICT\CommonBusiness\obj\Debug\CommonBusiness.pdb
+D:\airsat v2.0\Server\SICT\Services\bin\CommonBusiness.dll
+D:\airsat v2.0\Server\SICT\Services\bin\CommonBusiness.pdb
+D:\airsat v2.0\Server\SICT\CommonBusiness\obj\Debug\CommonBusiness.csprojResolveAssemblyReference.cache
+D:\airsat v2.0\Server\SICT\CommonBusiness\obj\Debug\CommonBusiness.dll
+D:\airsat v2.0\Server\SICT\CommonBusiness\obj\Debug\CommonBusiness.pdb
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\bin\CommonBusiness.dll
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\bin\CommonBusiness.pdb
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\CommonBusiness\obj\Debug\CommonBusiness.csprojResolveAssemblyReference.cache
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\CommonBusiness\obj\Debug\CommonBusiness.dll
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\CommonBusiness\obj\Debug\CommonBusiness.pdb
+D:\Source Codes\MindsetNew\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\bin\CommonBusiness.dll
+D:\Source Codes\MindsetNew\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\bin\CommonBusiness.pdb
+D:\Source Codes\MindsetNew\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\CommonBusiness\obj\Debug\CommonBusiness.csprojResolveAssemblyReference.cache
+D:\Source Codes\MindsetNew\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\CommonBusiness\obj\Debug\CommonBusiness.dll
+D:\Source Codes\MindsetNew\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\CommonBusiness\obj\Debug\CommonBusiness.pdb
+D:\SICT_Web\SICT\Services\bin\CommonBusiness.dll
+D:\SICT_Web\SICT\Services\bin\CommonBusiness.pdb
+D:\SICT_Web\SICT\CommonBusiness\obj\Debug\CommonBusiness.csprojResolveAssemblyReference.cache
+D:\SICT_Web\SICT\CommonBusiness\obj\Debug\CommonBusiness.dll
+D:\SICT_Web\SICT\CommonBusiness\obj\Debug\CommonBusiness.pdb

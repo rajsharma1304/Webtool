@@ -1,0 +1,29 @@
+D:\SICT\Server\SICT\Services\bin\WebHttpCors.dll
+D:\SICT\Server\SICT\Services\bin\WebHttpCors.pdb
+D:\SICT\Server\SICT\WebHttpCors\obj\Debug\WebHttpCors.csprojResolveAssemblyReference.cache
+D:\SICT\Server\SICT\WebHttpCors\obj\Debug\WebHttpCors.dll
+D:\SICT\Server\SICT\WebHttpCors\obj\Debug\WebHttpCors.pdb
+D:\workpace\Projects\mindset\airsat\solution\airsat v2.0\Server\SICT\Services\bin\WebHttpCors.dll
+D:\workpace\Projects\mindset\airsat\solution\airsat v2.0\Server\SICT\Services\bin\WebHttpCors.pdb
+D:\workpace\Projects\mindset\airsat\solution\airsat v2.0\Server\SICT\WebHttpCors\obj\Debug\WebHttpCors.csprojResolveAssemblyReference.cache
+D:\workpace\Projects\mindset\airsat\solution\airsat v2.0\Server\SICT\WebHttpCors\obj\Debug\WebHttpCors.dll
+D:\workpace\Projects\mindset\airsat\solution\airsat v2.0\Server\SICT\WebHttpCors\obj\Debug\WebHttpCors.pdb
+D:\airsat v2.0\Server\SICT\Services\bin\WebHttpCors.dll
+D:\airsat v2.0\Server\SICT\Services\bin\WebHttpCors.pdb
+D:\airsat v2.0\Server\SICT\WebHttpCors\obj\Debug\WebHttpCors.dll
+D:\airsat v2.0\Server\SICT\WebHttpCors\obj\Debug\WebHttpCors.pdb
+D:\airsat v2.0\Server\SICT\WebHttpCors\obj\Debug\WebHttpCors.csprojResolveAssemblyReference.cache
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\bin\WebHttpCors.dll
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\bin\WebHttpCors.pdb
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\WebHttpCors\obj\Debug\WebHttpCors.dll
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\WebHttpCors\obj\Debug\WebHttpCors.pdb
+D:\Source Codes\MindsetNew\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\bin\WebHttpCors.dll
+D:\Source Codes\MindsetNew\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\bin\WebHttpCors.pdb
+D:\Source Codes\MindsetNew\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\WebHttpCors\obj\Debug\WebHttpCors.csprojResolveAssemblyReference.cache
+D:\Source Codes\MindsetNew\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\WebHttpCors\obj\Debug\WebHttpCors.dll
+D:\Source Codes\MindsetNew\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\WebHttpCors\obj\Debug\WebHttpCors.pdb
+D:\SICT_Web\SICT\Services\bin\WebHttpCors.dll
+D:\SICT_Web\SICT\Services\bin\WebHttpCors.pdb
+D:\SICT_Web\SICT\WebHttpCors\obj\Debug\WebHttpCors.csprojResolveAssemblyReference.cache
+D:\SICT_Web\SICT\WebHttpCors\obj\Debug\WebHttpCors.dll
+D:\SICT_Web\SICT\WebHttpCors\obj\Debug\WebHttpCors.pdb

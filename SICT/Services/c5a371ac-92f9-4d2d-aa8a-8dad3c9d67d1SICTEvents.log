@@ -1,0 +1,69 @@
+Information , 08-05-2017 12:28:01 , UserDetailsService,IsSessionIdValid,Start for SessionId - 732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:28:01 , UserDetailsService,IsSessionIdValid,Start for SessionId - 732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:28:01 , UserDetailsBusiness,IsSessionIdValid, Start for Session id-732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:28:01 , UserDetailsBusiness,IsSessionIdValid, Start for Session id-732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:28:02 , UserDetailsBusiness,IsSessionIdValid,End for SessonId -732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:28:02 , UserDetailsService,IsSessionIdValid,End for SessionId- 732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:28:03 , UserDetailsBusiness,IsSessionIdValid,End for SessonId -732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:28:03 , UserDetailsService,IsSessionIdValid,End for SessionId- 732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:28:42 , ReportingServices,GetAirlineReport,Start 
+Information , 08-05-2017 12:28:43 , UserDetailsBusiness,IsSessionIdValid, Start for Session id-732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:28:43 , UserDetailsBusiness,IsSessionIdValid,End for SessonId -732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:28:46 , ReportingBusiness,GetAirlineReport,Start for AirportId --1
+Information , 08-05-2017 12:28:50 , ReportingBusiness,BuildMultiFilterConditionForReport,Start For AiprortId --1
+Information , 08-05-2017 12:28:50 , ReportingBusiness,BuildMultiFilterConditionForReport,End For AiprortId --1
+Information , 08-05-2017 12:28:51 , ReportingBusiness,BuildFilterConditionForTarget,Start For AiprortId --1
+Information , 08-05-2017 12:28:51 , ReportingBusiness,BuildFilterConditionForTarget,End For AiprortId --1
+Information , 08-05-2017 12:29:13 , ReportingBusiness,BuildMultiFilterConditionForReport,Start For AiprortId --1
+Information , 08-05-2017 12:29:13 , ReportingBusiness,BuildMultiFilterConditionForReport,End For AiprortId --1
+Information , 08-05-2017 12:29:13 , UserDetailsService,IsSessionIdValid,Start for SessionId - 732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:29:13 , UserDetailsBusiness,IsSessionIdValid, Start for Session id-732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:30:17 , UserDetailsBusiness,IsSessionIdValid,End for SessonId -732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:30:17 , UserDetailsService,IsSessionIdValid,End for SessionId- 732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Verbose , 08-05-2017 12:30:17 , ReportingBusiness,GetAirlineReport,Start Retieving Airline Report  Data From DB
+Information , 08-05-2017 12:30:18 , UserDetailsService,IsSessionIdValid,Start for SessionId - 732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:30:18 , UserDetailsBusiness,IsSessionIdValid, Start for Session id-732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:30:19 , UserDetailsBusiness,IsSessionIdValid,End for SessonId -732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:30:19 , UserDetailsService,IsSessionIdValid,End for SessionId- 732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:31:13 , UserDetailsService,IsSessionIdValid,Start for SessionId - 732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:31:13 , UserDetailsBusiness,IsSessionIdValid, Start for Session id-732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:31:14 , UserDetailsBusiness,IsSessionIdValid,End for SessonId -732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:31:14 , UserDetailsService,IsSessionIdValid,End for SessionId- 732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:32:07 , UserDetailsService,IsSessionIdValid,Start for SessionId - 732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:32:07 , UserDetailsBusiness,IsSessionIdValid, Start for Session id-732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:32:07 , ReportingBusiness,GetAirlineReport,End for AirportId --1
+Information , 08-05-2017 12:32:09 , UserDetailsBusiness,IsSessionIdValid,End for SessonId -732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:32:09 , ReportingServices,GetAirlineReport,End 
+Information , 08-05-2017 12:32:09 , UserDetailsService,IsSessionIdValid,End for SessionId- 732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:33:01 , UserDetailsService,IsSessionIdValid,Start for SessionId - 732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:33:01 , UserDetailsBusiness,IsSessionIdValid, Start for Session id-732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:33:01 , UserDetailsBusiness,IsSessionIdValid,End for SessonId -732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:33:01 , UserDetailsService,IsSessionIdValid,End for SessionId- 732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:34:01 , UserDetailsService,IsSessionIdValid,Start for SessionId - 732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:34:01 , UserDetailsBusiness,IsSessionIdValid, Start for Session id-732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:34:01 , UserDetailsBusiness,IsSessionIdValid,End for SessonId -732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:34:01 , UserDetailsService,IsSessionIdValid,End for SessionId- 732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:35:01 , UserDetailsService,IsSessionIdValid,Start for SessionId - 732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:35:01 , UserDetailsBusiness,IsSessionIdValid, Start for Session id-732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:35:01 , UserDetailsBusiness,IsSessionIdValid,End for SessonId -732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:35:01 , UserDetailsService,IsSessionIdValid,End for SessionId- 732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:36:01 , UserDetailsService,IsSessionIdValid,Start for SessionId - 732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:36:01 , UserDetailsBusiness,IsSessionIdValid, Start for Session id-732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:36:01 , UserDetailsBusiness,IsSessionIdValid,End for SessonId -732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:36:01 , UserDetailsService,IsSessionIdValid,End for SessionId- 732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:37:01 , UserDetailsService,IsSessionIdValid,Start for SessionId - 732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:37:01 , UserDetailsBusiness,IsSessionIdValid, Start for Session id-732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:37:01 , UserDetailsBusiness,IsSessionIdValid,End for SessonId -732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:37:01 , UserDetailsService,IsSessionIdValid,End for SessionId- 732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:38:01 , UserDetailsService,IsSessionIdValid,Start for SessionId - 732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:38:01 , UserDetailsBusiness,IsSessionIdValid, Start for Session id-732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:38:01 , UserDetailsBusiness,IsSessionIdValid,End for SessonId -732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:38:01 , UserDetailsService,IsSessionIdValid,End for SessionId- 732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:39:01 , UserDetailsService,IsSessionIdValid,Start for SessionId - 732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:39:01 , UserDetailsBusiness,IsSessionIdValid, Start for Session id-732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:39:01 , UserDetailsBusiness,IsSessionIdValid,End for SessonId -732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:39:01 , UserDetailsService,IsSessionIdValid,End for SessionId- 732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:40:01 , UserDetailsService,IsSessionIdValid,Start for SessionId - 732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:40:01 , UserDetailsBusiness,IsSessionIdValid, Start for Session id-732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:40:01 , UserDetailsBusiness,IsSessionIdValid,End for SessonId -732d110f-18e7-4ba4-88c1-d9b10b85dd41
+Information , 08-05-2017 12:40:01 , UserDetailsService,IsSessionIdValid,End for SessionId- 732d110f-18e7-4ba4-88c1-d9b10b85dd41

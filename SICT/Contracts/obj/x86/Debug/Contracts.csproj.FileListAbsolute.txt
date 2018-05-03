@@ -1,0 +1,5 @@
+D:\airsat v2.0\Server\SICT\Contracts\bin\x86\Debug\Contracts.dll
+D:\airsat v2.0\Server\SICT\Contracts\bin\x86\Debug\Contracts.pdb
+D:\airsat v2.0\Server\SICT\Contracts\obj\x86\Debug\Contracts.dll
+D:\airsat v2.0\Server\SICT\Contracts\obj\x86\Debug\Contracts.pdb
+D:\airsat v2.0\Server\SICT\Contracts\obj\x86\Debug\Contracts.csprojResolveAssemblyReference.cache

@@ -1,0 +1,199 @@
+﻿<!--<Copyright> Cross-Tab </Copyright>
+<ProjectName>SICT</ProjectName>
+<FileName> login.html </FileName>
+<CreatedOn>15 Jan 2015</CreatedOn>-->
+<!DOCTYPE html>
+<html lang="en" class="login_page">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login to m1nd-set</title>
+
+    <!-- Bootstrap framework -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-responsive.min.css" />
+    <!-- theme color-->
+    <link rel="stylesheet" href="css/blue.css" />
+    <!-- tooltip -->
+    <link rel="stylesheet" href="lib/qtip2/jquery.qtip.min.css" />
+    <!-- main styles -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- m1ndset blue theme-->
+    <link rel="stylesheet" href="css/m1ndset.css" id="m1ndset_theme" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" />
+
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/fontAwesome/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/fontAwesome/css/font-awesome.min.css">
+
+    <!--[if lte IE 8]>
+            <script src="js/ie/html5.js"></script>
+                        <script src="js/ie/respond.min.js"></script>
+        <![endif]-->
+    <style>
+        footer
+        {
+            height: 48px;
+            line-height: 62px;
+            width: 100%;
+            /* width: 290px; */
+            margin: 0%;
+            color: rgb(167,173,189);
+            font-size: 12px;
+            background: #ffffff;
+            display: block;
+            border-top: 1px solid #e3e3e3;
+        }
+    </style>
+</head>
+<body class="login_content">
+    <div class="login_logo">
+        <img src="img/m1nd-set-logo.png">
+    </div>
+    <div class="login_warn_box no-show" id="warnBox">
+        <h3 class="top_warn" id="warnText">Maintenance activity is scheduled on </h3>
+        <h4 class="login_warn_time_content" id="warnTime">Site will be down from {0} to {1}</h4>
+    </div>
+    <div class="login_warn_box no-show" id="welcomeBox">
+        <h4 class="top_warn" id="warnText">Welcome to the new Airs@t site! </h4>
+        <h4 class="login_warn_time_content" id="warnTime"><a href='http://we.tl/b5m4SXhu4r'>Click here to download briefing documents</a></h4>
+        <h4 class="login_warn_time_content" id="warnTime">If you need any clarification, do not hesitate to contact m1nd-set or your project manager.</h4>
+    </div>
+    <div class="login_box">
+        <div id="login_form">
+            <div class="top_b">Sign In to Airs@t v2.0</div>
+            <div class="cnt_b">
+                <div class="formRow">
+                    <div class="input-prepend">
+                        <span class="add-on"><i class="icon-user"></i></span>
+                        <input type="text" id="username" name="username" placeholder="Username" value="" />
+                    </div>
+                </div>
+                <div class="formRow">
+                    <div class="input-prepend">
+                        <span class="add-on"><i class="icon-lock"></i></span>
+                        <input type="password" id="password" name="password" placeholder="Password" value="password" />
+                    </div>
+                </div>
+                <div class="formRow clearfix">
+                    <label class="checkbox">
+                        <input type="checkbox" id="remember_me" />
+                        Remember me</label>
+                </div>
+            </div>
+            <div class="btm_b clearfix">
+                <button class="btn btn-blue btn-block sict-signin" onclick="return login();">Sign me in <i id='spinnerIndicator' class="fa fa-spinner fa-spin icon-large pull-right"></i></button>
+            </div>
+        </div>
+        <div id="pass_form" style="display: none">
+            <div class="top_b">Can't sign in?</div>
+            <div id="infoMessage" class="alert alert-info alert-login">
+                Please enter your email address and Login ID. Admin will contact you with the required information.
+            </div>
+            <div class="cnt_b">
+                <div class="formRow">
+                    <div class="input-prepend">
+                        <span class="add-on"><i class="icon-user"></i></span>
+                        <input type="text" id="FPUsername" name="username" placeholder="Username" value="" />
+                    </div>
+                </div>
+                <div class="formRow clearfix">
+                    <div class="input-prepend">
+                        <span class="add-on">@</span><input type="text" id="FPEmailId" placeholder="Your email address" />
+                    </div>
+                </div>
+            </div>
+            <div class="btm_b tac">
+                <button class="btn btn-blue btn-block sict-signin" onclick="return validateForgotPassword();" type="submit">Request New Password</button>
+            </div>
+        </div>
+
+        <div class="links_b links_btm clearfix">
+            <span class="linkform"><a href="#pass_form">Forgot password?</a></span>
+            <span class="linkform" style="display: none"><a id="backToLogin" href="#login_form">Never mind, send me back to the sign-in screen</a></span>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.actual.min.js"></script>
+    <script src="lib/validation/jquery.validate.min.js"></script>
+    <script src="js/jquery.md5.js"></script>
+    <!--Moment js -->
+    <script src="lib/moment_js/moment.min.js"></script>
+    <script src="lib/moment_js/moment-timezone.min.js"></script>
+    <script src="js/sict/communion.jsonp"></script>
+    <script src="js/sict/restActions.js"></script>
+    <script src="js/sict/login.js"></script>
+    <script src="maintainance.jsonp"></script>
+    <script>
+        $(document).ready(function () {
+
+            String.prototype.format = String.prototype.f = function () {
+                var s = this,
+                    i = arguments.length;
+
+                while (i--) {
+                    s = s.replace(new RegExp('\\{' + i + '\\}', 'gm'), arguments[i]);
+                }
+                return s;
+            };
+
+            $('#spinnerIndicator').hide();
+
+            sessionStorage.sessionId = null;
+            sessionStorage.clear();
+            //* boxes animation
+            form_wrapper = $('.login_box');
+            function boxHeight() {
+                form_wrapper.animate({ marginTop: (-(form_wrapper.height() / 2) - 24) }, 400);
+            }
+            ;
+            form_wrapper.css({ marginTop: (-(form_wrapper.height() / 2) - 24) });
+            $('.linkform a,.link_reg a').on('click', function (e) {
+                var target = $(this).attr('href'),
+                        visible_div = $(this).parent("span.linkform").siblings("span.linkform").find("a").attr("href");
+                target_height = $(target).actual('height');
+                $(form_wrapper).css({
+                    'height': form_wrapper.height()
+                });
+                $(form_wrapper.find('' + visible_div)).fadeOut(400, function () {
+                    form_wrapper.stop().animate({
+                        height: target_height,
+                        marginTop: (-(target_height / 2) - 24)
+                    }, 500, function () {
+                        $(target).fadeIn(400);
+                        $('.links_btm .linkform').toggle();
+                        $(form_wrapper).css({
+                            'height': ''
+                        });
+                    });
+                });
+                e.preventDefault();
+            });
+
+            $('#password').keypress(function (e) {
+                if ((e.which && e.which == 13) || (e.keyCode && e.keyCode == 13)) {
+                    login();
+                }
+            });
+            $('#FPEmailId').keypress(function (e) {
+                if ((e.which && e.which == 13) || (e.keyCode && e.keyCode == 13)) {
+                    login();
+                }
+            });
+
+            if ('true' === maintenance.show) {
+                $('#warnBox').removeClass('no-show');
+                $('#warnText').text($('#warnText').text() + ' ' + maintenance.date);
+                $('#warnTime').text($('#warnTime').text().format(maintenance.startTime, maintenance.endTime));
+            }
+            if ('true' === maintenance.isMigration) {
+                $('#welcomeBox').removeClass('no-show');
+            }
+
+            retreiveLoginDetails();
+        });
+    </script>
+</body>
+</html>

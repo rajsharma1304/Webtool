@@ -1,0 +1,455 @@
+/*<Copyright> Cross-Tab </Copyright>
+ <ProjectName>SICT</ProjectName>
+ <FileName> restactions.js </FileName>
+ <CreatedOn>15 Jan 2015</CreatedOn>*/
+var SESSIONVALIDATE = 0,
+        SUBMITDEPARTUREFORM = 1,
+        VIEWFORMS = 2,
+        VIEWFORMSDELETE = 3,
+        UPDATEDEPARTUREFORM = 4,
+        RETRIEVETARGETS = 5,
+        UPDATETARGETS = 6,
+        DELETETARGETS = 7,
+        AIRLINEREPORT = 8,
+        FLIGHTREPORT = 9,
+        DODREPORT = 10,
+        INTERVIEWERREPORT = 11,
+        AIRPORTREPORT = 12,
+        GETFLIGHTCOMBO = 13,
+        ADDFLIGHTCOMBO = 14,
+        RETRIEVEINTERVIEWERS = 15,
+        ADDINTERVIEWER = 16,
+        UPDATEINTERVIEWER = 17,
+        DELETEFLIGHTCOMBO = 18,
+        UPDATEFLIGHTCOMBO = 19,
+        RETRIEVESEARCH = 20,
+        UPLOADCSV = 21,
+        CONFIRMITCOUNT = 22,
+        RETRIEVECONFORMITDATA = 23,
+        RETRIEVEMANAGEAIRPORTS = 24,
+        ADDAIRPORT = 25,
+        EDITAIRPORT = 26,
+        GLOBALEXPORT = 27,
+        CHECKEXPORTSTATUS = 28,
+        AIRCRAFTREPORT = 29,
+        AIRCRAFTQUOTAREPORT = 30,
+        ADDTARGET = 31,
+        ALLAIRLINEREPORT = 32;
+
+function getJsonInfoAction(apiIdx) {
+    var jsonDoc = communion, service = jsonDoc.Service, data, svc, api, action, addVersionNo = false, addSessionId = false, versionNumber = jsonDoc.Version, host = getInstance(), addHost = false;
+    sessionStorage.serverUrl = jsonDoc.ipAddress;
+    switch (apiIdx) {
+        case SESSIONVALIDATE:
+            data = jsonDoc.SessionValidateDetails;
+            api = data.ValidateDetails;
+            addVersionNo = false;
+            addSessionId = true;
+            addHost = true;
+            break;
+        case SUBMITDEPARTUREFORM:
+            data = jsonDoc.DepartureForm;
+            api = data.submitForm;
+            break;
+        case VIEWFORMS:
+            data = jsonDoc.ViewFormDataTables;
+            api = data.departureDetails;
+            addVersionNo = false;
+            addSessionId = false;
+            break;
+        case VIEWFORMSDELETE:
+            data = jsonDoc.ViewFormDataTables;
+            api = data.deleteAirline;
+            addVersionNo = false;
+            addSessionId = false;
+            break;
+        case UPDATEDEPARTUREFORM:
+            data = jsonDoc.DepartureForm;
+            api = data.updateForm;
+            break;
+        case RETRIEVETARGETS:
+            data = jsonDoc.DynamicTargets;
+            api = data.retrieveTargets;
+            addVersionNo = true;
+            addSessionId = true;
+            addHost = true;
+            break;
+        case DELETETARGETS:
+            data = jsonDoc.DynamicTargets;
+            api = data.delete;
+            addVersionNo = false;
+            addSessionId = false;
+            break;
+        case UPDATETARGETS:
+            data = jsonDoc.DynamicTargets;
+            api = data.updateTargets;
+            addVersionNo = false;
+            addSessionId = false;
+            break;
+        case AIRLINEREPORT:
+            data = jsonDoc.Reports;
+            api = data.airline;
+            addVersionNo = true;
+            addSessionId = true;
+            addHost = true;
+            break;
+        case ALLAIRLINEREPORT:
+            data = jsonDoc.Reports;
+            api = data.allairline;
+            addVersionNo = true;
+            addSessionId = true;
+            addHost = true;
+            break;
+        case FLIGHTREPORT:
+            data = jsonDoc.Reports;
+            api = data.flight;
+            addVersionNo = true;
+            addSessionId = true;
+            addHost = true;
+            break;
+        case DODREPORT:
+            data = jsonDoc.Reports;
+            api = data.dod;
+            addVersionNo = true;
+            addSessionId = true;
+            addHost = true;
+            break;
+        case INTERVIEWERREPORT:
+            data = jsonDoc.Reports;
+            api = data.interviewer;
+            addVersionNo = true;
+            addSessionId = true;
+            addHost = true;
+            break;
+        case AIRPORTREPORT:
+            data = jsonDoc.Reports;
+            api = data.airport;
+            addVersionNo = true;
+            addSessionId = true;
+            addHost = true;
+            break;
+        case GETFLIGHTCOMBO:
+            data = jsonDoc.FlightCombo;
+            api = data.getFlightCombo;
+            addVersionNo = true;
+            addSessionId = true;
+            addHost = true;
+            break;
+        case ADDFLIGHTCOMBO:
+            data = jsonDoc.FlightCombo;
+            api = data.addFlightCombo;
+            addVersionNo = false;
+            addSessionId = false;
+            break;
+        case RETRIEVEINTERVIEWERS:
+            data = jsonDoc.InterviewersManagement;
+            api = data.retrieveInterviewers;
+            addVersionNo = true;
+            addSessionId = true;
+            addHost = true;
+            break;
+        case ADDINTERVIEWER:
+            data = jsonDoc.InterviewersManagement;
+            api = data.addInterviewer;
+            addVersionNo = false;
+            addSessionId = false;
+            break;
+        case UPDATEINTERVIEWER:
+            data = jsonDoc.InterviewersManagement;
+            api = data.updateInterviewer;
+            addVersionNo = false;
+            addSessionId = false;
+            break;
+        case DELETEFLIGHTCOMBO:
+            data = jsonDoc.FlightCombo;
+            api = data.deleteFlightCombo;
+            addVersionNo = false;
+            addSessionId = false;
+            break;
+        case UPDATEFLIGHTCOMBO:
+            data = jsonDoc.FlightCombo;
+            api = data.updateFlightCombo;
+            addVersionNo = false;
+            addSessionId = false;
+            break;
+        case RETRIEVESEARCH:
+            data = jsonDoc.SearchPage;
+            api = data.retrieveSearch;
+            addVersionNo = false;
+            addSessionId = false;
+            addHost = false;
+            break;
+        case UPLOADCSV:
+            data = jsonDoc.CSV;
+            api = data.upload;
+            addVersionNo = true;
+            addSessionId = true;
+            addHost = true;
+            break;
+        case CONFIRMITCOUNT:
+            data = jsonDoc.confirmit;
+            api = data.confirmitCount;
+            addVersionNo = true;
+            addSessionId = true;
+            addHost = true;
+            break;
+        case RETRIEVECONFORMITDATA:
+            data = jsonDoc.confirmit;
+            api = data.view;
+            addVersionNo = true;
+            addSessionId = true;
+            addHost = true;
+            break;
+        case RETRIEVEMANAGEAIRPORTS:
+            data = jsonDoc.ManageAirports;
+            api = data.getAirports;
+            addVersionNo = true;
+            addSessionId = true;
+            addHost = true;
+            break;
+        case ADDAIRPORT:
+            data = jsonDoc.ManageAirports;
+            api = data.addAirport;
+            addVersionNo = false;
+            addSessionId = false;
+            addHost = false;
+            break;
+        case EDITAIRPORT:
+            data = jsonDoc.ManageAirports;
+            api = data.updateAirport;
+            addVersionNo = false;
+            addSessionId = false;
+            addHost = false;
+            break;
+        case GLOBALEXPORT:
+            data = jsonDoc.ViewFormDataTables.global;
+            api = data.export;
+            addVersionNo = false;
+            addSessionId = false;
+            break;
+        case CHECKEXPORTSTATUS:
+            data = jsonDoc.ViewFormDataTables.global;
+            api = data.status;
+            addVersionNo = true;
+            addSessionId = true;
+            addHost = true;
+            break;
+        case AIRCRAFTREPORT:
+            data = jsonDoc.Reports;
+            api = data.aircraft;
+            addVersionNo = true;
+            addSessionId = true;
+            addHost = true;
+            break;
+        case AIRCRAFTQUOTAREPORT:
+            data = jsonDoc.Reports;
+            api = data.aircraftquota;
+            addVersionNo = true;
+            addSessionId = true;
+            addHost = true;
+            break;
+        case ADDTARGET:
+            data = jsonDoc.DynamicTargets;
+            api = data.add;
+            addVersionNo = false;
+            addSessionId = false;
+            break;
+        default:
+            break;
+    }
+    svc = data.svc;
+    action = "http://" + sessionStorage.serverUrl + "/" + service + "/" + svc + "/" + api;
+    if (addHost)
+        action += "/" + host;
+    if (addVersionNo)
+        action += "/" + versionNumber;
+    if (addSessionId)
+        action += "/" + sessionStorage.sessionId;
+    return action;
+}
+
+function authLoginAction(uname, pword) {
+    var jsonDoc = communion,
+            loginData = jsonDoc.login,
+            svc = loginData.encSvc,
+            service = jsonDoc.Service,
+            api = loginData.encMethod,
+            url = "http://" + jsonDoc.ipAddress + "/" + service + "/" + svc + "/" + api,
+            obj = {};
+    obj.HashString = $.md5(uname + '&' + pword); // $.md5(username + '&' + password, null, true);
+    obj.Instance = getInstance();
+
+    $.ajax({
+        type: 'POST',
+        url: url,
+        contentType: "application/json",
+        dataType: 'json',
+        data: JSON.stringify(obj),
+        processdata: true,
+        error: function (err) {
+            loginFailure(err);
+        },
+        success: function (res) {
+            if (res && res.LoginResult)
+                loginSuccess(res.LoginResult);
+        }
+    });
+}
+
+function sendDepartureForm(callback, isUpdate) {
+    var jsonDoc = communion, url = getJsonInfoAction(SUBMITDEPARTUREFORM),
+            sessionId = sessionStorage.sessionId,
+            version = jsonDoc.Version,
+            formDepObj = newformDeparture.depFormData,
+            obj = {},
+            type = 'PUT';
+    if (isUpdate) {
+        type = 'POST';
+        url = getJsonInfoAction(UPDATEDEPARTUREFORM);
+    }
+    if (newformDeparture.isFormSubmittable && sessionId && version && sessionId !== "" && version != "" && !($.isEmptyObject(formDepObj))) {
+        obj.SessionId = sessionId,
+        obj.Version = version,
+        obj.FormDetails = formDepObj;
+    }
+
+    obj.Instance = getInstance();
+
+    $.ajax({
+        type: type,
+        url: url,
+        contentType: "application/json",
+        dataType: 'json',
+        data: JSON.stringify(obj),
+        error: function (err) {
+            newformDeparture.triggerError(err);
+        },
+        success: function (res) {
+            if (null === callback || undefined === callback)
+                $("#Submit").button("reset");
+            if (res && res.ReturnCode > 0 && res.AirlineDetails)
+                newformDeparture.triggerSuccess(res, callback);
+            else
+                newformDeparture.triggerError(res);
+        }
+    });
+}
+
+function sendNewForm(depFormData, callback, isUpdate) {
+
+    var jsonDoc = communion, url = getJsonInfoAction(SUBMITDEPARTUREFORM),
+            sessionId = sessionStorage.sessionId,
+            version = jsonDoc.Version,
+            formDepObj = depFormData,
+            obj = {},
+            type = 'PUT';
+    if (isUpdate) {
+        type = 'POST';
+        url = getJsonInfoAction(UPDATEDEPARTUREFORM);
+    }
+    console.log(url);
+
+    if (sessionId && version && sessionId !== "" && version != "" && !($.isEmptyObject(formDepObj))) {
+        obj.SessionId = sessionId,
+        obj.Version = version,
+        obj.FormDetails = formDepObj;
+        obj.AirportId = sessionStorage.selectedAirportId;
+    }
+
+    obj.Instance = getInstance();
+    console.log(obj);
+
+    $.ajax({
+        type: type,
+        url: url,
+        contentType: "application/json",
+        dataType: 'json',
+        data: JSON.stringify(obj),
+        error: function (err) {
+            newformDeparture.triggerError(err);
+        },
+        success: function (res) {
+            if (null === callback || undefined === callback)
+                $("#Submit").button("reset");
+            if (res && res.ReturnCode > 0 && res.AirlineDetails)
+                validator.handleResponse(res, callback);
+            else
+                newformDeparture.triggerError(res);
+        }
+    });
+}
+// Post data to server
+function ajaxPost(postUrl, postData, message, callback, attr, config, type) {
+    // If no config, enpty config
+    if (!isDefinedAndNotNull(config))
+        config = {};
+    // If no loader message, set to SAVING
+    if (!isDefinedAndNotNull(config.loaderTitle) || typeof config.loaderTitle !== "string" || $.trim(config.loaderTitle) === "")
+        config.loaderTitle = "SAVING";
+    if (!isDefinedAndNotNull(config.loaderText) || typeof config.loaderText !== "string" || $.trim(config.loaderText) === "")
+        config.loaderText = "";
+    // If no loader, show loader
+    if (!isDefinedAndNotNull(config.displayLoader) || config.displayLoader === true)
+        //showLoader(config.loaderTitle, config.loaderText);
+        postData.Instance = getInstance();
+    $.ajax({
+        type: type, //GET or POST or PUT or DELETE verb
+        url: postUrl, // Location of the service
+        data: JSON.stringify(postData), //Data sent to server
+        contentType: "application/json", // content type sent to server
+        //dataType: "jsonp",
+        crossDomain: true,
+        success: function (data) {
+            //hideLoader();
+
+            // Check for session Expiry
+            if (typeof data.ReturnCode === "undefined")
+                console.log("Return code missing: " + postUrl);
+            else {
+                if (data.ReturnCode === 0) {
+                    pageHelper.clearStickies();
+                    pageHelper.notify("Sorry, the current session has expired. Please log in again.", pageHelper.stickyPosition.top.RIGHT, pageHelper.stickyTypes.ERROR);
+                    pageHelper.removeSmokeSignal();
+                    return;
+                }
+                if ((data.ReturnCode === 3) || (data.ReturnCode === -1)) {
+                    pageHelper.clearStickies();
+                    pageHelper.notify(data.ReturnMessage, pageHelper.stickyPosition.top.RIGHT, pageHelper.stickyTypes.ERROR);
+                    pageHelper.removeSmokeSignal();
+                    return;
+                }
+            }
+
+            // Callback
+            //[#73064] [Europe]:If we delete one row from the table, the whole Table is becoming empty.it is showing no data available in table.
+            if (attr !== undefined) {
+                if (typeof callback === "function")
+                    callback(data, true, attr, message);
+            } else {
+                if (typeof callback === "function")
+                    callback(data, true);
+            }
+        },
+        error: function (data, jqXHR, textStatus, errorThrown) {
+            //hideLoader();
+            if (typeof callback === "function")
+                callback(data, false);
+        }
+    });
+}
+
+// Undefined and Null checker
+function isDefinedAndNotNull(element) {
+    if (typeof element !== "undefined" && element !== null)
+        return true;
+    else
+        return false;
+}
+
+function getInstance() {
+    var data = communion, instance = data.hostInstance;
+    if (instance === "USI")
+        return "US";
+    else
+        return instance;
+}

@@ -1,0 +1,13 @@
+﻿Installing assembly 'D:\SICT_Web\SICT\SICTServices\bin\x86\Debug\SICTSERVICES.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\SICT_Web\SICT\SICTServices\bin\x86\Debug\SICTSERVICES.InstallLog
+   assemblypath = D:\SICT_Web\SICT\SICTServices\bin\x86\Debug\SICTSERVICES.exe
+Installing service SICTService...
+Service SICTService has been successfully installed.
+Creating EventLog source SICTService in log Application...
+Committing assembly 'D:\SICT_Web\SICT\SICTServices\bin\x86\Debug\SICTSERVICES.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\SICT_Web\SICT\SICTServices\bin\x86\Debug\SICTSERVICES.InstallLog
+   assemblypath = D:\SICT_Web\SICT\SICTServices\bin\x86\Debug\SICTSERVICES.exe

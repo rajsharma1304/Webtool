@@ -1,0 +1,143 @@
+/*<Copyright> Celstream Technologies Pvt. Ltd. </Copyright>
+<ProjectName></ProjectName>
+<FileName> jquery.table2excel.js </FileName>
+<Author> Raghavendra G.N </Author>
+<CreatedOn>11 Mar 2015</CreatedOn>*/
+; (function ($, window, document, undefined) {
+    var pluginName = "table2excel",
+            defaults = {
+                exclude: ".noExl",
+                name: "Table2Excel",
+                dtMode: true,
+                qtMode: false
+            };
+
+    // The actual plugin constructor
+    function Plugin(element, options) {
+        this.element = element;
+        // jQuery has an extend method which merges the contents of two or
+        // more objects, storing the result in the first object. The first object
+        // is generally empty as we don't want to alter the default options for
+        // future instances of the plugin
+        this.settings = $.extend({}, defaults, options);
+        this._defaults = defaults;
+        this._name = pluginName;
+        this.init();
+    }
+
+    Plugin.prototype = {
+        init: function () {
+            var e = this;
+            e.template = "<html xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:x=\"urn:schemas-microsoft-com:office:excel\" xmlns=\"http://www.w3.org/TR/REC-html40\"><head><!--[if gte mso 9]><xml>";
+            e.template += "<x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>{worksheet}</x:Name><x:WorksheetOptions>";
+            e.template += "<x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--></head><body><table border>{table}</table></body></html>";
+            e.tableRows = "";
+
+            if (!this.settings.qtMode) {
+                if (this.settings.dtMode) {
+                    // First get the Header
+                    //[#72658] US International:Distribution column is displaying as ## when report is exported
+                    $(e.element).find("thead tr").not(this.settings.exclude).each(function (i, o) {
+                        var cO = $(o).clone();
+                        var htmlText = '';
+                        cO.find("th").each(function (j, k) {
+                            var t = $(k).attr('title'), dt = $(k).find('div').text();
+                            t = (t === '') ? $(k).attr('oldtitle') : t;
+                            t = (t === undefined || t === null) ? dt : t;
+                            //htmlText += '<th style="background-color:#f7dede;border:1px solid #111111">' + $(k).find('div').text() + '</th>';
+                            $(k).css('background-color', '#f7dede');
+                            //$(k).css('border', '1px solid #111111');
+                            if (t !== dt) {
+                                $(k).find('div').text(t);
+                                $(k).css('width', '100px');
+                            }
+                        });
+                        e.tableRows += "<tr>" + $(cO).html() + "</tr>";
+                        //e.tableRows += "<tr>" + htmlText + "</tr>";
+                    });
+                    // Get the body
+                    $(e.element).find("tbody tr").not(this.settings.exclude).each(function (i, o) {
+                        var cO = $(o).clone();
+                        cO.find("th").each(function (j, k) {
+                            //$(k).css('border', '1px solid black');
+                        });
+                        e.tableRows += "<tr>" + $(cO).html() + "</tr>";
+                    });
+                    // Add the footer
+                    $(e.element).find("tfoot tr").not(this.settings.exclude).each(function (i, o) {
+                        var cO = $(o).clone();
+                        cO.find("th").each(function (j, k) {
+                            $(k).css('background-color', '#e7deef');
+                            //$(k).css('border', '1px solid black');
+                        });
+                        e.tableRows += "<tr>" + $(cO).html() + "</tr>";
+                    });
+                }
+                else {
+                    // get contents of table except for exclude
+                    $(e.element).find("tr").not(this.settings.exclude).each(function (i, o) {
+                        e.tableRows += "<tr>" + $(o).html() + "</tr>";
+                    });
+                }
+            }
+            else {
+                $(e.element).find("thead tr").not(this.settings.exclude).each(function (i, o) {
+                    var cO = $(o).clone();
+                    var htmlText = '';
+                    cO.find("th").each(function (j, k) {
+                        var t = $(k).attr('title'), dt = $(k).find('div').text();
+                        t = (t === '') ? $(k).attr('oldtitle') : t;
+                        t = (t === undefined || t === null) ? dt : t;
+                        //htmlText += '<th style="background-color:#f7dede;border:1px solid #111111">' + $(k).find('div').text() + '</th>';
+                        $(k).css('background-color', '#f7dede');
+                        $(k).css('width', '800px');                        //$(k).css('border', '1px solid #111111');
+                    });
+                    e.tableRows += "<tr>" + $(cO).html() + "</tr>";
+                    //e.tableRows += "<tr>" + htmlText + "</tr>";
+                });
+                // Get the body
+                $(e.element).find("tbody tr[role=row]").not(this.settings.exclude).each(function (i, o) {
+                    var cO = $(o).clone();
+                    var nextSib = o.nextSibling;
+                    var th = '<th  style="width: 100%;" colspan="7">' + cO.find('td').text() + '</th>' + $(nextSib).find('table').html();
+                    //cO.find('td').append($(nextSib).find('table'));
+                    e.tableRows += "<tr style='width: 100%;'>" + th + "</tr>";
+                });
+                // Add the footer
+                $(e.element).find("tfoot tr").not(this.settings.exclude).each(function (i, o) {
+                    var cO = $(o).clone();
+                    cO.find("th").each(function (j, k) {
+                        $(k).css('background-color', '#e7deef');
+                        //$(k).css('border', '1px solid black');
+                    });
+                    e.tableRows += "<tr>" + $(cO).html() + "</tr>";
+                });
+            }
+
+            this.tableToExcel(this.tableRows, this.settings.name);
+        },
+        tableToExcel: function (table, name) {
+            var e = this;
+            e.uri = "data:application/vnd.ms-excel;base64,";
+            e.base64 = function (s) {
+                return window.btoa(unescape(encodeURIComponent(s)));
+            };
+            e.format = function (s, c) {
+                return s.replace(/{(\w+)}/g, function (m, p) {
+                    return c[p];
+                });
+            };
+            e.ctx = {
+                worksheet: name || "Worksheet",
+                table: table
+            };
+            window.location.href = e.uri + e.base64(e.format(e.template, e.ctx));
+        }
+    };
+
+    $.fn[pluginName] = function (options) {
+        $.data(this, "plugin_" + pluginName, new Plugin(this, options));
+        // chain jQuery functions
+        return this;
+    };
+})(jQuery, window, document);

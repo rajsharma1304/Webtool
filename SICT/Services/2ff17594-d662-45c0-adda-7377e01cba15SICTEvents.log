@@ -1,0 +1,166 @@
+Information , 25-10-2017 14:14:50 , UserDetailsService,IsSessionIdValid,Start for SessionId - 050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:14:50 , UserDetailsBusiness,IsSessionIdValid, Start for Session id-050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:14:51 , UserDetailsBusiness,IsSessionIdValid,End for SessonId -050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:14:51 , UserDetailsService,IsSessionIdValid,End for SessionId- 050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:14:54 , UserDetailsService,IsSessionIdValid,Start for SessionId - 050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:14:54 , UserDetailsBusiness,IsSessionIdValid, Start for Session id-050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:14:54 , UserDetailsBusiness,IsSessionIdValid,End for SessonId -050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:14:54 , UserDetailsService,IsSessionIdValid,End for SessionId- 050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:15:01 , ReportingServices,GetDODReport,Start 
+Information , 25-10-2017 14:15:01 , UserDetailsBusiness,IsSessionIdValid, Start for Session id-050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:15:01 , UserDetailsBusiness,IsSessionIdValid,End for SessonId -050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:15:01 , ReportingBusiness,GetDODReport,Start for AirportId --1
+Information , 25-10-2017 14:15:01 , ReportingBusiness,BuildMultiFilterConditionForReport,Start For AiprortId --1
+Information , 25-10-2017 14:15:01 , ReportingBusiness,BuildMultiFilterConditionForReport,End For AiprortId --1
+Information , 25-10-2017 14:15:01 , ReportingBusiness,BuildMultiFilterConditionForReport,Start For AiprortId --1
+Information , 25-10-2017 14:15:01 , ReportingBusiness,BuildMultiFilterConditionForReport,End For AiprortId --1
+Verbose , 25-10-2017 14:15:01 , ReportingBusiness,GetDODReport,Start Retieving DOD Report Data From DB
+Critical , 25-10-2017 14:15:01 , DataAccessLayer,GetUserNameBySessionId,Could not find stored procedure 'GetUserNameBySessionId'.,at System.Data.SqlClient.SqlConnection.OnError(SqlException exception; Boolean breakConnection; Action`1 wrapCloseInAction);   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception; Boolean breakConnection; Action`1 wrapCloseInAction);   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj; Boolean callerHasConnectionLock; Boolean asyncClose);   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior; SqlCommand cmdHandler; SqlDataReader dataStream; BulkCopySimpleResultSet bulkCopyHandler; TdsParserStateObject stateObj; Boolean& dataReady);   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData();   at System.Data.SqlClient.SqlDataReader.get_MetaData();   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds; RunBehavior runBehavior; String resetOptionsString; Boolean isInternal; Boolean forDescribeParameterEncryption);   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior; RunBehavior runBehavior; Boolean returnStream; Boolean async; Int32 timeout; Task& task; Boolean asyncWrite; Boolean inRetry; SqlDataReader ds; Boolean describeParameterEncryptionRequest);   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior; RunBehavior runBehavior; Boolean returnStream; String method; TaskCompletionSource`1 completion; Int32 timeout; Task& task; Boolean& usedCache; Boolean asyncWrite; Boolean inRetry);   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior; RunBehavior runBehavior; Boolean returnStream; String method);   at System.Data.SqlClient.SqlCommand.ExecuteScalar();   at Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteScalar(IDbCommand command);   at Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteScalar(DbCommand command);   at SICT.DataAccessLayer.DataAccessLayer.GetUserNameBySessionId(String SessionId) in D:\SICT_Web\SICT\DataAccessLayer\DataAccessLayer.cs:line 2324
+Information , 25-10-2017 14:15:01 , ReportingBusiness,GetDODReport,End for AirportId --1
+Information , 25-10-2017 14:15:01 , ReportingServices,GetDODReport,End 
+Information , 25-10-2017 14:15:22 , UserDetailsService,IsSessionIdValid,Start for SessionId - 050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:15:22 , UserDetailsBusiness,IsSessionIdValid, Start for Session id-050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:15:22 , UserDetailsBusiness,IsSessionIdValid,End for SessonId -050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:15:22 , UserDetailsService,IsSessionIdValid,End for SessionId- 050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:15:28 , ReportingServices,GetAirlineReport,Start 
+Information , 25-10-2017 14:15:28 , UserDetailsBusiness,IsSessionIdValid, Start for Session id-050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:15:28 , UserDetailsBusiness,IsSessionIdValid,End for SessonId -050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:15:28 , ReportingBusiness,GetAirlineReport,Start for AirportId --1
+Critical , 25-10-2017 14:15:28 , DataAccessLayer,GetUserNameBySessionId,Could not find stored procedure 'GetUserNameBySessionId'.,at System.Data.SqlClient.SqlConnection.OnError(SqlException exception; Boolean breakConnection; Action`1 wrapCloseInAction);   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception; Boolean breakConnection; Action`1 wrapCloseInAction);   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj; Boolean callerHasConnectionLock; Boolean asyncClose);   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior; SqlCommand cmdHandler; SqlDataReader dataStream; BulkCopySimpleResultSet bulkCopyHandler; TdsParserStateObject stateObj; Boolean& dataReady);   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData();   at System.Data.SqlClient.SqlDataReader.get_MetaData();   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds; RunBehavior runBehavior; String resetOptionsString; Boolean isInternal; Boolean forDescribeParameterEncryption);   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior; RunBehavior runBehavior; Boolean returnStream; Boolean async; Int32 timeout; Task& task; Boolean asyncWrite; Boolean inRetry; SqlDataReader ds; Boolean describeParameterEncryptionRequest);   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior; RunBehavior runBehavior; Boolean returnStream; String method; TaskCompletionSource`1 completion; Int32 timeout; Task& task; Boolean& usedCache; Boolean asyncWrite; Boolean inRetry);   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior; RunBehavior runBehavior; Boolean returnStream; String method);   at System.Data.SqlClient.SqlCommand.ExecuteScalar();   at Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteScalar(IDbCommand command);   at Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteScalar(DbCommand command);   at SICT.DataAccessLayer.DataAccessLayer.GetUserNameBySessionId(String SessionId) in D:\SICT_Web\SICT\DataAccessLayer\DataAccessLayer.cs:line 2324
+Information , 25-10-2017 14:15:28 , ReportingBusiness,BuildMultiFilterConditionForReport,Start For AiprortId --1
+Information , 25-10-2017 14:15:28 , ReportingBusiness,BuildMultiFilterConditionForReport,End For AiprortId --1
+Information , 25-10-2017 14:15:28 , ReportingBusiness,BuildFilterConditionForTarget,Start For AiprortId --1
+Information , 25-10-2017 14:15:28 , ReportingBusiness,BuildFilterConditionForTarget,End For AiprortId --1
+Information , 25-10-2017 14:15:28 , ReportingBusiness,BuildMultiFilterConditionForReport,Start For AiprortId --1
+Information , 25-10-2017 14:15:28 , ReportingBusiness,BuildMultiFilterConditionForReport,End For AiprortId --1
+Information , 25-10-2017 14:15:28 , ReportingBusiness,BuildMultiFilterConditionForReport,Start For AiprortId --1
+Information , 25-10-2017 14:15:28 , ReportingBusiness,BuildMultiFilterConditionForReport,End For AiprortId --1
+Information , 25-10-2017 14:15:28 , ReportingBusiness,BuildFilterConditionForTarget,Start For AiprortId --1
+Information , 25-10-2017 14:15:28 , ReportingBusiness,BuildFilterConditionForTarget,End For AiprortId --1
+Information , 25-10-2017 14:15:28 , ReportingBusiness,BuildMultiFilterConditionForReport,Start For AiprortId --1
+Information , 25-10-2017 14:15:28 , ReportingBusiness,BuildMultiFilterConditionForReport,End For AiprortId --1
+Information , 25-10-2017 14:15:28 , ReportingBusiness,GetAirlineReport,End for AirportId --1
+Information , 25-10-2017 14:15:28 , ReportingServices,GetAirlineReport,End 
+Information , 25-10-2017 14:15:48 , UserDetailsService,IsSessionIdValid,Start for SessionId - 050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:15:48 , UserDetailsBusiness,IsSessionIdValid, Start for Session id-050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:15:49 , UserDetailsBusiness,IsSessionIdValid,End for SessonId -050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:15:49 , UserDetailsService,IsSessionIdValid,End for SessionId- 050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:15:56 , ReportingServices,GetAirportReport,Start 
+Information , 25-10-2017 14:15:56 , UserDetailsBusiness,IsSessionIdValid, Start for Session id-050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:15:56 , UserDetailsBusiness,IsSessionIdValid,End for SessonId -050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:15:56 , ReportingBusiness,GetAirlineReport,Start 
+Information , 25-10-2017 14:15:56 , ReportingBusiness,BuildMultiFilterConditionForReport,Start For AiprortId --1
+Information , 25-10-2017 14:15:56 , ReportingBusiness,BuildMultiFilterConditionForReport,End For AiprortId --1
+Information , 25-10-2017 14:15:56 , ReportingBusiness,BuildFilterConditionForTarget,Start For AiprortId --1
+Information , 25-10-2017 14:15:56 , ReportingBusiness,BuildFilterConditionForTarget,End For AiprortId --1
+Information , 25-10-2017 14:15:56 , ReportingBusiness,BuildMultiFilterConditionForReport,Start For AiprortId --1
+Information , 25-10-2017 14:15:56 , ReportingBusiness,BuildMultiFilterConditionForReport,End For AiprortId --1
+Information , 25-10-2017 14:15:57 , ReportingBusiness,BuildMultiFilterConditionForReport,Start For AiprortId --1
+Information , 25-10-2017 14:15:57 , ReportingBusiness,BuildMultiFilterConditionForReport,End For AiprortId --1
+Information , 25-10-2017 14:15:57 , ReportingBusiness,BuildFilterConditionForTarget,Start For AiprortId --1
+Information , 25-10-2017 14:15:57 , ReportingBusiness,BuildFilterConditionForTarget,End For AiprortId --1
+Information , 25-10-2017 14:15:57 , ReportingBusiness,BuildMultiFilterConditionForReport,Start For AiprortId --1
+Information , 25-10-2017 14:15:57 , ReportingBusiness,BuildMultiFilterConditionForReport,End For AiprortId --1
+Information , 25-10-2017 14:15:57 , ReportingBusiness,GetAirlineReport,End 
+Information , 25-10-2017 14:15:57 , ReportingServices,GetAirportReport,End 
+Information , 25-10-2017 14:16:13 , UserDetailsService,IsSessionIdValid,Start for SessionId - 050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:16:13 , UserDetailsBusiness,IsSessionIdValid, Start for Session id-050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:16:14 , UserDetailsBusiness,IsSessionIdValid,End for SessonId -050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:16:14 , UserDetailsService,IsSessionIdValid,End for SessionId- 050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:16:19 , ReportingServices,GetInterviewerReport,Start 
+Information , 25-10-2017 14:16:19 , UserDetailsBusiness,IsSessionIdValid, Start for Session id-050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:16:19 , UserDetailsBusiness,IsSessionIdValid,End for SessonId -050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:16:19 , ReportingBusiness,GetInterviewerReport,Start for AirportId --1
+Information , 25-10-2017 14:16:19 , ReportingBusiness,BuildMultiFilterConditionForReport,Start For AiprortId --1
+Information , 25-10-2017 14:16:19 , ReportingBusiness,BuildMultiFilterConditionForReport,End For AiprortId --1
+Information , 25-10-2017 14:16:19 , ReportingBusiness,BuildMultiFilterConditionForReport,Start For AiprortId --1
+Information , 25-10-2017 14:16:19 , ReportingBusiness,BuildMultiFilterConditionForReport,End For AiprortId --1
+Verbose , 25-10-2017 14:16:19 , ReportingBusiness,GetInterviewerReport,Start Retieving Interviewer Report Data From DB
+Critical , 25-10-2017 14:16:19 , DataAccessLayer,GetUserNameBySessionId,Could not find stored procedure 'GetUserNameBySessionId'.,at System.Data.SqlClient.SqlConnection.OnError(SqlException exception; Boolean breakConnection; Action`1 wrapCloseInAction);   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception; Boolean breakConnection; Action`1 wrapCloseInAction);   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj; Boolean callerHasConnectionLock; Boolean asyncClose);   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior; SqlCommand cmdHandler; SqlDataReader dataStream; BulkCopySimpleResultSet bulkCopyHandler; TdsParserStateObject stateObj; Boolean& dataReady);   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData();   at System.Data.SqlClient.SqlDataReader.get_MetaData();   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds; RunBehavior runBehavior; String resetOptionsString; Boolean isInternal; Boolean forDescribeParameterEncryption);   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior; RunBehavior runBehavior; Boolean returnStream; Boolean async; Int32 timeout; Task& task; Boolean asyncWrite; Boolean inRetry; SqlDataReader ds; Boolean describeParameterEncryptionRequest);   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior; RunBehavior runBehavior; Boolean returnStream; String method; TaskCompletionSource`1 completion; Int32 timeout; Task& task; Boolean& usedCache; Boolean asyncWrite; Boolean inRetry);   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior; RunBehavior runBehavior; Boolean returnStream; String method);   at System.Data.SqlClient.SqlCommand.ExecuteScalar();   at Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteScalar(IDbCommand command);   at Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteScalar(DbCommand command);   at SICT.DataAccessLayer.DataAccessLayer.GetUserNameBySessionId(String SessionId) in D:\SICT_Web\SICT\DataAccessLayer\DataAccessLayer.cs:line 2324
+Information , 25-10-2017 14:16:20 , ReportingBusiness,GetInterviewerReport,End for AirportId --1
+Information , 25-10-2017 14:16:20 , ReportingServices,GetInterviewerReport,End 
+Information , 25-10-2017 14:16:38 , UserDetailsService,IsSessionIdValid,Start for SessionId - 050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:16:38 , UserDetailsBusiness,IsSessionIdValid, Start for Session id-050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:16:38 , UserDetailsBusiness,IsSessionIdValid,End for SessonId -050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:16:38 , UserDetailsService,IsSessionIdValid,End for SessionId- 050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:16:44 , ReportingServices,GetFlightReport,Start 
+Information , 25-10-2017 14:16:44 , UserDetailsBusiness,IsSessionIdValid, Start for Session id-050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:16:45 , UserDetailsBusiness,IsSessionIdValid,End for SessonId -050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:16:45 , ReportingBusiness,GetFlightReport,Start for AirportId --1
+Critical , 25-10-2017 14:16:45 , DataAccessLayer,GetUserNameBySessionId,Could not find stored procedure 'GetUserNameBySessionId'.,at System.Data.SqlClient.SqlConnection.OnError(SqlException exception; Boolean breakConnection; Action`1 wrapCloseInAction);   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception; Boolean breakConnection; Action`1 wrapCloseInAction);   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj; Boolean callerHasConnectionLock; Boolean asyncClose);   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior; SqlCommand cmdHandler; SqlDataReader dataStream; BulkCopySimpleResultSet bulkCopyHandler; TdsParserStateObject stateObj; Boolean& dataReady);   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData();   at System.Data.SqlClient.SqlDataReader.get_MetaData();   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds; RunBehavior runBehavior; String resetOptionsString; Boolean isInternal; Boolean forDescribeParameterEncryption);   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior; RunBehavior runBehavior; Boolean returnStream; Boolean async; Int32 timeout; Task& task; Boolean asyncWrite; Boolean inRetry; SqlDataReader ds; Boolean describeParameterEncryptionRequest);   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior; RunBehavior runBehavior; Boolean returnStream; String method; TaskCompletionSource`1 completion; Int32 timeout; Task& task; Boolean& usedCache; Boolean asyncWrite; Boolean inRetry);   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior; RunBehavior runBehavior; Boolean returnStream; String method);   at System.Data.SqlClient.SqlCommand.ExecuteScalar();   at Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteScalar(IDbCommand command);   at Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteScalar(DbCommand command);   at SICT.DataAccessLayer.DataAccessLayer.GetUserNameBySessionId(String SessionId) in D:\SICT_Web\SICT\DataAccessLayer\DataAccessLayer.cs:line 2324
+Information , 25-10-2017 14:16:45 , ReportingBusiness,BuildMultiFilterConditionForReport,Start For AiprortId --1
+Information , 25-10-2017 14:16:45 , ReportingBusiness,BuildMultiFilterConditionForReport,End For AiprortId --1
+Information , 25-10-2017 14:16:45 , ReportingBusiness,BuildMultiFilterConditionForReport,Start For AiprortId --1
+Information , 25-10-2017 14:16:45 , ReportingBusiness,BuildMultiFilterConditionForReport,End For AiprortId --1
+Verbose , 25-10-2017 14:16:45 , ReportingBusiness,GetFlightReport,Start Retieving Flight Report  Data From DB
+Information , 25-10-2017 14:16:45 , ReportingBusiness,GetFlightReport,End for AirportId --1
+Information , 25-10-2017 14:16:45 , ReportingServices,GetFlightReport,End 
+Information , 25-10-2017 14:17:08 , UserDetailsService,IsSessionIdValid,Start for SessionId - 050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:17:08 , UserDetailsBusiness,IsSessionIdValid, Start for Session id-050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:17:08 , UserDetailsBusiness,IsSessionIdValid,End for SessonId -050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:17:08 , UserDetailsService,IsSessionIdValid,End for SessionId- 050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:17:14 , ReportingServices,GetDODReport,Start 
+Information , 25-10-2017 14:17:14 , UserDetailsBusiness,IsSessionIdValid, Start for Session id-050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:17:14 , UserDetailsBusiness,IsSessionIdValid,End for SessonId -050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:17:14 , ReportingBusiness,GetDODReport,Start for AirportId --1
+Information , 25-10-2017 14:17:14 , ReportingBusiness,BuildMultiFilterConditionForReport,Start For AiprortId --1
+Information , 25-10-2017 14:17:14 , ReportingBusiness,BuildMultiFilterConditionForReport,End For AiprortId --1
+Information , 25-10-2017 14:17:14 , ReportingBusiness,BuildMultiFilterConditionForReport,Start For AiprortId --1
+Information , 25-10-2017 14:17:14 , ReportingBusiness,BuildMultiFilterConditionForReport,End For AiprortId --1
+Verbose , 25-10-2017 14:17:14 , ReportingBusiness,GetDODReport,Start Retieving DOD Report Data From DB
+Critical , 25-10-2017 14:17:14 , DataAccessLayer,GetUserNameBySessionId,Could not find stored procedure 'GetUserNameBySessionId'.,at System.Data.SqlClient.SqlConnection.OnError(SqlException exception; Boolean breakConnection; Action`1 wrapCloseInAction);   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception; Boolean breakConnection; Action`1 wrapCloseInAction);   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj; Boolean callerHasConnectionLock; Boolean asyncClose);   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior; SqlCommand cmdHandler; SqlDataReader dataStream; BulkCopySimpleResultSet bulkCopyHandler; TdsParserStateObject stateObj; Boolean& dataReady);   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData();   at System.Data.SqlClient.SqlDataReader.get_MetaData();   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds; RunBehavior runBehavior; String resetOptionsString; Boolean isInternal; Boolean forDescribeParameterEncryption);   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior; RunBehavior runBehavior; Boolean returnStream; Boolean async; Int32 timeout; Task& task; Boolean asyncWrite; Boolean inRetry; SqlDataReader ds; Boolean describeParameterEncryptionRequest);   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior; RunBehavior runBehavior; Boolean returnStream; String method; TaskCompletionSource`1 completion; Int32 timeout; Task& task; Boolean& usedCache; Boolean asyncWrite; Boolean inRetry);   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior; RunBehavior runBehavior; Boolean returnStream; String method);   at System.Data.SqlClient.SqlCommand.ExecuteScalar();   at Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteScalar(IDbCommand command);   at Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteScalar(DbCommand command);   at SICT.DataAccessLayer.DataAccessLayer.GetUserNameBySessionId(String SessionId) in D:\SICT_Web\SICT\DataAccessLayer\DataAccessLayer.cs:line 2324
+Information , 25-10-2017 14:17:15 , ReportingBusiness,GetDODReport,End for AirportId --1
+Information , 25-10-2017 14:17:15 , ReportingServices,GetDODReport,End 
+Information , 25-10-2017 14:17:29 , UserDetailsService,IsSessionIdValid,Start for SessionId - 050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:17:29 , UserDetailsBusiness,IsSessionIdValid, Start for Session id-050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:17:29 , UserDetailsBusiness,IsSessionIdValid,End for SessonId -050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:17:29 , UserDetailsService,IsSessionIdValid,End for SessionId- 050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:17:34 , ReportingServices,GetAirlineReport,Start 
+Information , 25-10-2017 14:17:34 , UserDetailsBusiness,IsSessionIdValid, Start for Session id-050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:17:34 , UserDetailsBusiness,IsSessionIdValid,End for SessonId -050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:17:34 , ReportingBusiness,GetAirlineReport,Start for AirportId --1
+Critical , 25-10-2017 14:17:34 , DataAccessLayer,GetUserNameBySessionId,Could not find stored procedure 'GetUserNameBySessionId'.,at System.Data.SqlClient.SqlConnection.OnError(SqlException exception; Boolean breakConnection; Action`1 wrapCloseInAction);   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception; Boolean breakConnection; Action`1 wrapCloseInAction);   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj; Boolean callerHasConnectionLock; Boolean asyncClose);   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior; SqlCommand cmdHandler; SqlDataReader dataStream; BulkCopySimpleResultSet bulkCopyHandler; TdsParserStateObject stateObj; Boolean& dataReady);   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData();   at System.Data.SqlClient.SqlDataReader.get_MetaData();   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds; RunBehavior runBehavior; String resetOptionsString; Boolean isInternal; Boolean forDescribeParameterEncryption);   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior; RunBehavior runBehavior; Boolean returnStream; Boolean async; Int32 timeout; Task& task; Boolean asyncWrite; Boolean inRetry; SqlDataReader ds; Boolean describeParameterEncryptionRequest);   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior; RunBehavior runBehavior; Boolean returnStream; String method; TaskCompletionSource`1 completion; Int32 timeout; Task& task; Boolean& usedCache; Boolean asyncWrite; Boolean inRetry);   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior; RunBehavior runBehavior; Boolean returnStream; String method);   at System.Data.SqlClient.SqlCommand.ExecuteScalar();   at Microsoft.Practices.EnterpriseLibrary.Data.Database.DoExecuteScalar(IDbCommand command);   at Microsoft.Practices.EnterpriseLibrary.Data.Database.ExecuteScalar(DbCommand command);   at SICT.DataAccessLayer.DataAccessLayer.GetUserNameBySessionId(String SessionId) in D:\SICT_Web\SICT\DataAccessLayer\DataAccessLayer.cs:line 2324
+Information , 25-10-2017 14:17:34 , ReportingBusiness,BuildMultiFilterConditionForReport,Start For AiprortId --1
+Information , 25-10-2017 14:17:34 , ReportingBusiness,BuildMultiFilterConditionForReport,End For AiprortId --1
+Information , 25-10-2017 14:17:34 , ReportingBusiness,BuildFilterConditionForTarget,Start For AiprortId --1
+Information , 25-10-2017 14:17:34 , ReportingBusiness,BuildFilterConditionForTarget,End For AiprortId --1
+Information , 25-10-2017 14:17:34 , ReportingBusiness,BuildMultiFilterConditionForReport,Start For AiprortId --1
+Information , 25-10-2017 14:17:34 , ReportingBusiness,BuildMultiFilterConditionForReport,End For AiprortId --1
+Information , 25-10-2017 14:17:34 , ReportingBusiness,BuildMultiFilterConditionForReport,Start For AiprortId --1
+Information , 25-10-2017 14:17:34 , ReportingBusiness,BuildMultiFilterConditionForReport,End For AiprortId --1
+Information , 25-10-2017 14:17:34 , ReportingBusiness,BuildFilterConditionForTarget,Start For AiprortId --1
+Information , 25-10-2017 14:17:34 , ReportingBusiness,BuildFilterConditionForTarget,End For AiprortId --1
+Information , 25-10-2017 14:17:34 , ReportingBusiness,BuildMultiFilterConditionForReport,Start For AiprortId --1
+Information , 25-10-2017 14:17:34 , ReportingBusiness,BuildMultiFilterConditionForReport,End For AiprortId --1
+Information , 25-10-2017 14:17:35 , ReportingBusiness,GetAirlineReport,End for AirportId --1
+Information , 25-10-2017 14:17:35 , ReportingServices,GetAirlineReport,End 
+Information , 25-10-2017 14:17:50 , UserDetailsService,IsSessionIdValid,Start for SessionId - 050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:17:50 , UserDetailsBusiness,IsSessionIdValid, Start for Session id-050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:17:50 , UserDetailsBusiness,IsSessionIdValid,End for SessonId -050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:17:50 , UserDetailsService,IsSessionIdValid,End for SessionId- 050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:17:56 , ReportingServices,GetAirportReport,Start 
+Information , 25-10-2017 14:17:56 , UserDetailsBusiness,IsSessionIdValid, Start for Session id-050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:17:56 , UserDetailsBusiness,IsSessionIdValid,End for SessonId -050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:17:56 , ReportingBusiness,GetAirlineReport,Start 
+Information , 25-10-2017 14:17:56 , ReportingBusiness,BuildMultiFilterConditionForReport,Start For AiprortId --1
+Information , 25-10-2017 14:17:56 , ReportingBusiness,BuildMultiFilterConditionForReport,End For AiprortId --1
+Information , 25-10-2017 14:17:56 , ReportingBusiness,BuildFilterConditionForTarget,Start For AiprortId --1
+Information , 25-10-2017 14:17:56 , ReportingBusiness,BuildFilterConditionForTarget,End For AiprortId --1
+Information , 25-10-2017 14:17:56 , ReportingBusiness,BuildMultiFilterConditionForReport,Start For AiprortId --1
+Information , 25-10-2017 14:17:56 , ReportingBusiness,BuildMultiFilterConditionForReport,End For AiprortId --1
+Information , 25-10-2017 14:17:56 , ReportingBusiness,BuildMultiFilterConditionForReport,Start For AiprortId --1
+Information , 25-10-2017 14:17:56 , ReportingBusiness,BuildMultiFilterConditionForReport,End For AiprortId --1
+Information , 25-10-2017 14:17:56 , ReportingBusiness,BuildFilterConditionForTarget,Start For AiprortId --1
+Information , 25-10-2017 14:17:56 , ReportingBusiness,BuildFilterConditionForTarget,End For AiprortId --1
+Information , 25-10-2017 14:17:56 , ReportingBusiness,BuildMultiFilterConditionForReport,Start For AiprortId --1
+Information , 25-10-2017 14:17:56 , ReportingBusiness,BuildMultiFilterConditionForReport,End For AiprortId --1
+Information , 25-10-2017 14:17:57 , ReportingBusiness,GetAirlineReport,End 
+Information , 25-10-2017 14:17:57 , ReportingServices,GetAirportReport,End 
+Information , 25-10-2017 14:18:50 , UserDetailsService,IsSessionIdValid,Start for SessionId - 050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:18:50 , UserDetailsBusiness,IsSessionIdValid, Start for Session id-050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:18:50 , UserDetailsBusiness,IsSessionIdValid,End for SessonId -050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:18:50 , UserDetailsService,IsSessionIdValid,End for SessionId- 050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:19:50 , UserDetailsService,IsSessionIdValid,Start for SessionId - 050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:19:50 , UserDetailsBusiness,IsSessionIdValid, Start for Session id-050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:19:50 , UserDetailsBusiness,IsSessionIdValid,End for SessonId -050c47a0-6e16-4c10-b364-478beb85d55c
+Information , 25-10-2017 14:19:50 , UserDetailsService,IsSessionIdValid,End for SessionId- 050c47a0-6e16-4c10-b364-478beb85d55c

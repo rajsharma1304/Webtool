@@ -1,0 +1,359 @@
+<!--<Copyright> Cross-Tab </Copyright>
+<ProjectName>SICT</ProjectName>
+<FileName> interviewers.html </FileName>
+<CreatedOn>15 Jan 2015</CreatedOn>-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>m1nd-set Manage Interviewers</title>
+
+        <!-- Bootstrap framework -->
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="bootstrap/css/bootstrap-responsive.min.css" />
+        <!-- gebo blue theme-->
+        <link rel="stylesheet" href="css/dark.css" id="link_theme" />
+        
+        <!-- datepicker -->
+        <link rel="stylesheet" href="lib/datepicker/datepicker.css" />    
+        <!-- breadcrumbs-->
+        <link rel="stylesheet" href="lib/jBreadcrumbs/css/BreadCrumb.css" />
+        <!-- tooltips-->
+        <link rel="stylesheet" href="lib/qtip2/jquery.qtip.min.css" />
+        <!-- colorbox -->
+        <link rel="stylesheet" href="lib/colorbox/colorbox.css" />
+        <!-- notifications -->
+        <link rel="stylesheet" href="lib/sticky/sticky.css" />    
+        <!-- splashy icons -->
+        <link rel="stylesheet" href="img/splashy/splashy.css" />
+        <!-- smoke_js -->
+        <link rel="stylesheet" href="lib/smoke/themes/gebo.css" />
+        <!-- datatable styles -->
+        <link rel="stylesheet" href="lib/datatables/css/demo_page.css" />
+        <link rel="stylesheet" href="lib/datatables/css/demo_table.css" />
+        <link rel="stylesheet" href="lib/datatables/css/jquery.dataTables.css" />
+        <!-- smoke_js -->
+        <link rel="stylesheet" href="lib/smoke/themes/gebo.css" />
+        <!-- main styles -->
+        <link rel="stylesheet" href="css/style.css" />
+        
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans" />
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="favicon.ico" />
+        <link rel="stylesheet" type="text/css" href="css/fontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" type="text/css" href="css/fontAwesome/css/font-awesome.min.css">
+        <!-- m1ndset blue theme-->
+        <link rel="stylesheet" href="css/m1ndset.css" id="m1ndset_theme" />
+        <style>
+            footer{
+                height: 48px;
+                line-height: 62px;
+                width: 100%;
+                /* width: 290px; */
+                margin: 0%;
+                color: rgb(167,173,189);
+                font-size: 12px;
+                background: #ffffff;
+                display: block;
+                border-top: 1px solid #e3e3e3;
+            }
+            
+            .pointer{
+                cursor: pointer;
+            }
+            
+        </style>
+        <script>
+            //* hide all elements & show preloader
+            document.documentElement.className += 'js';
+        </script>
+        <style media="all" type="text/css">
+            .table.display td:nth-child(2),td:nth-child(3),td:nth-child(4),td:nth-child(5),td:nth-child(6),td:nth-child(7),td:nth-child(8)
+            ,td:nth-child(9),td:nth-child(10),td:nth-child(11),td:nth-child(12),td:nth-child(13),td:nth-child(14)
+            {
+                text-align:center !important;
+            }
+
+
+        </style>
+        <style>
+            table.dataTable tfoot th, 
+            table.dataTable tfoot td {
+                padding: 10px 0px 6px 0px !important;
+                border-top: 1px solid #111111;
+            }
+
+            .btn-pink{
+                color: #fff;
+                text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+                background-color: rgb(242,41,160) ;
+                *background-color: rgb(242,41,160) ;
+                background-image: -webkit-gradient(linear,0 0,0 100%,from(#F229A0),to(#F229A0));
+                background-image: -webkit-linear-gradient(top,#F229A0,#F229A0);
+                background-image: -o-linear-gradient(top,#F229A0,#F229A0);
+                background-image: linear-gradient(to bottom,#F229A0,#F229A0);
+                background-image: -moz-linear-gradient(top,#F229A0,#F229A0);
+                background-repeat: repeat-x;
+                border-color: #F229A0 #F229A0 #F229A0;
+                border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+            }
+
+            .btn-pink hover,.btn-pink active,.btn-pink.active,.btn-pink.disabled,.btn-pink[disabled], .btn-pink:hover{
+                color: #ffffff;
+                background-color: #F229A0 !important;
+                *background-color: #F229A0 !important;
+            }
+
+            .btn-pink active,.btn-pink.active{
+                background-color: #F229A0 !important;
+            }
+
+            .btn-pink.open .btn-pink.dropdown-toggle {
+                background-color: #F229A0;
+            }
+
+            .btn-pink:active{
+                color: #ffffff;
+                background-color: #F229A0;
+            }
+
+
+
+
+
+        </style>
+    </head>
+    <body  class="menu_hover sidebar_hidden">
+        <div id="loading_layer" style="display:none"><img src="img/ajax_loader.gif" alt="" /></div>
+        <div class="style_switcher">
+            <div class="sepH_c">
+                <p>Colors:</p>
+                <div class="clearfix">
+                    <a href="javascript:void(0)" class="style_item jQclr blue_theme style_active" title="blue">blue</a>
+                    <a href="javascript:void(0)" class="style_item jQclr dark_theme" title="dark">dark</a>
+                    <a href="javascript:void(0)" class="style_item jQclr green_theme" title="green">green</a>
+                    <a href="javascript:void(0)" class="style_item jQclr brown_theme" title="brown">brown</a>
+                    <a href="javascript:void(0)" class="style_item jQclr eastern_blue_theme" title="eastern_blue">eastern blue</a>
+                    <a href="javascript:void(0)" class="style_item jQclr tamarillo_theme" title="tamarillo">tamarillo</a>
+                </div>
+            </div>
+            <div class="sepH_c">
+                <p>Backgrounds:</p>
+                <div class="clearfix">
+                    <span class="style_item jQptrn style_active ptrn_def" title=""></span>
+                    <span class="ssw_ptrn_a style_item jQptrn" title="ptrn_a"></span>
+                    <span class="ssw_ptrn_b style_item jQptrn" title="ptrn_b"></span>
+                    <span class="ssw_ptrn_c style_item jQptrn" title="ptrn_c"></span>
+                    <span class="ssw_ptrn_d style_item jQptrn" title="ptrn_d"></span>
+                    <span class="ssw_ptrn_e style_item jQptrn" title="ptrn_e"></span>
+                </div>
+            </div>
+            <div class="sepH_c">
+                <p>Layout:</p>
+                <div class="clearfix">
+                    <label class="radio inline"><input type="radio" name="ssw_layout" id="ssw_layout_fluid" value="" checked /> Fluid</label>
+                    <label class="radio inline"><input type="radio" name="ssw_layout" id="ssw_layout_fixed" value="gebo-fixed" /> Fixed</label>
+                </div>
+            </div>
+            <div class="sepH_c">
+                <p>Sidebar position:</p>
+                <div class="clearfix">
+                    <label class="radio inline"><input type="radio" name="ssw_sidebar" id="ssw_sidebar_left" value="" checked /> Left</label>
+                    <label class="radio inline"><input type="radio" name="ssw_sidebar" id="ssw_sidebar_right" value="sidebar_right" /> Right</label>
+                </div>
+            </div>
+            <div class="sepH_c">
+                <p>Show top menu on:</p>
+                <div class="clearfix">
+                    <label class="radio inline"><input type="radio" name="ssw_menu" id="ssw_menu_click" value="" checked /> Click</label>
+                    <label class="radio inline"><input type="radio" name="ssw_menu" id="ssw_menu_hover" value="menu_hover" /> Hover</label>
+                </div>
+            </div>
+
+            <div class="gh_button-group">
+                <a href="#" id="showCss" class="btn btn-primary btn-mini">Show CSS</a>
+                <a href="#" id="resetDefault" class="btn btn-mini">Reset</a>
+            </div>
+            <div class="hide">
+                <ul id="ssw_styles">
+                    <li class="small ssw_mbColor sepH_a" style="display:none">body {<span class="ssw_mColor sepH_a" style="display:none"> color: #<span></span>;</span> <span class="ssw_bColor" style="display:none">background-color: #<span></span> </span>}</li>
+                    <li class="small ssw_lColor sepH_a" style="display:none">a { color: #<span></span> }</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="maincontainer" class="clearfix">
+            <!-- header -->
+            <header>
+                <div class="navbar navbar-fixed-top">
+                    <div  class="navbar-inner">
+                        <div id="leftMenuPanel" class="container-fluid">
+                            <a class="brand" href="dashboard.html" ><span>m1nd-set</span></a>
+                            <ul class="nav user_menu pull-right">
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="img/user_avatar.png" alt="" class="user_avatar" />  <b class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a onclick="logoff()">Log Out</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>                
+            </header>
+
+            <!-- main content -->
+            <div id="contentwrapper">
+                <div class="main_content">
+                    <div id="UserInputs" class="row-fluid">
+                        <div id="parentDiv" class="span12 formSep">
+                            <h2 class="heading"><i class="fa fa-arrow-circle-up pointer ttip_t" title="Collapse" onclick="showORHide('formHdr', this)"></i> Manage Interviewers </h2>
+                            <div id="formHdr">
+                                <div class="row-fluid">
+                                    <div class="span12">
+                                        <div class="span3">        
+                                            <label>Fieldwork Airport</label>
+                                            <select class="span12" id="interviewerAirlines"></select>
+                                        </div>                                                                               
+                                    </div>
+                                </div>
+                                <div class="row-fluid">
+                                    <div class="span4">        
+                                        <button id="Generate" class=" btn btn-pink ttip_t" title="Generate Report" onclick="manageInterviewers.getInterviewersReport()" > Generate Report </button>
+                                        <a data-toggle="modal" data-backdrop="static" href="#addOrEditInterviewer" onclick="manageInterviewers.initAirlines(true)" id="addFlightCombo" class="btn btn-pink ttip_t" title="Add Interviewer"  > Add Interviewer </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row-fluid">
+                        <div class="span12">
+                            <table id="interviewersTables" class="display table table-bordered" cellspacing="0" width="100%">
+                                    <thead>
+                                    <tr>
+                                        <th class="ttip_t" title="ID" style="padding-left: 10px;" >ID</th>
+                                        <th class="ttip_t" title="Interviewer Name" >Interviewer Name</th>
+                                        <th class="ttip_t" title="Airport" >Airport</th>
+                                        <th class="ttip_t" title="Status" >Status</th>
+                                        <th class="ttip_t" title="Action" >Action</th>
+                                    </tr>
+                                </thead>                                
+                            </table>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+            
+            <div class="modal hide fade span12" id="addOrEditInterviewer" style="display:none;left:0.5%" >
+                    <div class="modal-header">
+                            <button class="close ttip_t" onclick="pageHelper.clearAllPopUps()" data-dismiss="modal" title="Close">×</button>
+                            <h3>Add Interviewer</h3>
+                    </div>
+                    <div class="modal-body">
+                            <div id="formHdr">
+                                <div class="row-fluid">
+                                    <div class="span12">
+                                        <div class="span3">        
+                                            <label> Fieldwork Airport </label>
+                                            <select class="span12" id="addAirportDD"></select>
+                                        </div>
+                                        <div class="span3">
+                                            <label> Interviewer Name </label>
+                                            <input id="addInterviewerName" name="addInterviewerName" type="text" class="span10" value=" " />
+                                        </div>
+                                        <div class="span3">
+                                            <label> Status </label>
+                                            <select class="span12" id="addInterviewerStatus">
+                                                <option value="true" >Active </option>
+                                                <option value="false" >Inactive</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="modal-footer">
+                            <a onclick="manageInterviewers.addOrEditInterviewers(true)" id="saveInterviewers" class="btn btn-pink ttip_t" title="Save" >Save</a>
+                            <a href="#" onclick="pageHelper.clearAllPopUps()" class="btn btn-pink ttip_t" title="Close" id="closeInterviewerModel" data-dismiss="modal">Close</a>
+                    </div>
+            </div>
+
+            
+            <script src="js/jquery.min.js"></script>
+            <!-- smart resize event -->
+            <script src="js/jquery.debouncedresize.min.js"></script>
+            <!-- hidden elements width/height -->
+            <script src="js/jquery.actual.min.js"></script>
+            <!-- js cookie plugin -->
+            <script src="js/jquery_cookie.min.js"></script>
+            <!-- main bootstrap js -->
+            <script src="bootstrap/js/bootstrap.min.js"></script>
+            <!-- bootstrap plugins -->
+            <script src="js/bootstrap.plugins.min.js"></script>
+            <!-- tooltips -->
+            <script src="lib/qtip2/jquery.qtip.min.js"></script>
+            <!-- jBreadcrumbs -->
+            <script src="lib/jBreadcrumbs/js/jquery.jBreadCrumb.1.1.min.js"></script>
+            <!-- sticky messages -->
+            <script src="lib/sticky/sticky.min.js"></script>
+            <!-- fix for ios orientation change -->
+            <script src="js/ios-orientationchange-fix.js"></script>
+            <!-- scrollbar -->
+            <script src="lib/antiscroll/antiscroll.js"></script>
+            <script src="lib/antiscroll/jquery-mousewheel.js"></script>
+            <!-- mobile nav -->
+            <script src="js/selectNav.js"></script>
+            <!-- smoke_js -->
+            <script src="lib/smoke/smoke.js"></script>
+            <!-- common functions -->
+            <script src="js/gebo_common.js"></script>            
+            <!-- colorbox -->
+            <script src="lib/colorbox/jquery.colorbox.min.js"></script>
+            <!-- datatable -->
+            <script src="lib/datatables/jquery.dataTables.min.js"></script>
+            <!-- additional sorting for datatables -->
+            <script src="lib/datatables/jquery.dataTables.sorting.js"></script>
+            <!-- tables functions -->
+            <script src="js/gebo_tables.js"></script>
+            <!-- datepicker -->
+            <script src="lib/datepicker/bootstrap-datepicker.min.js"></script>
+            <!-- masked inputs -->
+            <script src="js/forms/jquery.inputmask.min.js"></script>
+            <script src="js/globalFunc.js"></script>
+
+            <!--Custom JS -->
+            <script src="js/sict/utils.js"></script>
+            <script src="js/sict/communion.jsonp"></script>
+            <script src="js/sict/restActions.js"></script>
+            <script src="js/sict/airportUtil.js"></script>
+            <script src="js/sict/cacheManager.js"></script>
+            <script src="js/sict/login.js"></script>
+            <script src="js/sict/manageinterviewers.js"></script>
+            <script src="js/sict/pageHelpers.js"></script>
+
+            <script>
+                $(document).ready(function() {
+                    //* show all elements & remove preloader
+                    setTimeout('$("html").removeClass("js")', 1000);                   
+                    manageInterviewers.initManageInterviewers();
+                    manageInterviewers.getInterviewersReport();
+                    $('#Generate').on('click', function() {
+                        $('#formHdr').toggle('200');
+                        //[#73699] Incorrect tool tip and icon is showing on Interviewers, Flight Combination and target.
+                        $(this).parents().find('#parentDiv').find('i').removeClass('fa-arrow-circle-up').addClass('fa-arrow-circle-down').attr('title','Expand');
+                        $('#parentDiv').removeClass('formSep');
+                    });
+                });
+            </script>
+           
+        </div>
+        <footer>
+            <div class="span12 row-fluid pull-right" >
+                <h5 class="sepH_c pull-right" >Airs@t v2.0 - Powered by m1nd-set SA. ©2015</h5>
+            </div>
+        </footer>
+    </body>
+</html>

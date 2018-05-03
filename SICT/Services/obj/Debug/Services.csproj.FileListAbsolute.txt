@@ -1,0 +1,52 @@
+D:\airsat v2.0\Server\SICT\Services\bin\Services.dll.config
+D:\airsat v2.0\Server\SICT\Services\bin\Services.dll
+D:\airsat v2.0\Server\SICT\Services\bin\Services.pdb
+D:\airsat v2.0\Server\SICT\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+D:\airsat v2.0\Server\SICT\Services\obj\Debug\Services.dll
+D:\airsat v2.0\Server\SICT\Services\obj\Debug\Services.pdb
+D:\airsat v2.0\Server\SICT\Services\bin\CommonBusiness.dll
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\bin\Services.dll.config
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\bin\Services.dll
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\bin\Services.pdb
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\bin\DataAccessLayer.dll
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\bin\BusinessUtils.dll
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\bin\Aspose.Cells.dll
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\bin\Microsoft.Practices.Unity.Interception.dll
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\bin\Microsoft.Practices.ServiceLocation.dll
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\bin\Microsoft.Practices.Unity.dll
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\bin\Constants.pdb
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\bin\Contracts.pdb
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\bin\Logger.pdb
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\bin\BusinessLayerV1.pdb
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\bin\CommonBusiness.pdb
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\bin\Microsoft.Practices.Unity.Interception.xml
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\obj\Debug\Services.dll
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\obj\Debug\Services.pdb
+D:\SICT_Web\SICT\Services\bin\Services.dll.config
+D:\SICT_Web\SICT\Services\bin\Services.dll
+D:\SICT_Web\SICT\Services\bin\Services.pdb
+D:\SICT_Web\SICT\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+D:\SICT_Web\SICT\Services\obj\Debug\Services.dll
+D:\SICT_Web\SICT\Services\obj\Debug\Services.pdb
+D:\SICT_Web\SICT\Services\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+D:\SICT_Web\SICT\Services\bin\BusinessUtils.dll
+D:\SICT_Web\SICT\Services\bin\Aspose.Cells.dll
+D:\SICT_Web\SICT\Services\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\SICT_Web\SICT\Services\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\SICT_Web\SICT\Services\bin\Microsoft.Practices.Unity.Interception.dll
+D:\SICT_Web\SICT\Services\bin\Microsoft.Practices.ServiceLocation.dll
+D:\SICT_Web\SICT\Services\bin\Microsoft.Practices.Unity.dll
+D:\SICT_Web\SICT\Services\bin\Constants.pdb
+D:\SICT_Web\SICT\Services\bin\Contracts.pdb
+D:\SICT_Web\SICT\Services\bin\Logger.pdb
+D:\SICT_Web\SICT\Services\bin\BusinessLayerV1.pdb
+D:\SICT_Web\SICT\Services\bin\CommonBusiness.pdb
+D:\SICT_Web\SICT\Services\bin\DataAccessLayer.pdb
+D:\SICT_Web\SICT\Services\bin\BusinessUtils.pdb
+D:\SICT_Web\SICT\Services\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\SICT_Web\SICT\Services\bin\Microsoft.Practices.Unity.Interception.xml

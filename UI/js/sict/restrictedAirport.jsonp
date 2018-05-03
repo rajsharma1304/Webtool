@@ -1,0 +1,3 @@
+var restrictedAirportNames = [
+	{'airPortLogin':'Vietnam', 'airlineID':'31'}
+];

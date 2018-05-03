@@ -1,0 +1,384 @@
+/*<Copyright> Cross-Tab </Copyright>
+ <ProjectName>SICT</ProjectName>
+ <FileName> cachemanagers.js </FileName>
+ <CreatedOn>15 Jan 2015</CreatedOn>*/
+var manageAirports = {
+    airportMessages: {
+        onSuccessAdd: 'Airport sucessfully added',
+        onSuccessUpdate: 'Airport sucessfully updated',
+        addProgress: 'Please wait while the airport is being added',
+        updateProgress: 'Please wait while the airport is being updated',
+        validationError: 'Please re-check the highlighted controls',
+        deleteProgress: 'Deactivating airport, please wait...',
+        deleteSuccess: 'Airport successfully deactivated',
+        dataExists: 'Sorry, an airport with the same airport code already exists',
+        validSearch : 'Please enter a valid value for search'
+    },
+    manageAirportsTables: '',
+    isInitialised: false,
+    rowID: '',
+    isAdd: false,
+    initManageAirports: function() {
+        var me = this;
+        var airportURL = getJsonInfoAction(RETRIEVEMANAGEAIRPORTS);
+        me.manageAirportsTables = $('#manageAirportsTables').DataTable({
+            "bProcessing": true,
+            "aLengthMenu": [20, 50, 100],
+            "iDisplayLength": 50,
+            "order": [[1, "asc"]],
+            "pagingType": "simple_numbers",
+            "bDestroy": true,
+            "initComplete": function() {
+                $("#manageAirportsTables_filter input").off().on('keyup', function(e) {
+                    if (e.keyCode == 13){
+                        me.manageAirportsTables.search(this.value).draw();
+                        this.value = this.value.trim();
+                        if(this.value.trim() === ''){
+                            pageHelper.clearStickies();
+                            pageHelper.notify(manageAirports.airportMessages.validSearch, pageHelper.stickyPosition.top.RIGHT, pageHelper.stickyTypes.INFO);                    
+                        }
+                    }                        
+                });
+                gebo_tips.init();
+            },
+            "ajax": function(data, callback, settings) {
+                $.get(airportURL)
+                        .done(function(result) {
+                            var nodeName = result.UserDetails;
+                            if (nodeName !== null)
+                                callback({data: nodeName});
+                            else
+                                callback({data: []});
+                        });
+            },
+            "columns": [
+                {"data": "AirportName"},
+                {"data": "UserName"},
+                {"data": "ArrivalFormAccess"},
+                {"data": "DepartureFormAccess"},
+                {"data": "IsActive", "sClass": "cCursorPointer"}
+            ],
+            aoColumnDefs: [
+                {
+                    "aTargets": [2, 3],
+                    "mRender": function(data, type, full) {
+                        if (data)
+                            return 'Yes';
+                        else
+                            return 'No';
+                    }
+                },
+                {
+                    "aTargets": [1],
+                    "mRender": function(data, type, full) {
+                        return data.toUpperCase();
+                    }
+                },
+                {
+                    "aTargets": [4],
+                    'bSortable': false,
+                    "mRender": function(data, type, full) {
+                        var ttipName;
+                        if(data)
+                            ttipName = 'Deactivate Airport';
+                        else
+                            ttipName = 'Activate Airport';
+                        $('body').data(data.toString(), full);
+                        return '<a href="#addOrEditAirports" data-toggle="modal" data-backdrop="static"  onclick="manageAirports.callEditAirports(this)" class="sepDelEdit ttip_t" title="Edit Airport"><i class="fa fa-pencil-square-o fa-lg btnColor"></i></a>' +
+                                '<a href="javascript:void(0);" onclick="manageAirports.callDeleteAirport(this)" title="'+ ttipName +'"  class="sepDelEdit ttip_t" ><i class="fa fa-eye-slash fa-lg btnColor"></i></a>';
+                    }
+                }
+            ]
+        });
+        //  Init the style
+        $(".uni_style").uniform();
+        //  Reset the controls
+        me.bindLoginChkEvent();
+        me.removerPreviousValues();
+        me.hideLoginData();
+    },
+    updateChkBox: function(arChecked, dpChecked) {
+        if (undefined !== arChecked)
+            $('#arrivalCheck').prop('checked', arChecked);
+        else
+            $('#arrivalCheck').prop('checked', false);
+
+        if (undefined !== dpChecked)
+            $('#departureCheck').prop('checked', dpChecked);
+        else
+            $('#departureCheck').prop('checked', false);
+    },
+    bindLoginChkEvent: function() {
+        //  Show/Hide the password boxes based on user selection of login
+        $('#loginRequired').click(function() {
+            if ($(this).is(':checked')) {
+                $("#pwdParentDiv").show('slow');
+                $('#activeCheckDiv').show('slow');
+                if (communion.hostInstance === 'USI' || communion.hostInstance === 'AIR')
+                    $('#arrivalAccessDiv').show('slow');
+                $('#departureCheckDiv').show('slow');
+            }
+            else {
+                $("#pwdParentDiv").hide('slow');
+                $('#activeCheckDiv').hide('slow');
+                $('#arrivalAccessDiv').hide('slow');
+                $('#departureCheckDiv').hide('slow');
+            }
+        });
+    },
+    addNewAirport: function() {
+        var me = this, data = communion, host = data.hostInstance;
+        ;
+        me.handleValidations();
+        $(".sict_error").removeClass('sict_error');
+        $(".modal-header h3").html("Add Airport");
+        $('#passwordDiv').show();
+        $('#confirmPasswordDiv').show();
+
+        manageAirports.isAdd = true;
+        me.bindLoginChkEvent();
+        me.removerPreviousValues();
+        me.hideLoginData();
+        $.uniform.update();
+    },
+    addOrEditAirport: function() {
+        var sendObj = {}, row = manageAirports.rowID, sendURL, msg, method;
+        sendObj.SessionId = sessionStorage.sessionId;
+        sendObj.Version = communion.Version;
+        sendObj.Instance = getInstance();
+        sendObj.UserDetail = {};
+        $(".sict_error").removeClass('sict_error');
+
+        if (manageAirports.isAdd) {
+            sendURL = getJsonInfoAction(ADDAIRPORT);
+            msg = manageAirports.airportMessages.addProgress;
+            method = 'PUT';
+
+            sendObj.UserDetail.AirportName = $('#addAirportName').val();
+            sendObj.UserDetail.UserName = $('#addAirportCode').val();
+            sendObj.UserDetail.Password = $('#addAirportConfirmPassword').val();
+            sendObj.UserDetail.IsActive = $('#activeCheck').is(":checked");
+            sendObj.UserDetail.ArrivalFormAccess = $('#arrivalCheck').is(":checked");
+            sendObj.UserDetail.DepartureFormAccess = $('#departureCheck').is(":checked");
+            sendObj.UserDetail.RoleId = '0';
+            sendObj.UserDetail.IsLogin = $('#loginRequired').is(":checked");
+            if (sendObj.UserDetail.IsLogin) {
+                if (($('#addAirportPassword').val() === "")) {
+                    $('#addAirportPassword').parent().addClass('sict_error');
+                    $('#addAirportConfirmPassword').parent().addClass('sict_error');
+                }
+                if (($('#addAirportConfirmPassword').val() === "")) {
+                    $('#addAirportConfirmPassword').parent().addClass('sict_error');
+                }
+                //[#73533] General - user can enter the different password for “password” and “confirm password” its not validating while adding the new airport.
+                if ($('#addAirportPassword').val() !== $('#addAirportConfirmPassword').val()) {
+                    $('#addAirportConfirmPassword').parent().addClass('sict_error');
+                }
+            }
+        } else {
+            sendURL = getJsonInfoAction(EDITAIRPORT);
+            msg = manageAirports.airportMessages.updateProgress;
+            method = 'POST';
+            //[#73737] HTML is not encoded and decoded properly
+            sendObj.UserDetail.AirportName = $('#addAirportName').val().replace(/<(?:.|\n)*?>/gm, '');
+            sendObj.UserDetail.UserName = $('#addAirportCode').val().replace(/<(?:.|\n)*?>/gm, '');
+            sendObj.UserDetail.Password = $('#addAirportConfirmPassword').val();
+            sendObj.UserDetail.IsActive = $('#activeCheck').is(":checked");
+            sendObj.UserDetail.ArrivalFormAccess = $('#arrivalCheck').is(":checked");
+            sendObj.UserDetail.DepartureFormAccess = $('#departureCheck').is(":checked");
+            sendObj.UserDetail.RoleId = row.data().RoleId;
+            sendObj.UserDetail.UserId = row.data().UserId;
+            //[#72734] For the login CT, not able to edit the Airport details in the Manage Airport report.
+            sendObj.UserDetail.AirportId = row.data().AirportId;
+            sendObj.UserDetail.IsLogin = $('#loginRequired').is(":checked");
+
+            if (sendObj.UserDetail.IsLogin) {
+                if (($('#addAirportPassword').val() === "")) {
+                    $('#addAirportPassword').parent().addClass('sict_error');
+                    $('#addAirportConfirmPassword').parent().addClass('sict_error');
+                }
+                if (($('#addAirportConfirmPassword').val() === "")) {
+                    $('#addAirportConfirmPassword').parent().addClass('sict_error');
+                }
+                if ($('#addAirportPassword').val() !== $('#addAirportConfirmPassword').val()) {
+                    $('#addAirportConfirmPassword').parent().addClass('sict_error');
+                }
+            }
+        }
+
+        if (($('#addAirportName').val() === "")) {
+            $('#addAirportName').parent().addClass('sict_error');
+        }
+        if (($('#addAirportCode').val() === "")) {
+            $('#addAirportCode').parent().addClass('sict_error');
+        }
+        //[#72966] Europe – Manage Airport Report, multiple issues for CT user.
+        if ($('.sict_error').length === 0) {
+            pageHelper.clearStickies();
+            pageHelper.addSmokeSignal(msg);
+            //[#73734] Aircraft:MS:Manage airport:After adding airport it is showing message as'airport successfully updated' instead of 'airport added successfully'
+            ajaxPost(sendURL, sendObj, '', manageAirports.acknowledgeAddOrEdit, manageAirports.isAdd, '', method);
+        } else {
+            pageHelper.clearStickies();
+            pageHelper.notify(manageAirports.airportMessages.validationError, pageHelper.stickyPosition.top.RIGHT, pageHelper.stickyTypes.ERROR);
+        }
+    },
+    acknowledgeAddOrEdit: function(data, success, add) {
+        if (data.ReturnCode === 1) {
+            var message
+            pageHelper.removeSmokeSignal();
+            if (add)
+                message = manageAirports.airportMessages.onSuccessAdd;
+            else
+                message = manageAirports.airportMessages.onSuccessUpdate;
+            //[#73057] International:In edit airport after editing the airport name and clicking on the save button airport name is not editing. but it shows updating the airport is successful message.
+            if (success) {
+                cacheMgr.clearCache(true);//pass true if required session needs to be cleared.
+                manageAirports.initManageAirports();
+                //manageAirports.manageAirportsTables.ajax.reload();
+            }
+            pageHelper.notify(message, pageHelper.stickyPosition.top.RIGHT, pageHelper.stickyTypes.SUCCESS);
+            $('#addOrEditAirports').modal('hide');
+        } else if (data.ReturnCode === 4) {
+            pageHelper.removeSmokeSignal();
+            pageHelper.notify(manageAirports.airportMessages.dataExists, pageHelper.stickyPosition.top.RIGHT, pageHelper.stickyTypes.ERROR);
+        }
+    },
+    getCheckValue: function(input) {
+        if ($(input).is(":checked"))
+            return true;
+        else
+            return false;
+    },
+    callEditAirports: function(ele) {
+        manageAirports.isAdd = false;
+        var data = communion, host = data.hostInstance;
+        this.removerPreviousValues();
+        this.hideLoginData();
+        this.bindLoginChkEvent();
+        manageAirports.handleValidations();
+        var tr = $(ele).closest('tr');
+        var row = manageAirports.manageAirportsTables.row(tr);
+        manageAirports.rowID = row;
+        var rowData = row.data();
+        var userID = rowData.UserId;
+        $(".sict_error").removeClass('sict_error');
+
+        $('#addAirportName').val(rowData.AirportName);
+        $('#addAirportCode').val(rowData.UserName.toUpperCase());
+        $('#addAirportPassword').val(rowData.Password);
+        $('#addAirportConfirmPassword').val(rowData.Password);
+        if (rowData.IsActive)
+            $('#activeCheck').prop('checked', true);
+        if (rowData.IsLogin) {
+            $('#loginRequired').prop('checked', true);
+            $('#passwordDiv').show();
+            $('#confirmPasswordDiv').show();
+            $("#pwdParentDiv").show('slow');
+            $('#activeCheckDiv').show('slow');
+            if (communion.hostInstance === 'USI')
+                $('#arrivalAccessDiv').show('slow');
+            $('#departureCheckDiv').show('slow');
+        }
+        else
+            $('#loginRequired').prop('checked', false);
+
+        $(".modal-header h3").html("Edit Airport");
+        $('#saveAirports').attr('onclick', 'manageAirports.addOrEditAirport()');
+        this.bindLoginChkEvent();
+        this.updateChkBox(rowData.ArrivalFormAccess, rowData.DepartureFormAccess);
+        $.uniform.update();
+    },
+    callDeleteAirport: function(ele) {
+        var tr = $(ele).closest('tr');
+        var row = manageAirports.manageAirportsTables.row(tr);
+        var rowData = row.data();
+        var airportStatus = rowData.IsActive;
+        if(airportStatus){
+        smoke.confirm('Are you sure you want to deactivate the airport?', function(e) {
+            if (e) {
+                var sendObj = {}
+                var tr = $(ele).closest('tr');
+                var row = manageAirports.manageAirportsTables.row(tr);
+                var rowIndex = row.index();
+                var rowData = row.data();
+                var uri = getJsonInfoAction(EDITAIRPORT);
+
+                sendObj.SessionId = sessionStorage.sessionId;
+                sendObj.Version = communion.Version;
+                sendObj.Instance = getInstance();
+                sendObj.UserDetail = {};
+                sendObj.UserDetail.AirportName = row.data().AirportName;
+                sendObj.UserDetail.UserName = row.data().UserName;
+                sendObj.UserDetail.Password = row.data().Password;
+                sendObj.UserDetail.IsActive = false;
+                sendObj.UserDetail.ArrivalFormAccess = row.data().ArrivalFormAccess;
+                sendObj.UserDetail.DepartureFormAccess = row.data().DepartureFormAccess;
+                sendObj.UserDetail.RoleId = row.data().RoleId;
+                sendObj.UserDetail.UserId = row.data().UserId;
+                sendObj.UserDetail.AirportId = row.data().AirportId;
+
+                pageHelper.clearStickies();
+                pageHelper.addSmokeSignal(manageAirports.airportMessages.deleteProgress);
+                ajaxPost(uri, sendObj, '', manageAirports.acknoledgeDeleteAirport, rowIndex, '', 'POST');
+            }
+        });
+    }else{
+        smoke.confirm('Do you want to edit to activate the airport?', function(e) {
+            if(e){
+                $('#addOrEditAirports').modal();
+                manageAirports.callEditAirports(ele)
+            }
+        });
+    }
+    },
+    acknoledgeDeleteAirport: function(data, success, rowIndex) {
+        if (success) {
+            pageHelper.removeSmokeSignal();
+            pageHelper.notify(manageAirports.airportMessages.deleteSuccess, pageHelper.stickyPosition.top.RIGHT, pageHelper.stickyTypes.SUCCESS);
+            //manageAirports.manageAirportsTables.row(rowIndex).remove().draw(false);
+            manageAirports.manageAirportsTables.ajax.reload(null, false);
+        }
+    },
+    handleValidations: function() {
+        $("input[type=text], input[type=password]").focusin(function() {
+            var parent = $(this).parent();
+            if (parent.hasClass("sict_error"))
+                parent.removeClass('.sict_error');
+        });
+        $("input[type=text], input[type=password]").focusout(function(e) {
+            var me = this, elemId = e.target.id, inputValue = me.value.replace(/\s+/g, ""),
+                    parent = $(me).parent();
+            if ('' !== inputValue)
+                parent.removeClass('sict_error');
+            else
+                parent.addClass('sict_error');
+        });
+    },
+    checkPass: function() {
+        var pass1 = $('#addAirportPassword');
+        var pass2 = $('#addAirportConfirmPassword');
+        if (pass1.val() === pass2.val())
+            pass2.parent().removeClass('sict_error');
+        else
+            pass2.parent().addClass('sict_error');
+    },
+    removerPreviousValues: function() {
+        $('#addAirportName').val('');
+        $('#addAirportCode').val('');
+        $('#addAirportPassword').val('');
+        $('#addAirportConfirmPassword').val('');
+        $('#activeCheck').prop('checked', false);
+        $('#arrivalCheck').prop('checked', false);
+        $('#departureCheck').prop('checked', false);
+        $('#loginRequired').prop('checked', false);
+
+        $.uniform.update();
+    },
+    hideLoginData: function() {
+        $("#pwdParentDiv").hide('slow');
+        $('#activeCheckDiv').hide('slow');
+        $('#arrivalAccessDiv').hide('slow');
+        $('#departureCheckDiv').hide('slow');
+    }
+};

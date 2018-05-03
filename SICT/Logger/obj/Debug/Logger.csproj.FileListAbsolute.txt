@@ -1,0 +1,27 @@
+D:\SICT\Server\SICT\Services\bin\Logger.dll
+D:\SICT\Server\SICT\Services\bin\Logger.pdb
+D:\SICT\Server\SICT\Logger\obj\Debug\Logger.dll
+D:\SICT\Server\SICT\Logger\obj\Debug\Logger.pdb
+D:\workpace\Projects\mindset\airsat\solution\airsat v2.0\Server\SICT\Services\bin\Logger.dll
+D:\workpace\Projects\mindset\airsat\solution\airsat v2.0\Server\SICT\Services\bin\Logger.pdb
+D:\workpace\Projects\mindset\airsat\solution\airsat v2.0\Server\SICT\Logger\obj\Debug\Logger.csprojResolveAssemblyReference.cache
+D:\workpace\Projects\mindset\airsat\solution\airsat v2.0\Server\SICT\Logger\obj\Debug\Logger.dll
+D:\workpace\Projects\mindset\airsat\solution\airsat v2.0\Server\SICT\Logger\obj\Debug\Logger.pdb
+D:\airsat v2.0\Server\SICT\Services\bin\Logger.dll
+D:\airsat v2.0\Server\SICT\Services\bin\Logger.pdb
+D:\airsat v2.0\Server\SICT\Logger\obj\Debug\Logger.dll
+D:\airsat v2.0\Server\SICT\Logger\obj\Debug\Logger.pdb
+D:\airsat v2.0\Server\SICT\Logger\obj\Debug\Logger.csprojResolveAssemblyReference.cache
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\bin\Logger.dll
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\bin\Logger.pdb
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Logger\obj\Debug\Logger.dll
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Logger\obj\Debug\Logger.pdb
+D:\Source Codes\MindsetNew\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\bin\Logger.dll
+D:\Source Codes\MindsetNew\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\bin\Logger.pdb
+D:\Source Codes\MindsetNew\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Logger\obj\Debug\Logger.csprojResolveAssemblyReference.cache
+D:\Source Codes\MindsetNew\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Logger\obj\Debug\Logger.dll
+D:\Source Codes\MindsetNew\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Logger\obj\Debug\Logger.pdb
+D:\SICT_Web\SICT\Services\bin\Logger.dll
+D:\SICT_Web\SICT\Services\bin\Logger.pdb
+D:\SICT_Web\SICT\Logger\obj\Debug\Logger.dll
+D:\SICT_Web\SICT\Logger\obj\Debug\Logger.pdb

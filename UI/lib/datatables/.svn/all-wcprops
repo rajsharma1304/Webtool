@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/sict/!svn/ver/185/branches/UI/lib/datatables
+END
+jquery.dataTables.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/sict/!svn/ver/185/branches/UI/lib/datatables/jquery.dataTables.min.js
+END
+server_side.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/sict/!svn/ver/7/branches/UI/lib/datatables/server_side.php
+END
+jquery.dataTables.min-original.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/sict/!svn/ver/7/branches/UI/lib/datatables/jquery.dataTables.min-original.js
+END
+jquery.dataTables.sorting.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/sict/!svn/ver/7/branches/UI/lib/datatables/jquery.dataTables.sorting.js
+END
+license-gpl2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/sict/!svn/ver/7/branches/UI/lib/datatables/license-gpl2.txt
+END
+jquery.dataTables.min-new.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/sict/!svn/ver/7/branches/UI/lib/datatables/jquery.dataTables.min-new.js
+END
+license-bsd.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/sict/!svn/ver/7/branches/UI/lib/datatables/license-bsd.txt
+END
+Readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/sict/!svn/ver/7/branches/UI/lib/datatables/Readme.txt
+END
+jquery.dataTables.min-old.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/sict/!svn/ver/7/branches/UI/lib/datatables/jquery.dataTables.min-old.js
+END
+jquery.dataTables.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/sict/!svn/ver/185/branches/UI/lib/datatables/jquery.dataTables.js
+END
+dataTables.fixedColumns.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/sict/!svn/ver/7/branches/UI/lib/datatables/dataTables.fixedColumns.js
+END

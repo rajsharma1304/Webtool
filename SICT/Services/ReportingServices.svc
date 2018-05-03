@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="SICT.Service.ReportingServices" CodeBehind="ReportingServices.svc.cs" Factory="SICT.CorsWebServiceHostFactory, WebHttpCors"%>

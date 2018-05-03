@@ -1,0 +1,28 @@
+D:\SICT\Server\SICT\Services\bin\Contracts.dll
+D:\SICT\Server\SICT\Services\bin\Contracts.pdb
+D:\SICT\Server\SICT\Contracts\obj\Debug\Contracts.dll
+D:\SICT\Server\SICT\Contracts\obj\Debug\Contracts.pdb
+D:\SICT\Server\SICT\Contracts\obj\Debug\Contracts.csprojResolveAssemblyReference.cache
+D:\workpace\Projects\mindset\airsat\solution\airsat v2.0\Server\SICT\Services\bin\Contracts.dll
+D:\workpace\Projects\mindset\airsat\solution\airsat v2.0\Server\SICT\Services\bin\Contracts.pdb
+D:\workpace\Projects\mindset\airsat\solution\airsat v2.0\Server\SICT\Contracts\obj\Debug\Contracts.csprojResolveAssemblyReference.cache
+D:\workpace\Projects\mindset\airsat\solution\airsat v2.0\Server\SICT\Contracts\obj\Debug\Contracts.dll
+D:\workpace\Projects\mindset\airsat\solution\airsat v2.0\Server\SICT\Contracts\obj\Debug\Contracts.pdb
+D:\airsat v2.0\Server\SICT\Services\bin\Contracts.dll
+D:\airsat v2.0\Server\SICT\Services\bin\Contracts.pdb
+D:\airsat v2.0\Server\SICT\Contracts\obj\Debug\Contracts.dll
+D:\airsat v2.0\Server\SICT\Contracts\obj\Debug\Contracts.pdb
+D:\airsat v2.0\Server\SICT\Contracts\obj\Debug\Contracts.csprojResolveAssemblyReference.cache
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\bin\Contracts.dll
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\bin\Contracts.pdb
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Contracts\obj\Debug\Contracts.dll
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Contracts\obj\Debug\Contracts.pdb
+D:\Source Codes\MindsetNew\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\bin\Contracts.dll
+D:\Source Codes\MindsetNew\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\bin\Contracts.pdb
+D:\Source Codes\MindsetNew\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Contracts\obj\Debug\Contracts.csprojResolveAssemblyReference.cache
+D:\Source Codes\MindsetNew\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Contracts\obj\Debug\Contracts.dll
+D:\Source Codes\MindsetNew\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Contracts\obj\Debug\Contracts.pdb
+D:\SICT_Web\SICT\Services\bin\Contracts.dll
+D:\SICT_Web\SICT\Services\bin\Contracts.pdb
+D:\SICT_Web\SICT\Contracts\obj\Debug\Contracts.dll
+D:\SICT_Web\SICT\Contracts\obj\Debug\Contracts.pdb

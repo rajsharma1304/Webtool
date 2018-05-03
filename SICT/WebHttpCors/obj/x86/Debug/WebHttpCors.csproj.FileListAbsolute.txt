@@ -1,0 +1,5 @@
+D:\airsat v2.0\Server\SICT\WebHttpCors\bin\x86\Debug\WebHttpCors.dll
+D:\airsat v2.0\Server\SICT\WebHttpCors\bin\x86\Debug\WebHttpCors.pdb
+D:\airsat v2.0\Server\SICT\WebHttpCors\obj\x86\Debug\WebHttpCors.dll
+D:\airsat v2.0\Server\SICT\WebHttpCors\obj\x86\Debug\WebHttpCors.pdb
+D:\airsat v2.0\Server\SICT\WebHttpCors\obj\x86\Debug\WebHttpCors.csprojResolveAssemblyReference.cache

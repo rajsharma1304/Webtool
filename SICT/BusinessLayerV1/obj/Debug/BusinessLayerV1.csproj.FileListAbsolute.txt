@@ -1,0 +1,20 @@
+D:\airsat v2.0\Server\SICT\Services\bin\BusinessLayerV1.dll
+D:\airsat v2.0\Server\SICT\Services\bin\BusinessLayerV1.pdb
+D:\airsat v2.0\Server\SICT\BusinessLayerV1\obj\Debug\BusinessLayerV1.csprojResolveAssemblyReference.cache
+D:\airsat v2.0\Server\SICT\BusinessLayerV1\obj\Debug\BusinessLayerV1.dll
+D:\airsat v2.0\Server\SICT\BusinessLayerV1\obj\Debug\BusinessLayerV1.pdb
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\bin\BusinessLayerV1.dll
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\bin\BusinessLayerV1.pdb
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\BusinessLayerV1\obj\Debug\BusinessLayerV1.csprojResolveAssemblyReference.cache
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\BusinessLayerV1\obj\Debug\BusinessLayerV1.dll
+D:\MyHandOvers\Source Codes\Mindset\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\BusinessLayerV1\obj\Debug\BusinessLayerV1.pdb
+D:\Source Codes\MindsetNew\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\bin\BusinessLayerV1.dll
+D:\Source Codes\MindsetNew\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\Services\bin\BusinessLayerV1.pdb
+D:\Source Codes\MindsetNew\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\BusinessLayerV1\obj\Debug\BusinessLayerV1.csprojResolveAssemblyReference.cache
+D:\Source Codes\MindsetNew\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\BusinessLayerV1\obj\Debug\BusinessLayerV1.dll
+D:\Source Codes\MindsetNew\airsat v2.0 Web Tool\Server_re_engineer_code\SICT\BusinessLayerV1\obj\Debug\BusinessLayerV1.pdb
+D:\SICT_Web\SICT\Services\bin\BusinessLayerV1.dll
+D:\SICT_Web\SICT\Services\bin\BusinessLayerV1.pdb
+D:\SICT_Web\SICT\BusinessLayerV1\obj\Debug\BusinessLayerV1.csprojResolveAssemblyReference.cache
+D:\SICT_Web\SICT\BusinessLayerV1\obj\Debug\BusinessLayerV1.dll
+D:\SICT_Web\SICT\BusinessLayerV1\obj\Debug\BusinessLayerV1.pdb

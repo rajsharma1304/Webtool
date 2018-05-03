@@ -1,0 +1,10 @@
+Information , 8/29/2016 2:40:45 PM , UploadServices,UploadFile,Start of UploadSPSSFile
+Information , 8/29/2016 2:40:45 PM , UploadServices,UploadFile,Start of UploadSPSSFile
+Information , 8/29/2016 2:40:45 PM , UserDetailsBusiness,IsSessionIdValid, Start for Session id-34c57011-120f-4777-ae49-ddc0bd6044bd
+Information , 8/29/2016 2:40:45 PM , UserDetailsBusiness,IsSessionIdValid, Start for Session id-34c57011-120f-4777-ae49-ddc0bd6044bd
+Information , 8/29/2016 2:40:48 PM , UserDetailsBusiness,IsSessionIdValid,End for SessonId -34c57011-120f-4777-ae49-ddc0bd6044bd
+Warning , 8/29/2016 2:40:49 PM , UploadServices,UploadFile,Invalid session 
+Information , 8/29/2016 2:40:49 PM , UploadServices,UploadFile,End for UploadSPSSFile
+Information , 8/29/2016 2:40:49 PM , UserDetailsBusiness,IsSessionIdValid,End for SessonId -34c57011-120f-4777-ae49-ddc0bd6044bd
+Warning , 8/29/2016 2:40:49 PM , UploadServices,UploadFile,Invalid session 
+Information , 8/29/2016 2:40:49 PM , UploadServices,UploadFile,End for UploadSPSSFile
