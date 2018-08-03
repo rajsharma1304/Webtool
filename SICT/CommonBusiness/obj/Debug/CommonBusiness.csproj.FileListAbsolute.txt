@@ -28,3 +28,8 @@ D:\SICT_Web\SICT\Services\bin\CommonBusiness.pdb
 D:\SICT_Web\SICT\CommonBusiness\obj\Debug\CommonBusiness.csprojResolveAssemblyReference.cache
 D:\SICT_Web\SICT\CommonBusiness\obj\Debug\CommonBusiness.dll
 D:\SICT_Web\SICT\CommonBusiness\obj\Debug\CommonBusiness.pdb
+D:\Khushal_Projects\SICT_Webtool\SICT\Services\bin\CommonBusiness.dll
+D:\Khushal_Projects\SICT_Webtool\SICT\Services\bin\CommonBusiness.pdb
+D:\Khushal_Projects\SICT_Webtool\SICT\CommonBusiness\obj\Debug\CommonBusiness.csprojResolveAssemblyReference.cache
+D:\Khushal_Projects\SICT_Webtool\SICT\CommonBusiness\obj\Debug\CommonBusiness.dll
+D:\Khushal_Projects\SICT_Webtool\SICT\CommonBusiness\obj\Debug\CommonBusiness.pdb

@@ -28,3 +28,8 @@ D:\SICT_Web\SICT\Services\bin\NUnit.Test.pdb
 D:\SICT_Web\SICT\NUnit.Test\obj\Debug\NUnit.Test.csprojResolveAssemblyReference.cache
 D:\SICT_Web\SICT\NUnit.Test\obj\Debug\NUnit.Test.dll
 D:\SICT_Web\SICT\NUnit.Test\obj\Debug\NUnit.Test.pdb
+D:\Khushal_Projects\SICT_Webtool\SICT\Services\bin\NUnit.Test.dll
+D:\Khushal_Projects\SICT_Webtool\SICT\Services\bin\NUnit.Test.pdb
+D:\Khushal_Projects\SICT_Webtool\SICT\NUnit.Test\obj\Debug\NUnit.Test.csprojResolveAssemblyReference.cache
+D:\Khushal_Projects\SICT_Webtool\SICT\NUnit.Test\obj\Debug\NUnit.Test.dll
+D:\Khushal_Projects\SICT_Webtool\SICT\NUnit.Test\obj\Debug\NUnit.Test.pdb

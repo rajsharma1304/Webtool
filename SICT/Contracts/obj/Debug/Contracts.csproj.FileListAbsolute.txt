@@ -26,3 +26,8 @@ D:\SICT_Web\SICT\Services\bin\Contracts.dll
 D:\SICT_Web\SICT\Services\bin\Contracts.pdb
 D:\SICT_Web\SICT\Contracts\obj\Debug\Contracts.dll
 D:\SICT_Web\SICT\Contracts\obj\Debug\Contracts.pdb
+D:\Khushal_Projects\SICT_Webtool\SICT\Services\bin\Contracts.dll
+D:\Khushal_Projects\SICT_Webtool\SICT\Services\bin\Contracts.pdb
+D:\Khushal_Projects\SICT_Webtool\SICT\Contracts\obj\Debug\Contracts.csprojResolveAssemblyReference.cache
+D:\Khushal_Projects\SICT_Webtool\SICT\Contracts\obj\Debug\Contracts.dll
+D:\Khushal_Projects\SICT_Webtool\SICT\Contracts\obj\Debug\Contracts.pdb

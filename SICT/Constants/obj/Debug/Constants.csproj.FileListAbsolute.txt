@@ -26,3 +26,8 @@ D:\SICT_Web\SICT\Services\bin\Constants.dll
 D:\SICT_Web\SICT\Services\bin\Constants.pdb
 D:\SICT_Web\SICT\Constants\obj\Debug\Constants.dll
 D:\SICT_Web\SICT\Constants\obj\Debug\Constants.pdb
+D:\Khushal_Projects\SICT_Webtool\SICT\Services\bin\Constants.dll
+D:\Khushal_Projects\SICT_Webtool\SICT\Services\bin\Constants.pdb
+D:\Khushal_Projects\SICT_Webtool\SICT\Constants\obj\Debug\Constants.csprojResolveAssemblyReference.cache
+D:\Khushal_Projects\SICT_Webtool\SICT\Constants\obj\Debug\Constants.dll
+D:\Khushal_Projects\SICT_Webtool\SICT\Constants\obj\Debug\Constants.pdb

@@ -1,1 +1,1 @@
-[]
+[{"AirlineCode":"AI","AirlineId":23,"AirlineName":"Air India (AI)","DestinationId":37,"DestinationName":"Singapore Changi (SIN)","Direction":null,"FlightId":878,"FlightType":null,"OriginId":92,"OriginName":"Chennai (MAA)","Route":null,"Type":null},{"AirlineCode":"LH","AirlineId":11,"AirlineName":"Lufthansa (LH)","DestinationId":45,"DestinationName":"Frankfurt (FRA)","Direction":null,"FlightId":1624,"FlightType":null,"OriginId":92,"OriginName":"Chennai (MAA)","Route":null,"Type":null}]

@@ -1,1 +1,1 @@
-[]
+[{"AirlineCode":"AY","AirlineId":3,"AirlineName":"Finnair (AY)","DestinationId":138,"DestinationName":"Helsinki (HEL1)","Direction":null,"FlightId":1337,"FlightType":null,"OriginId":87,"OriginName":"Chongqing (CKG)","Route":null,"Type":null},{"AirlineCode":"AY","AirlineId":3,"AirlineName":"Finnair (AY)","DestinationId":46,"DestinationName":"Helsinki (HEL)","Direction":null,"FlightId":1184,"FlightType":null,"OriginId":87,"OriginName":"Chongqing (CKG)","Route":null,"Type":null}]

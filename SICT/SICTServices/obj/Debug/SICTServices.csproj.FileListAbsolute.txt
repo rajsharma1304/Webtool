@@ -23,3 +23,8 @@ D:\SICT_Web\SICT\SICTServices\obj\Debug\SICTService.ProjectInstaller.resources
 D:\SICT_Web\SICT\SICTServices\obj\Debug\SICTServices.csproj.GenerateResource.Cache
 D:\SICT_Web\SICT\SICTServices\obj\Debug\SICTServices.exe
 D:\SICT_Web\SICT\SICTServices\obj\Debug\SICTServices.pdb
+D:\Khushal_Projects\SICT_Webtool\SICT\SICTServices\obj\Debug\SICTServices.csprojResolveAssemblyReference.cache
+D:\Khushal_Projects\SICT_Webtool\SICT\SICTServices\obj\Debug\SICTService.ProjectInstaller.resources
+D:\Khushal_Projects\SICT_Webtool\SICT\SICTServices\obj\Debug\SICTServices.csproj.GenerateResource.Cache
+D:\Khushal_Projects\SICT_Webtool\SICT\SICTServices\obj\Debug\SICTServices.exe
+D:\Khushal_Projects\SICT_Webtool\SICT\SICTServices\obj\Debug\SICTServices.pdb

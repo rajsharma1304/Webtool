@@ -321,9 +321,11 @@ var pageUtils = {
                 break;
         }
     },
-    updateLastUpload: function() {
+    updateLastUpload: function () {
+        alert("dfdsfdsfdsfdsf")
         if (typeof sessionStorage && sessionStorage.lastUpload && sessionStorage.lastUploadSwissTime) {
             var lastUpload = sessionStorage.lastUpload + " / " + sessionStorage.lastUploadSwissTime + " (Swiss Time)";
+            alert(lastUpload);
             if (lastUpload)
                 $("#lastupload").html('Uploaded:&nbsp;' + '<small>' + lastUpload + '</small>');
         }

@@ -28,3 +28,8 @@ D:\SICT_Web\SICT\Services\bin\BusinessUtils.pdb
 D:\SICT_Web\SICT\BusinessUtils\obj\Debug\BusinessUtils.csprojResolveAssemblyReference.cache
 D:\SICT_Web\SICT\BusinessUtils\obj\Debug\BusinessUtils.dll
 D:\SICT_Web\SICT\BusinessUtils\obj\Debug\BusinessUtils.pdb
+D:\Khushal_Projects\SICT_Webtool\SICT\Services\bin\BusinessUtils.dll
+D:\Khushal_Projects\SICT_Webtool\SICT\Services\bin\BusinessUtils.pdb
+D:\Khushal_Projects\SICT_Webtool\SICT\BusinessUtils\obj\Debug\BusinessUtils.csprojResolveAssemblyReference.cache
+D:\Khushal_Projects\SICT_Webtool\SICT\BusinessUtils\obj\Debug\BusinessUtils.dll
+D:\Khushal_Projects\SICT_Webtool\SICT\BusinessUtils\obj\Debug\BusinessUtils.pdb

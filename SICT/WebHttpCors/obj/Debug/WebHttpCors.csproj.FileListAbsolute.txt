@@ -27,3 +27,8 @@ D:\SICT_Web\SICT\Services\bin\WebHttpCors.pdb
 D:\SICT_Web\SICT\WebHttpCors\obj\Debug\WebHttpCors.csprojResolveAssemblyReference.cache
 D:\SICT_Web\SICT\WebHttpCors\obj\Debug\WebHttpCors.dll
 D:\SICT_Web\SICT\WebHttpCors\obj\Debug\WebHttpCors.pdb
+D:\Khushal_Projects\SICT_Webtool\SICT\Services\bin\WebHttpCors.dll
+D:\Khushal_Projects\SICT_Webtool\SICT\Services\bin\WebHttpCors.pdb
+D:\Khushal_Projects\SICT_Webtool\SICT\WebHttpCors\obj\Debug\WebHttpCors.csprojResolveAssemblyReference.cache
+D:\Khushal_Projects\SICT_Webtool\SICT\WebHttpCors\obj\Debug\WebHttpCors.dll
+D:\Khushal_Projects\SICT_Webtool\SICT\WebHttpCors\obj\Debug\WebHttpCors.pdb

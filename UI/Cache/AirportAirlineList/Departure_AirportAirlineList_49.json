@@ -1,1 +1,1 @@
-[]
+[{"AirlineCode":"SV","AirlineId":30,"AirlineName":"Saudi Arabian Airlines (SV)","DestinationId":77,"DestinationName":"Jeddah (JED)","Direction":null,"FlightId":1299,"FlightType":null,"OriginId":49,"OriginName":"Madrid (MAD)","Route":null,"Type":null},{"AirlineCode":"TG","AirlineId":16,"AirlineName":"Thai Airways International (TG)","DestinationId":3,"DestinationName":"Bangkok (BKK)","Direction":null,"FlightId":1224,"FlightType":null,"OriginId":49,"OriginName":"Madrid (MAD)","Route":null,"Type":null}]

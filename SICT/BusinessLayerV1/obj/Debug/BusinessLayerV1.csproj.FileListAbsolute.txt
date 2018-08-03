@@ -18,3 +18,8 @@ D:\SICT_Web\SICT\Services\bin\BusinessLayerV1.pdb
 D:\SICT_Web\SICT\BusinessLayerV1\obj\Debug\BusinessLayerV1.csprojResolveAssemblyReference.cache
 D:\SICT_Web\SICT\BusinessLayerV1\obj\Debug\BusinessLayerV1.dll
 D:\SICT_Web\SICT\BusinessLayerV1\obj\Debug\BusinessLayerV1.pdb
+D:\Khushal_Projects\SICT_Webtool\SICT\Services\bin\BusinessLayerV1.dll
+D:\Khushal_Projects\SICT_Webtool\SICT\Services\bin\BusinessLayerV1.pdb
+D:\Khushal_Projects\SICT_Webtool\SICT\BusinessLayerV1\obj\Debug\BusinessLayerV1.csprojResolveAssemblyReference.cache
+D:\Khushal_Projects\SICT_Webtool\SICT\BusinessLayerV1\obj\Debug\BusinessLayerV1.dll
+D:\Khushal_Projects\SICT_Webtool\SICT\BusinessLayerV1\obj\Debug\BusinessLayerV1.pdb

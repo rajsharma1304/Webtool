@@ -25,3 +25,8 @@ D:\SICT_Web\SICT\Services\bin\Logger.dll
 D:\SICT_Web\SICT\Services\bin\Logger.pdb
 D:\SICT_Web\SICT\Logger\obj\Debug\Logger.dll
 D:\SICT_Web\SICT\Logger\obj\Debug\Logger.pdb
+D:\Khushal_Projects\SICT_Webtool\SICT\Services\bin\Logger.dll
+D:\Khushal_Projects\SICT_Webtool\SICT\Services\bin\Logger.pdb
+D:\Khushal_Projects\SICT_Webtool\SICT\Logger\obj\Debug\Logger.csprojResolveAssemblyReference.cache
+D:\Khushal_Projects\SICT_Webtool\SICT\Logger\obj\Debug\Logger.dll
+D:\Khushal_Projects\SICT_Webtool\SICT\Logger\obj\Debug\Logger.pdb

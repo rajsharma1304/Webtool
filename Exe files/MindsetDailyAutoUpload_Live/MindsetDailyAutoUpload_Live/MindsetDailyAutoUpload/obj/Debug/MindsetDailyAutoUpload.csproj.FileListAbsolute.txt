@@ -1,0 +1,11 @@
+D:\crosstab\Projects\MindsetDailyAutoUpload\MindsetDailyAutoUpload\bin\Debug\MindsetDailyAutoUpload.exe.config
+D:\crosstab\Projects\MindsetDailyAutoUpload\MindsetDailyAutoUpload\bin\Debug\MindsetDailyAutoUpload.exe
+D:\crosstab\Projects\MindsetDailyAutoUpload\MindsetDailyAutoUpload\obj\Debug\MindsetDailyAutoUpload.Form1.resources
+D:\crosstab\Projects\MindsetDailyAutoUpload\MindsetDailyAutoUpload\obj\Debug\MindsetDailyAutoUpload.Properties.Resources.resources
+D:\crosstab\Projects\MindsetDailyAutoUpload\MindsetDailyAutoUpload\obj\Debug\MindsetDailyAutoUpload.csproj.GenerateResource.Cache
+D:\crosstab\Projects\MindsetDailyAutoUpload\MindsetDailyAutoUpload\obj\Debug\MindsetDailyAutoUpload.exe
+D:\crosstab\Projects\MindsetDailyAutoUpload\MindsetDailyAutoUpload\obj\Debug\MindsetDailyAutoUpload.pdb
+D:\crosstab\Projects\MindsetDailyAutoUpload\MindsetDailyAutoUpload\bin\Debug\MindsetDailyAutoUpload.pdb
+D:\crosstab\Projects\MindsetDailyAutoUpload\MindsetDailyAutoUpload\obj\Debug\MindsetDailyAutoUpload.csprojResolveAssemblyReference.cache
+D:\crosstab\Projects\MindsetDailyAutoUpload\MindsetDailyAutoUpload\bin\Debug\ClosedXML.dll
+D:\crosstab\Projects\MindsetDailyAutoUpload\MindsetDailyAutoUpload\bin\Debug\DocumentFormat.OpenXml.dll

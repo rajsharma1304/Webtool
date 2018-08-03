@@ -1,1 +1,1 @@
-[]
+[{"AirlineCode":"AY","AirlineId":3,"AirlineName":"Finnair (AY)","DestinationId":138,"DestinationName":"Helsinki (HEL1)","Direction":null,"FlightId":1333,"FlightType":null,"OriginId":26,"OriginName":"Nagoya (NGO)","Route":null,"Type":null},{"AirlineCode":"AY","AirlineId":3,"AirlineName":"Finnair (AY)","DestinationId":46,"DestinationName":"Helsinki (HEL)","Direction":null,"FlightId":1188,"FlightType":null,"OriginId":26,"OriginName":"Nagoya (NGO)","Route":null,"Type":null}]
